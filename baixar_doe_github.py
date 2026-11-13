@@ -51,6 +51,8 @@ with sync_playwright() as p:
     nav = p.chromium.launch(headless=True)
     ctx = nav.new_context(viewport={"width": 1400, "height": 1000})
     pag = ctx.new_page()
+    vistas = []
+    ctx.on("request", lambda r: vistas.append(r.url))
     pag.goto(URL)
     pag.wait_for_timeout(5000)
     for secao, rotulo in [("secao1", "Atos Normativos"), ("secao2", "Atos de Pessoal")]:
@@ -59,11 +61,18 @@ with sync_playwright() as p:
             pag.wait_for_timeout(3000)
             pag.get_by_text(rotulo, exact=False).first.click()
             pag.wait_for_timeout(5000)
-            with ctx.expect_page(timeout=60000) as nova:
-                pag.get_by_text("Diário completo certificado", exact=False).first.click()
-            aba = nova.value
-            aba.wait_for_url("**/v1/**", timeout=60000)
-            url_pdf = aba.url
+            vistas.clear()
+            pag.get_by_text("Diário completo certificado", exact=False).first.click()
+            # Em headless o PDF vira download e a aba nunca "carrega": captura a URL pela rede.
+            for _ in range(60):
+                if any("/v1/" in u for u in vistas):
+                    break
+                pag.wait_for_timeout(1000)
+            candidatas = [u for u in vistas if "/v1/" in u]
+            if not candidatas:
+                raise Exception("URL do PDF nao apareceu. Requisicoes vistas: " + " | ".join(vistas[-8:]) + " | abas: " + " | ".join(x.url for x in ctx.pages))
+            url_pdf = candidatas[-1]
+            print("  url do PDF:", url_pdf)
             resp = ctx.request.get(url_pdf, timeout=300000)
             corpo = resp.body()
             if not corpo.startswith(b"%PDF"):
@@ -71,11 +80,12 @@ with sync_playwright() as p:
             destino = PASTA_PDF / f"DOE_{hoje}_{secao}.pdf"
             destino.write_bytes(corpo)
             print("baixado:", secao, len(corpo) // 1024, "KB")
-            aba.close()
+            for extra in ctx.pages[1:]:
+                extra.close()
             extrair(destino)
         except Exception as e:
             falhas.append(secao)
-            print("FALHOU", secao, "->", str(e)[:400])
+            print("FALHOU", secao, "->", str(e)[:1500])
             pag.screenshot(path=str(PASTA_PDF / f"erro_{hoje}_{secao}.png"), full_page=True)
     nav.close()
 
