@@ -41,9 +41,26 @@ def extrair(pdf):
         print("  texto:", arq.name, len(texto), "caracteres")
 
 
-falhas = []
-# Se o texto de hoje ja existe (execucao de reserva), nao baixa de novo.
-if any(PASTA.glob(f"DOE_{hoje}_secao1_texto*")) and any(PASTA.glob(f"DOE_{hoje}_secao2_texto*")):
+# (caderno, texto da secao, etiqueta do arquivo, obrigatorio)
+# Executivo: falha derruba o workflow. Legislativo (Alesp e TCE): falha vira aviso,
+# porque pode nao haver edicao do Legislativo em todos os dias.
+ITENS = [
+    ("Executivo", "Atos Normativos", "secao1", True),
+    ("Executivo", "Atos de Pessoal", "secao2", True),
+    ("Legislativo", "Atos Legislativos", "leg_secao1", False),
+    ("Legislativo", "Atos Administrativos", "leg_secao2", False),
+    ("Legislativo", "Tribunal de Contas", "leg_secao3", False),
+]
+
+falhas, avisos = [], []
+
+
+def ja_existe(tag):
+    return any(PASTA.glob(f"DOE_{hoje}_{tag}_texto*"))
+
+
+pendentes = [it for it in ITENS if not ja_existe(it[2])]
+if not pendentes:
     print("Arquivos de hoje ja existem; nada a fazer.")
     sys.exit(0)
 
@@ -55,9 +72,9 @@ with sync_playwright() as p:
     ctx.on("request", lambda r: vistas.append(r.url))
     pag.goto(URL)
     pag.wait_for_timeout(5000)
-    for secao, rotulo in [("secao1", "Atos Normativos"), ("secao2", "Atos de Pessoal")]:
+    for caderno, rotulo, tag, obrigatorio in pendentes:
         try:
-            pag.get_by_text("Executivo", exact=True).first.click()
+            pag.get_by_text(caderno, exact=True).first.click()
             pag.wait_for_timeout(3000)
             pag.get_by_text(rotulo, exact=False).first.click()
             pag.wait_for_timeout(5000)
@@ -77,17 +94,19 @@ with sync_playwright() as p:
             corpo = resp.body()
             if not corpo.startswith(b"%PDF"):
                 raise Exception("a resposta nao e um PDF: " + url_pdf)
-            destino = PASTA_PDF / f"DOE_{hoje}_{secao}.pdf"
+            destino = PASTA_PDF / f"DOE_{hoje}_{tag}.pdf"
             destino.write_bytes(corpo)
-            print("baixado:", secao, len(corpo) // 1024, "KB")
+            print("baixado:", caderno, rotulo, "->", tag, len(corpo) // 1024, "KB")
             for extra in ctx.pages[1:]:
                 extra.close()
             extrair(destino)
         except Exception as e:
-            falhas.append(secao)
-            print("FALHOU", secao, "->", str(e)[:1500])
-            pag.screenshot(path=str(PASTA_PDF / f"erro_{hoje}_{secao}.png"), full_page=True)
+            (falhas if obrigatorio else avisos).append(tag)
+            print(("FALHOU " if obrigatorio else "AVISO (sem edicao ou falha) "), tag, "->", str(e)[:1500])
+            pag.screenshot(path=str(PASTA_PDF / f"erro_{hoje}_{tag}.png"), full_page=True)
     nav.close()
 
+if avisos:
+    print("Avisos (Legislativo):", ", ".join(avisos))
 if falhas:
     sys.exit(1)  # faz o workflow ficar vermelho e avisa por e-mail
