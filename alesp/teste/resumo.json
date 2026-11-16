@@ -1,0 +1,58 @@
+{
+  "data": "2026-11-16",
+  "janela": [
+    "2026-11-15",
+    "2026-11-23"
+  ],
+  "resultados": [
+    {
+      "teste": "reunioes",
+      "headers": "sem_origem",
+      "url": "https://legis-api-portal-prd.al.sp.gov.br/colegiado/reunioes?page=0&size=100&dataInicio=2026-11-15&dataFim=2026-11-23&pesquisarAtas=false&pesquisarConjuntas=false",
+      "status": 200,
+      "bytes": 13452,
+      "content_type": "application/json"
+    },
+    {
+      "teste": "reunioes",
+      "headers": "com_origem",
+      "url": "https://legis-api-portal-prd.al.sp.gov.br/colegiado/reunioes?page=0&size=100&dataInicio=2026-11-15&dataFim=2026-11-23&pesquisarAtas=false&pesquisarConjuntas=false",
+      "status": 200,
+      "bytes": 13452,
+      "content_type": "application/json"
+    },
+    {
+      "teste": "sessoes",
+      "headers": "sem_origem",
+      "url": "https://legis-api-portal-prd.al.sp.gov.br/sessoes-plenarias/consulta?page=0&size=20&dataInicial=2026-11-15&dataFinal=2026-11-23",
+      "status": 200,
+      "bytes": 1942,
+      "content_type": "application/json"
+    },
+    {
+      "teste": "sessoes",
+      "headers": "com_origem",
+      "url": "https://legis-api-portal-prd.al.sp.gov.br/sessoes-plenarias/consulta?page=0&size=20&dataInicial=2026-11-15&dataFinal=2026-11-23",
+      "status": 200,
+      "bytes": 1942,
+      "content_type": "application/json"
+    },
+    {
+      "teste": "legislaturas",
+      "headers": "sem_origem",
+      "url": "https://legis-api-portal-prd.al.sp.gov.br/legislaturas/todos",
+      "status": 200,
+      "bytes": 2534,
+      "content_type": "application/json"
+    },
+    {
+      "teste": "legislaturas",
+      "headers": "com_origem",
+      "url": "https://legis-api-portal-prd.al.sp.gov.br/legislaturas/todos",
+      "status": 200,
+      "bytes": 2534,
+      "content_type": "application/json"
+    }
+  ],
+  "dns": "ok"
+}
