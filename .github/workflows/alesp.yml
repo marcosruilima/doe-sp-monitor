@@ -1,0 +1,33 @@
+name: Coletar Alesp
+
+on:
+  schedule:
+    - cron: "30 9 * * 1-5"    # 6h30 Brasília
+    - cron: "30 10 * * 1-5"   # 7h30 Brasília (reserva)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alesp
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Coletar dados da Alesp
+        run: python alesp/coleta.py
+      - name: Salvar no repositório
+        if: always()
+        run: |
+          git config user.name "alesp-bot"
+          git config user.email "alesp-bot@users.noreply.github.com"
+          git add alesp/dados alesp/pautas alesp/sessoes
+          git diff --cached --quiet || (git commit -m "Alesp $(date -u +%F)" && git pull --rebase -q && git push)
