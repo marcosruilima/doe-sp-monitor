@@ -1,0 +1,26 @@
+name: Teste acesso Alesp
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testar API da Alesp
+        run: python alesp/teste_acesso.py
+      - name: Salvar resultado do teste
+        if: always()
+        run: |
+          git config user.name "alesp-bot"
+          git config user.email "alesp-bot@users.noreply.github.com"
+          git add alesp/teste
+          git diff --cached --quiet || (git commit -m "Teste de acesso Alesp $(date -u +%F)" && git push)
