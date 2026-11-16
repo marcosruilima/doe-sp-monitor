@@ -1,5 +1,5 @@
 """Coleta diária da Alesp (reuniões de comissão, pautas e sessões do Plenário).
-Grava em alesp/dados, alesp/pautas e alesp/sessoes. Janela: hoje-7 até hoje+365."""
+Grava em alesp/dados, alesp/pautas e alesp/sessoes. Janela: hoje-7 até hoje+60."""
 import datetime, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from html.parser import HTMLParser
 
@@ -8,7 +8,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0", "Accept": "application/json",
            "Origin": "https://www.al.sp.gov.br", "Referer": "https://www.al.sp.gov.br/"}
 HOJE = datetime.date.today()
 INI = (HOJE - datetime.timedelta(days=7)).isoformat()
-FIM = (HOJE + datetime.timedelta(days=365)).isoformat()
+FIM = (HOJE + datetime.timedelta(days=60)).isoformat()
 CORTE_PAUTA = (HOJE - datetime.timedelta(days=1)).isoformat()   # baixa pautas de reuniões de ontem em diante
 CORTE_SESSAO = (HOJE + datetime.timedelta(days=45)).isoformat() # pauta/ordem do dia das sessões nos próximos 45 dias
 erros = []
