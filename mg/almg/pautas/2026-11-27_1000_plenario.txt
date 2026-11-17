@@ -1,0 +1,31 @@
+URL: https://www.almg.gov.br/atividade-parlamentar/plenario/reuniao/?dia=27&mes=11&ano=2026&hr=10:00
+
+41ª Reunião Especial de Plenário - 27/11/2026 10:00 - Assembleia Legislativa de Minas Gerais
+ Compartilhar
+ Compartilhar via apps
+ Compartilhar por e-mail
+ Imprimir
+ Compartilhar
+ Whatsapp
+ Telegram
+ Facebook
+ X (Antigo Twitter)
+ Email
+ {"type":"br.gov.almg.sipub.modelo.plenario.DetalheEstruturadoReuniaoPlenarioSipub","reuniao":{"id":8604,"data":"2026-11-27T00:00:00.000-03:00","hora":"10:00","numero":41,"tipo":{"id":4,"descricao":"ESPECIAL","idCategoria":0},"descricao":"41ª Reunião Especial de Plenário","observacao":"Destinada a homenagear a Cáritas Brasileira pelos 70 anos de sua fundação.","pautaCompleta":true,"resultadoCompleto":false,"situacao":{"codigo":"AGENDADA","descricao":"Agendada"},"reuniaoDesconvocada":false},"textoEditalConvocacao":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/>\n\t<title>Edital de convocação de reunião de Plenário</title>\n\t<meta name=\"generator\" content=\"LibreOffice 5.0.2.2 (Linux)\"/>\n\t<meta name=\"created\" content=\"2026-11-16T09:52:22.770000000\"/>\n\t<meta name=\"changed\" content=\"2026-11-16T09:52:33.331000000\"/>\n\t<meta name=\"CodDocumento\" content=\"1669428\"/>\n\t<meta name=\"CodTipoDocumento\" content=\"5\"/>\n\t<meta name=\"Data Reunião Plenário\" content=\"27/11/2026\"/>\n\t<meta name=\"Horário\" content=\"10:00\"/>\n\t<meta name=\"Número Reunião Plenário\" content=\"00041\"/>\n\t<meta name=\"Origem\" content=\"SCT\"/>\n\t<meta name=\"QRCODE\" content=\"Não\"/>\n\t<meta name=\"Tipo Reunião Plenário\" content=\"ESPECIAL\"/>\n\t<style type=\"text/css\">\n\t\t@page { margin-left: 3.18cm; margin-right: 3.18cm; margin-top: 2.54cm; margin-bottom: 2.54cm }\n\t\tp { text-indent: 0.85cm; margin-bottom: 0cm; direction: ltr; color: #000000; text-align: justify; orphans: 2; widows: 2 }\n\t\tp.western { font-family: \"Times New Roman\", serif; font-size: 10pt; so-language: pt-BR }\n\t\tp.cjk { font-family: \"Times New Roman\", serif; font-size: 10pt }\n\t\tp.ctl { font-family: \"Times New Roman\", serif; font-size: 10pt }\n\t\th1 { margin-top: 0cm; margin-bottom: 0.3cm; text-transform: uppercase; color: #000000; text-align: center; orphans: 0; widows: 0; page-break-before: auto }\n\t\th1.western { font-family: \"Times New Roman\", sans-serif; font-size: 12pt }\n\t\th1.cjk { font-family: \"Arial\", sans-serif; font-size: 14pt }\n\t\th1.ctl { font-family: \"Times New Roman\", serif; font-size: 10pt; font-weight: normal }\n\t\th2 { margin-top: 0cm; margin-bottom: 0.3cm; font-variant: normal; color: #000000; text-align: center; orphans: 0; widows: 0; page-break-before: auto }\n\t\th2.western { font-family: \"Times New Roman\", sans-serif; font-size: 12pt }\n\t\th2.cjk { font-family: \"Arial\", sans-serif; font-size: 14pt }\n\t\th2.ctl { font-family: \"Times New Roman\", serif; font-size: 10pt; font-weight: normal }\n\t\th3 { margin-top: 0.2cm; margin-bottom: 0.2cm; font-variant: normal; color: #000000; text-align: center; orphans: 0; widows: 0; page-break-before: auto }\n\t\th3.western { font-family: \"Times New Roman\", sans-serif; font-size: 12pt }\n\t\th3.cjk { font-family: \"Arial\", sans-serif; font-weight: normal }\n\t\th3.ctl { font-family: \"Times New Roman\", serif; font-size: 10pt; font-weight: normal }\n\t</style>\n</head>\n<body lang=\"pt-BR\" text=\"#000000\" dir=\"ltr\">\n<h1 class=\"western\">EDITAL DE CONVOCAÇÃO</h1>\n<h3 class=\"western\"><a name=\"texto2\"></a><b>Reunião Especial da\nAssembleia Legislativa</b></h3>\n<p style=\"text-indent: 2.5cm; margin-top: 0.05cm; margin-bottom: 0.05cm; line-height: 150%\"><a name=\"texto3\"></a><a name=\"campo4\"></a><a name=\"macro4\"></a><a name=\"texto1\"></a>\n<font face=\"Times New Roman, sans-serif\"><font size=\"3\" style=\"font-size: 12pt\">O\npresidente da Assembleia Legislativa do Estado de Minas Gerais, no\nuso da atribuição que lhe confere o art. 82, XVII, do Regimento\nInterno, convoca reunião especial da Assembleia para as 10 horas do\ndia 27 de novembro de 2026, destinada a homenagear a Cáritas\nBrasileira pelos 70 anos de sua fundação.</font></font></p>\n<p style=\"text-indent: 2.5cm; margin-top: 0.05cm; margin-bottom: 0.05cm; line-height: 150%\"><a name=\"texto7\"></a>\n<font face=\"Times New Roman, sans-serif\"><font size=\"3\" style=\"font-size: 12pt\">Palácio\nda Inconfidência, 16 de novembro de 2026.</font></font></p>\n<p style=\"text-indent: 2.5cm; margin-top: 0.05cm; margin-bottom: 0.05cm; line-height: 150%\">\n<font face=\"Times New Roman, sans-serif\"><font size=\"3\" style=\"font-size: 12pt\">Leninha,\npresidente em exercício.</font></font></p>\n</body>\n</html>","hashAtualizacao":516239417,"_Id":"6afb01600361a5ffb97d572e","_id":"6afb01600361a5ffb97d572e"}
+ 27/11/2026 às 10:00
+ Plenário
+ 41ª Reunião Especial
+ Finalidade da reunião: Destinada a homenagear a Cáritas Brasileira pelos 70 anos de sua fundação.
+EDITAL DE CONVOCAÇÃO
+Reunião Especial da
+Assembleia Legislativa
+O
+presidente da Assembleia Legislativa do Estado de Minas Gerais, no
+uso da atribuição que lhe confere o art. 82, XVII, do Regimento
+Interno, convoca reunião especial da Assembleia para as 10 horas do
+dia 27 de novembro de 2026, destinada a homenagear a Cáritas
+Brasileira pelos 70 anos de sua fundação.
+Palácio
+da Inconfidência, 16 de novembro de 2026.
+Leninha,
+presidente em exercício.
