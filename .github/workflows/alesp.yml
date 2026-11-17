@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "30 9 * * 1-5"    # 6h30 Brasília
     - cron: "30 10 * * 1-5"   # 7h30 Brasília (reserva)
+    - cron: "0 18 * * 1-5"     # 15h Brasília (coleta para o checkup das 16h)
   workflow_dispatch:
 
 permissions:
