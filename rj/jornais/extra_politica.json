@@ -1,0 +1,58 @@
+{
+ "coletado_em": "2026-11-17T17:35:18.882674Z",
+ "fonte": "https://extra.globo.com/politica/",
+ "itens": [
+  {
+   "titulo": "Ruas diz que vai planejar expansão do Metrô, mas não terá tempo para entregar novos serviços durante mandato",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/ruas-diz-que-vai-planejar-expansao-do-metro-mas-nao-tera-tempo-para-entregar-novos-servicos.ghtml"
+  },
+  {
+   "titulo": "PF faz operação para investigar suspeita de desvio de emendas envolvendo produtora do filme Dark Horse",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/pf-faz-operacao-para-investigar-suspeita-de-desvio-de-emendas-envolvendo-produtora-do-filme-dark-horse.ghtml"
+  },
+  {
+   "titulo": "STF: Zanin nega pedido para realização de segundo turno no Rio",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/stf-zanin-nega-pedido-para-realizacao-de-segundo-turno-no-rio.ghtml"
+  },
+  {
+   "titulo": "Lula deu aval para reformulação de cargos da PF antes de crise envolvendo afastamento de delegados",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/lula-deu-aval-para-reformulacao-de-cargos-da-pf-antes-de-crise-envolvendo-afastamento-de-delegados.ghtml"
+  },
+  {
+   "titulo": "Personalidades assinam nota de repúdio à exposição de Fernando Henrique Cardoso: 'afronta à dignidade humana'",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/personalidades-assinam-nota-de-repudio-a-exposicao-de-fernando-henrique-cardoso-afronta-a-dignidade-humana.ghtml"
+  },
+  {
+   "titulo": "Na COP31, Lula diz que brasileiros empunharam 'armas da democracia' nas eleições contra ameaças à ciência e à Amazônia",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/na-cop31-lula-diz-que-brasileiros-empunharam-armas-da-democracia-nas-eleicoes-contra-ameacas-a-ciencia-e-a-amazonia.ghtml"
+  },
+  {
+   "titulo": "Paes intensifica movimentos e ganha apoios para tentar segundo turno no Rio",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/paes-intensifica-movimentos-e-ganha-apoios-para-tentar-segundo-turno-no-rio.ghtml"
+  },
+  {
+   "titulo": "PF abre investigação ordenada por Dino sobre suspeita de financiamento estrangeiro à campanha de Flávio Bolsonaro",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/pf-abre-investigacao-ordenada-por-dino-sobre-suspeita-de-financiamento-estrangeiro-a-campanha-de-flavio-bolsonaro.ghtml"
+  },
+  {
+   "titulo": "Zanin recebe advogados de Eduardo Paes para discutir segundo turno no Rio",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/zanin-recebe-advogados-de-eduardo-paes-para-discutir-segundo-turno-no-rio.ghtml"
+  },
+  {
+   "titulo": "PF prende ex-servidor do STJ suspeito de vazar informações para advogado Willer Tomaz",
+   "url": "https://extra.globo.com/politica/noticia/2026/11/pf-prende-ex-servidor-do-stj-suspeito-de-vazar-informacoes-para-advogado-willer-tomaz.ghtml"
+  },
+  {
+   "titulo": "Supremo decide se aceita denúncias contra 100 suspeitos",
+   "url": "https://extra.globo.com/politica/noticia/2023/04/supremo-decide-se-aceita-denuncias-contra-100-suspeitos-de-atos-golpistas.ghtml"
+  },
+  {
+   "titulo": "Moraes vota a favor de tornar réus 100 denunciados pelos atos golpistas",
+   "url": "https://extra.globo.com/politica/noticia/2023/04/moraes-vota-a-favor-de-tornar-reus-100-denunciados-pelos-atos-golpistas-de-8-de-janeiro.ghtml"
+  },
+  {
+   "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
+   "url": "https://extra.globo.com${r}"
+  }
+ ]
+}
