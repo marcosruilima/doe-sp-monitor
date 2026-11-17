@@ -1,0 +1,146 @@
+{
+ "almg_comissoes_agenda": {
+  "url": "https://www.almg.gov.br/atividade-parlamentar/comissoes/agenda/?dia=17&mes=11&ano=2026",
+  "status": 200,
+  "tipo": "text/html;charset=UTF-8",
+  "bytes_lidos": 216815,
+  "final": "https://www.almg.gov.br/atividade-parlamentar/comissoes/agenda/?dia=17&mes=11&ano=2026",
+  "seg": 1.5,
+  "inicio": "\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Comissões: Agenda das Comissões - Assembleia Legislativa de Minas Ge"
+ },
+ "almg_comissoes_agenda_base": {
+  "url": "https://www.almg.gov.br/atividade-parlamentar/comissoes/agenda/",
+  "status": 200,
+  "tipo": "text/html;charset=UTF-8",
+  "bytes_lidos": 216723,
+  "final": "https://www.almg.gov.br/atividade-parlamentar/comissoes/agenda/",
+  "seg": 1.2,
+  "inicio": "\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Comissões: Agenda das Comissões - Assembleia Legislativa de Minas Ge"
+ },
+ "almg_reuniao_ccj": {
+  "url": "https://www.almg.gov.br/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=5&dia=17&mes=11&ano=2026&hr=10:30",
+  "status": 200,
+  "tipo": "text/html;charset=UTF-8",
+  "bytes_lidos": 234419,
+  "final": "https://www.almg.gov.br/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=5&dia=17&mes=11&ano=2026&hr=10:30",
+  "seg": 1.2,
+  "inicio": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Reunião de Comissão -"
+ },
+ "almg_plenario_agenda": {
+  "url": "https://www.almg.gov.br/atividade-parlamentar/plenario/agenda/",
+  "status": 200,
+  "tipo": "text/html;charset=UTF-8",
+  "bytes_lidos": 150850,
+  "final": "https://www.almg.gov.br/atividade-parlamentar/plenario/agenda/",
+  "seg": 1.1,
+  "inicio": "\n\n\n\n\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Plenário: Agenda do Plenário - Assembleia Legislativa de Minas Gerais</title>\n<"
+ },
+ "almg_plenario_reuniao": {
+  "url": "https://www.almg.gov.br/atividade-parlamentar/plenario/reuniao/?dia=17&mes=11&ano=2026&hr=14:00",
+  "status": 200,
+  "tipo": "text/html;charset=UTF-8",
+  "bytes_lidos": 251268,
+  "final": "https://www.almg.gov.br/atividade-parlamentar/plenario/reuniao/?dia=17&mes=11&ano=2026&hr=14:00",
+  "seg": 1.2,
+  "inicio": "\n\n\n\n\n\n\n\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>40&ordf; Reunião Ordinária de Plenário - 17/11/2026&nbsp;14:00"
+ },
+ "almg_diario_legislativo_pagina": {
+  "url": "https://www.almg.gov.br/transparencia/diario-do-legislativo/",
+  "status": 200,
+  "tipo": "text/html;charset=UTF-8",
+  "bytes_lidos": 152199,
+  "final": "https://www.almg.gov.br/transparencia/diario-do-legislativo/",
+  "seg": 1.5,
+  "inicio": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Diário do Legislativo - Assembleia Legislativa de Minas Gerais</title>\n<meta name=\"descripti"
+ },
+ "almg_diario_legislativo_pdf": {
+  "url": "https://diariolegislativo.almg.gov.br/2026/L20261117.pdf",
+  "status": 200,
+  "tipo": "application/pdf",
+  "bytes_lidos": 400000,
+  "final": "https://diariolegislativo.almg.gov.br/2026/L20261117.pdf",
+  "seg": 1.5,
+  "inicio": "%PDF-1.6\n%����\n3 0 obj\n<</P 4 0 R/Subtype/Widget/T(Signature1)/V 1 0 R/F 132/Type/Annot/FT/Sig/DR<<>>/Rect[0 0 0 0]/AP<</N 2 0 R>>>>\nendobj\n1 0 obj\n<</Name(ISABELA LUCINDO CORTES:45611629687)/Contents <30821d3d06092a864886f70d010702a0821d2e30821d2a020101310f300d06096086480165030402010500300b06092a86"
+ },
+ "almg_diario_legislativo_pdf_17": {
+  "url": "https://diariolegislativo.almg.gov.br/2026/L20261117.pdf",
+  "status": 200,
+  "tipo": "application/pdf",
+  "bytes_lidos": 400000,
+  "final": "https://diariolegislativo.almg.gov.br/2026/L20261117.pdf",
+  "seg": 1.3,
+  "inicio": "%PDF-1.6\n%����\n3 0 obj\n<</P 4 0 R/Subtype/Widget/T(Signature1)/V 1 0 R/F 132/Type/Annot/FT/Sig/DR<<>>/Rect[0 0 0 0]/AP<</N 2 0 R>>>>\nendobj\n1 0 obj\n<</Name(ISABELA LUCINDO CORTES:45611629687)/Contents <30821d3d06092a864886f70d010702a0821d2e30821d2a020101310f300d06096086480165030402010500300b06092a86"
+ },
+ "almg_noticias": {
+  "url": "https://www.almg.gov.br/comunicacao/noticias/index.html?lq=&reloaded=&pesquisou=true&q=&di=&df=&tagLocalizacao=73",
+  "status": 200,
+  "tipo": "text/html;charset=UTF-8",
+  "bytes_lidos": 176632,
+  "final": "https://www.almg.gov.br/comunicacao/noticias/index.html?lq=&reloaded=&pesquisou=true&q=&di=&df=&tagLocalizacao=73",
+  "seg": 1.1,
+  "inicio": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Notícias - Assembleia Legislativa de Minas Gerais</title>\n<meta name=\"description\" content=\""
+ },
+ "almg_dados_abertos": {
+  "url": "https://www.almg.gov.br/transparencia/dados-abertos/",
+  "status": 200,
+  "tipo": "text/html; charset=UTF-8",
+  "bytes_lidos": 29139,
+  "final": "http://dadosabertos.almg.gov.br/documentacao/index",
+  "seg": 1.8,
+  "inicio": "\n\n\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html lang=\"pt-BR\">\n    <head>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n        <meta name=\"Author\" content=\"ALMG\">\n        <title>Dados Abertos - ALMG </title>\n\n        <"
+ },
+ "almg_api_v2": {
+  "url": "https://dadosabertos.almg.gov.br/api/v2/",
+  "status": 404,
+  "erro": "HTTP Error 404: Not Found",
+  "seg": 0.7
+ },
+ "jornal_mg_home": {
+  "url": "https://www.jornalminasgerais.mg.gov.br/",
+  "status": null,
+  "erro": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))",
+  "seg": 0.8
+ },
+ "agencia_minas": {
+  "url": "https://www.agenciaminas.mg.gov.br/",
+  "status": 200,
+  "tipo": "text/html; charset=utf-8",
+  "bytes_lidos": 203380,
+  "final": "https://www.agenciaminas.mg.gov.br/",
+  "seg": 2.0,
+  "inicio": "<!DOCTYPE html><html lang=\"pt-BR\" class=\"light\"><head><meta charSet=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, interactive-widget=resizes-content\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://www.agenciaminas.mg.gov.br/api/files/de0c63dc9e8a3a7fd6203b7ba5c"
+ },
+ "sedectes_noticias": {
+  "url": "https://desenvolvimento.mg.gov.br/noticias",
+  "status": 200,
+  "tipo": "text/html; charset=utf-8",
+  "bytes_lidos": 261861,
+  "final": "https://desenvolvimento.mg.gov.br/noticias",
+  "seg": 3.1,
+  "inicio": "<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"/GOV_Minas_e_pra_Frente.png\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/3d-1vk5hzu5rq.css\" data-precedence=\"next\"/><link re"
+ },
+ "fazenda_noticias": {
+  "url": "https://www.fazenda.mg.gov.br/noticias",
+  "status": 200,
+  "tipo": "text/html;charset=UTF-8",
+  "bytes_lidos": 37292,
+  "final": "https://www.fazenda.mg.gov.br/noticias",
+  "seg": 9.0,
+  "inicio": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n\t<head>  \t\n\t\t\n\n\n\n<meta charset=\"utf-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1,IE=EmulateIE10,IE=10,IE=11\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src="
+ },
+ "jornal_mg_links": [],
+ "jornal_mg_pdf_refs": [],
+ "jornal_mg_scripts": [],
+ "almg_agenda_links_reuniao": [
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=1&dia=17&mes=11&ano=2026&hr=14:00",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=1077&dia=17&mes=11&ano=2026&hr=15:00",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=1132&dia=17&mes=11&ano=2026&hr=14:00",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=12&dia=17&mes=11&ano=2026&hr=15:00",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=1260&dia=17&mes=11&ano=2026&hr=11:00",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=5&dia=17&mes=11&ano=2026&hr=10:30",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=799&dia=17&mes=11&ano=2026&hr=10:30",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=849&dia=17&mes=11&ano=2026&hr=10:00",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=1&idCom=859&dia=17&mes=11&ano=2026&hr=15:00",
+  "/atividade-parlamentar/comissoes/reuniao/?idTipo=2&idCom=10&dia=17&mes=11&ano=2026&hr=14:30"
+ ]
+}
