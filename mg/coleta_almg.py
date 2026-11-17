@@ -51,17 +51,18 @@ def grava(caminho, conteudo, binario=False):
     with open(caminho, "wb" if binario else "w", **({} if binario else {"encoding": "utf-8"})) as f:
         f.write(conteudo)
 
-RE_COM = re.compile(r'href="([^"]*comissoes/reuniao/\?[^"]+)"')
-RE_PLE = re.compile(r'href="([^"]*plenario/reuniao/\?[^"]+)"')
+RE_COM = re.compile(r'comissoes/reuniao/\?idTipo=\d+&(?:amp;)?idCom=\d+&(?:amp;)?dia=\d+&(?:amp;)?mes=\d+&(?:amp;)?ano=\d+&(?:amp;)?hr=\d\d:\d\d')
+RE_PLE = re.compile(r'plenario/reuniao/\?dia=\d+&(?:amp;)?mes=\d+&(?:amp;)?ano=\d+&(?:amp;)?hr=\d\d:\d\d')
 
 def params(link):
-    q = dict(p.split("=", 1) for p in link.split("?", 1)[1].replace("&amp;", "&").split("&") if "=" in p)
-    return q
+    return dict(p.split("=", 1) for p in link.split("?", 1)[1].replace("&amp;", "&").split("&") if "=" in p)
 
-def links_agenda(caminho, regex, dia):
+def links_periodo(caminho, regex, ini, fim):
+    """A agenda aceita dataInicio e dataFim (dd/mm/aaaa) e pagina=N (10 itens por página)."""
     achados, paginas = {}, 0
-    for pg in range(1, 6):
-        url = f"{BASE}{caminho}?dia={dia.day}&mes={dia.month}&ano={dia.year}" + (f"&pagina={pg}" if pg > 1 else "")
+    for pg in range(1, 80):
+        url = (f"{BASE}{caminho}?pesquisou=true&dataInicio={ini:%d/%m/%Y}&dataFim={fim:%d/%m/%Y}"
+               + (f"&pagina={pg}" if pg > 1 else ""))
         b = get(url)
         if b is None:
             break
@@ -73,41 +74,28 @@ def links_agenda(caminho, regex, dia):
                 achados[l] = True; novos += 1
         if novos == 0:
             break
+        time.sleep(0.3)
     return list(achados), paginas
 
 def coletar_agenda(nome, caminho, regex, prefixo):
-    todos, diag = {}, {}
-    for d in range(-1, JANELA + 1):
-        dia = HOJE + datetime.timedelta(days=d)
-        links, pags = links_agenda(caminho, regex, dia)
-        do_dia = 0
-        for l in links:
-            q = params(l)
-            try:
-                dd = datetime.date(int(q["ano"]), int(q["mes"]), int(q["dia"]))
-            except Exception:
-                continue
-            if dd == dia: do_dia += 1
-            todos[l] = q
-        diag[dia.isoformat()] = {"paginas": pags, "links": len(links), "links_do_dia": do_dia}
-        time.sleep(0.3)
+    ini, fim = HOJE - datetime.timedelta(days=1), HOJE + datetime.timedelta(days=JANELA)
+    links, pags = links_periodo(caminho, regex, ini, fim)
+    todos = {l: params(l) for l in links}
     reunioes = []
-    for l, q in sorted(todos.items(), key=lambda x: (x[1].get("ano"), x[1].get("mes").zfill(2), x[1].get("dia").zfill(2), x[1].get("hr", ""))):
+    for l, q in sorted(todos.items(), key=lambda x: (x[1]["ano"], x[1]["mes"].zfill(2), x[1]["dia"].zfill(2), x[1].get("hr", ""))):
         dd = datetime.date(int(q["ano"]), int(q["mes"]), int(q["dia"]))
-        if dd < HOJE - datetime.timedelta(days=1):
-            continue
         hr = q.get("hr", "").replace(":", "")
         arq = f"{SAIDA}/pautas/{dd.isoformat()}_{hr}_{prefixo}" + (f"_com{q['idCom']}_tipo{q.get('idTipo','')}" if "idCom" in q else "") + ".txt"
         if dd < HOJE and os.path.exists(arq):
             reunioes.append({"data": dd.isoformat(), **q, "arquivo": arq, "ja_baixada": True}); continue
-        b = get(BASE + l if l.startswith("/") else l)
+        url = BASE + "/atividade-parlamentar/" + l
+        b = get(url)
         if b is None:
             continue
-        txt = html_para_texto(b)
-        grava(arq, f"URL: {BASE + l if l.startswith('/') else l}\n\n" + txt)
+        grava(arq, f"URL: {url}\n\n" + html_para_texto(b))
         reunioes.append({"data": dd.isoformat(), **q, "arquivo": arq})
         time.sleep(0.3)
-    return reunioes, diag
+    return reunioes, {"periodo": f"{ini} a {fim}", "paginas_lidas": pags, "reunioes_encontradas": len(links)}
 
 def diario_legislativo():
     ok = []
