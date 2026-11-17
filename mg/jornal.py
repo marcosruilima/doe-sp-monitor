@@ -75,7 +75,7 @@ for e in ed:
         r = chamar(f"Jornal/ObterEdicaoPorId/{e['idCadernoPrincipal']}?pagina=1", token=tok)["dados"]
         pdfb = base64.b64decode(r["arquivoCadernoPrincipal"]["arquivo"])
         pdff = os.path.join(tempfile.gettempdir(), nome + ".pdf"); open(pdff, "wb").write(pdfb)
-        p = sh(["pdftotext", "-layout", pdff, txtf])
+        p = sh(["pdftotext", pdff, txtf])
         sumario = {"data": data, "id": e["idCadernoPrincipal"], "extra": e.get("edicaoExtra"),
                    "cadernos": [{"descricao": c["descricao"], "secoes": c["secoes"]} for c in r["cadernos"]],
                    "chaves_resposta": [k for k in r.keys()]}
