@@ -1,0 +1,37 @@
+{
+ "plenario_ordemdodia": {
+  "status": 200,
+  "bytes": 14350,
+  "final_url": "https://www2.alerj.rj.gov.br/ordemdodia/"
+ },
+ "comissoes_editais": {
+  "status": 200,
+  "bytes": 117763,
+  "final_url": "https://www3.alerj.rj.gov.br/lotus_notes/default.asp?id=66"
+ },
+ "noticias": {
+  "status": 200,
+  "bytes": 38256,
+  "final_url": "https://www.alerj.rj.gov.br/Comunicacao/SalaDeImprensa/Noticias"
+ },
+ "odia": {
+  "status": 200,
+  "bytes": 109170,
+  "final_url": "https://odia.ig.com.br/rio-de-janeiro"
+ },
+ "oglobo_rio": {
+  "status": 200,
+  "bytes": 992208,
+  "final_url": "https://oglobo.globo.com/rio/"
+ },
+ "extra_politica": {
+  "status": 200,
+  "bytes": 597122,
+  "final_url": "https://extra.globo.com/politica/"
+ },
+ "extra_rio": {
+  "status": 200,
+  "bytes": 602465,
+  "final_url": "https://extra.globo.com/rio/"
+ }
+}

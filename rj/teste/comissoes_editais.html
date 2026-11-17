@@ -1,0 +1,1194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+<title>ALERJ - Assembléia Legislativa do Estado do Rio de Janeiro</title>
+<!--link href="css/bootstrap.css" rel="stylesheet" type="text/css" / -->
+<!-- link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css" /-->
+<link rel="stylesheet" type="text/css" href="css/estilos.css" /> 
+<link href="imagens/player_skin/alerj/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui.js"></script>
+<script type="text/javascript" src="scripts/jquery.cookie.js"></script>
+<script type="text/javascript" src="scripts/acessibilidade.js"></script>
+<script type="text/javascript" src="scripts/cycle.js"></script>
+<script type="text/javascript" src="scripts/menu.js"></script>
+<script type="text/javascript" src="scripts/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="scripts/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="scripts/javascript.js"></script>
+<script src="scripts/bootstrap.min.js" type="text/javascript"></script>
+<link href="css/alerj.css" rel="stylesheet" type="text/css" />
+<link href="css/navbar.css" rel="stylesheet" type="text/css" />
+<link href="css/notes.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    $(function () {
+        $('.painel ul').cycle({
+            fx: 'fade',
+            speed: 500,
+            timout: 7000,
+            pager: '.paginacao'
+        })
+        $('.banner ul').cycle({
+            fx: 'scrollLeft',
+            speed: 500,
+            timout: 7000,
+            pager: '.paginacao_banner'
+        })
+    });
+
+    //<![CDATA[
+    $(document).ready(function () {
+
+        $(".jquery_jplayer_1").jPlayer({
+            ready: function (event) {
+                $(this).jPlayer("setMedia", {
+                    title: "Bubble",
+                    mp3: "teste.mp3"
+                });
+            },
+            supplied: "mp3",
+            wmode: "window",
+            smoothPlayBar: true,
+            keyEnabled: true,
+            remainingDuration: true,
+            toggleDuration: true
+        });
+    });
+    //]]>
+</script>
+<script language="javascript" type="text/javascript">
+
+    /* funções  de pesquisa no notes */
+    function openNotes() {
+        window.open('printDoc.asp', 'Lotus Notes')
+        return;
+    }
+    function pesquisaNotes(divAlvo, qry, id) {
+        var numRan = Math.floor((Math.random() * 100) + 1);
+        try {
+            $('#divLoading').removeClass('hidden');
+            $(divAlvo).addClass('hidden');
+            var SvcURL = 'consultaNotes.asp?txtquery=' + qry + '&hdfId=' + id + '&rand=' + numRan;
+            $.ajax({
+
+                type: "GET",
+                //data: { primeiro:a, segundo:b },
+                url: SvcURL,
+                dataType: "html",
+                //jsonp:"getstatus",
+                crossDomain: false,
+                cache: false,
+                async: false,
+                success: function (result) {
+                },
+                beforeSend: function () {
+                    //janelaModal.setStatus('E ainda continua fazendo...');
+                },
+                error: function (request, status, error) {
+                    //alert(status);
+                    alert('Erro: ' + status + ': ' + error);
+                    $('#divLoading').addClass('hidden');
+                },
+                complete: function (msg) {
+                    if ( (msg.statusText !== "OK") && ( msg.statusText !== "success") ){
+                        alert('Erro no processamento:' + msg.statusText)
+                        $('#divLoading').addClass('hidden');
+                    }
+                    else {
+                        try {
+                            var retorno = msg.responseText;
+                            $(divAlvo).removeClass('hidden');
+                            $(divAlvo).html('');
+                            //if (retorno != "erro") {
+                            $(divAlvo).append(retorno);
+                            $('#lnkPrintBusca').removeClass('hidden');
+                            var titulo = $("#viewsNotes option:selected").text();
+                            $('#titulo').html(' Pesquisa em ' + titulo);
+                            //}
+                            //else {
+                            //    alert('Erro na pesquisa' + retorno);
+                            //}
+                            $('#divLoading').addClass('hidden');
+                        }
+                        catch (ex) {
+                            alert('Erro no parser: ' + ex);
+                            $('#divLoading').addClass('hidden');
+                        }
+                    }
+                }
+            });
+        }
+        catch (ex) {
+            alert('Erro na chamada: ' + ex);
+            $('#divLoading').addClass('hidden');
+        }
+
+        return;
+    }
+
+</script>
+<script language="javascript" type="text/javascript">
+    function openURL(purl, titulo, id) {
+        try {
+            //alert(id);
+            if (!id) {
+                $('#titulo').html(titulo);
+                $('#divConteudo').addClass('hidden');
+            }
+            else {
+                $('#titulo').html(titulo);
+                window.location = 'default.asp?id=' + id;
+            }
+        }
+        catch (ex) {
+            alert(ex);
+        }
+        return;
+    }
+
+    function refreshFrame(id) {
+        window.location = 'default.asp?id=' + id;
+        return false;
+    }
+
+    function printNotes(URL) {
+        try {
+            window.print();
+            //window.open('printDoc.asp?url=' + URL, 'printNotes');
+        }
+        catch (ex) {
+            alert('Erro ao imprimir o conteúdo do notes: ' + ex);
+        }
+        return;
+    }
+
+    function buscaGeral() {
+        try {
+            var id = document.getElementById("viewsNotes").value;
+            var assunto = document.getElementById("txtPesquisa").value;
+            $('#divLoading').removeClass('hidden');
+            if (assunto.length == 0) {
+                alert('Digite um assunto!!');
+                $('#txtPesquisa').focus();
+                $('#divLoading').addClass('hidden');
+            }
+            else {
+                $('#titulo').html('Resultado da Pesquisa');
+                //$('#barraBotoes').addClass('hidden');
+                $('#divConteudo').addClass('hidden');
+                //$('#lnkPrint').addClass('hidden');
+                /*var query = url + assunto + '&SearchMax=&SearchOrder=';
+                $('#idLotus').attr('src', '');
+                $('#idLotus').attr('src', query);*/
+                pesquisaNotes('#divConteudo', assunto, id);
+            }
+            return true;
+        }
+        catch (ex) {
+            alert('Erro na busca: ' + ex);
+            return false;
+        }
+    }
+    $(document).ready(function () {
+        var qrystr = document.location.search;
+    });
+    </script>
+</head>
+
+<body>
+<!--div class="largura"></div -->
+<div class="superior">
+	<div class="brilho">
+		<div class="conteudo">
+			<div class="logotipo"><a href="http://www.alerj.rj.gov.br"><img src="imagens/logotipo.png" width="210" class="sem_altocontraste" alt="Assembléia Legislativa do Estado do Rio de Janeiro" title="Assembléia Legislativa do Estado do Rio de Janeiro"><img src="imagens/logotipo_altocontraste.png" width="210" class="altocontraste" alt="Assembléia Legislativa do Estado do Rio de Janeiro" title="Assembléia Legislativa do Estado do Rio de Janeiro"></a></div>
+			<div class="coluna">
+				<div class="link_alo_alerj right_0"><a href="https://www.aloalerj.rj.gov.br" 
+                        target="_blank" title="Alô ALERJ" class="links_topo">ALÔ ALERJ</a></div>
+				<div class="redes_sociais right_0">
+					<div class="logotipo_redes"><a href="https://instagram.com/instalerj/" title="Instagram" target="_blank"><img src="imagens/icone_36.png" width="20" height="20" alt="Instagram" title="Instagram"></a></div>
+					<div class="logotipo_redes"><a href="https://www.facebook.com/assembleiaRJ" title="Facebook" target="_blank"><img src="imagens/icone_06.png" width="20" height="20" alt="Facebook" title="Facebook"></a></div>
+					<div class="logotipo_redes"><a href="https://plus.google.com/u/0/+alerj/posts" title="Google Mais" target="_blank"><img src="imagens/icone_07.png" width="20" height="20" alt="Google Mais" title="Google Mais"></a></div>
+					<div class="logotipo_redes"><a href="https://twitter.com/alerj" title="Twitter" target="_blank"><img src="imagens/icone_08.png" width="20" height="20" alt="Twitter" title="Twitter"></a></div>
+					<div class="logotipo_redes"><a href="https://www.youtube.com/user/AlerjTV" title="Youtube" target="_blank"><img src="imagens/icone_09.png" width="20" height="20" alt="Youtube" title="Youtube"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="base_menu">
+        <a href="javascript:;" class="quadrado"></a>
+        <div class="menu_movel">
+            <div class="controle">
+                <div class="menu_select">
+                    <div class="descricao">INÍCIO</div>
+                    <div class="icone Expandir">
+                        <a href="javascript:;" title="Expandir Menu">
+                            <img src="imagens/icone_21.png" width="40" height="34" alt="Expandir Menu" title="Expandir Menu" border="0"></a>
+                    </div>
+                    <div class="icone Recuar">
+                        <a href="javascript:;" title="Recolher Menu">
+                            <img src="imagens/icone_22.png" width="40" height="34" alt="Recolher Menu" title="Recolher Menu" border="0"></a>
+                    </div>
+                </div>
+                <div class="posicao_menu_movel">
+                    <div class="fundo_submovel">
+                        <ul>
+                            <li><a href="http://www.alerj.rj.gov.br">INÍCIO</a></li>                
+                            <li><a href="#" onclick="window.history.back();">VOLTAR</a></li>                            
+                            <li class="pai">
+                                <a href="#">Processo Legislativo<span class="caret"></span></a>
+                                <div class="submenu_movel">
+                                <ul>
+                                    <li><a href="#" onclick="openURL('http://www2.alerj.rj.gov.br/center_proc_oque.htm', 'O que é Processo Legislativo',1);">O que é Processo Legislativo</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/CONTLEI.NSF/LeiOrdInt?OpenForm', 'Leis Estaduais',2);">Leis Estaduais</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/LeiInt?OpenForm', 'Projetos de Lei',157);">Projetos de Leis</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/EmendaInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. Emenda Const. 2023-2027',159);">Proj. Emenda Const. 2023-2027</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            <li class="pai">
+                              <a href="#">Proj. Lei 2023/2027<span class="caret"></span></a>
+                              <div class="submenu_movel">
+                              <ul>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2023/2027 - Proj. Emenda Const. 2023/2027',158);">Proj. Emenda Const.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. de Lei Complementar',160);">Proj. de Lei Complementar</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. de Lei',161);" >Proj. de Lei</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. Decreto Legislativo',162);">Proj. Decreto Legislativo</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. de Resolução',163);">Proj. de Resolução</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2023/2027 - Indicações Legislativas',164);">Indicações Legislativas</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2023/2027 - Indicações',165);">Indicações</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2023/2027 - Mensagens',166);">Mensagens</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2023/2027 - Moções',167);">Moções</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2023/2027 - Ofícios',168);">Ofícios</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2023/2027 - Processos',169);">Processos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2023/2027 - Requerimentos',170);">Requerimentos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2023/2027 - Requerimentos de Infor.',171);">Requerimentos de Infor.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2023/2027 - Requerimentos sem Número',172);">Requerimentos sem Número</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2023/2027 - Proposições Gerais',173);">Proposições Gerais</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                            <li class="pai">
+                              <a href="#">Proj. Lei 2019/2023<span class="caret"></span></a>
+                              <div class="submenu_movel">
+                              <ul>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2019/2023 - Proj. Emenda Const. 2019/2023',142);">Proj. Emenda Const.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2019/2023 - Proj. de Lei Complementar',143);">Proj. de Lei Complementar</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2019/2023 - Proj. de Lei',144);" >Proj. de Lei</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2019/2023 - Proj. Decreto Legislativo',145);">Proj. Decreto Legislativo</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2019/2023 - Proj. de Resolução',146);">Proj. de Resolução</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2019/2023 - Indicações Legislativas',147);">Indicações Legislativas</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2019/2023 - Indicações',148);">Indicações</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2019/2023 - Mensagens',149);">Mensagens</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2019/2023- Moções',150);">Moções</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2019/2023 - Ofícios',151);">Ofícios</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2019/2023 - Processos',152);">Processos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2019/2023 - Requerimentos',153);">Requerimentos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2019/2023 - Requerimentos de Infor.',154);">Requerimentos de Infor.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2019/2023 - Requerimentos sem Número',155);">Requerimentos sem Número</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2019/2023- Proposições Gerais',156);">Proposições Gerais</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                            <li class="pai">
+                              <a href="#">Proj. Lei 2015/2019<span class="caret"></span></a>
+                              <div class="submenu_movel">
+                              <ul>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2015/2019 - Proj. Emenda Const. 2015-2019',5);">Proj. Emenda Const.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2015/2019 - Proj. de Lei Complementar',6);">Proj. de Lei Complementar</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2015/2019 - Proj. de Lei',7);" >Proj. de Lei</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2015/2019 - Proj. Decreto Legislativo',8);">Proj. Decreto Legislativo</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2015/2019 - Proj. de Resolução',9);">Proj. de Resolução</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2015/2019 - Indicações Legislativas',10);">Indicações Legislativas</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2015/2019 - Indicações',11);">Indicações</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2015/2019 - Mensagens',12);">Mensagens</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2015/2019- Moções',13);">Moções</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2015/2019 - Ofícios',14);">Ofícios</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2015/2019 - Processos',15);">Processos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2015/2019 - Requerimentos',16);">Requerimentos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2015/2019 - Requerimentos de Infor.',17);">Requerimentos de Infor.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2015/2019 - Requerimentos sem Número',18);">Requerimentos sem Número</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2015/2019- Proposições Gerais',19);">Proposições Gerais</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                            <li class="pai">
+                              <a>Proj. Lei 2011/2015<span class="caret"></span></a>
+                              <div class="submenu_movel">
+                              <ul>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2011/2015 - Proj. Emenda Const. 2011-2015',20);">Proj. Emenda Const.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2011/2015 - Proj. de Lei Complementar',21);">Proj. de Lei Complementar</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2011/2015 - Proj. de Lei',22);" >Proj. de Lei</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2011/2015 - Proj. Decreto Legislativo',23);">Proj. Decreto Legislativo</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2011/2015 - Proj. de Resolução',24);">Proj. de Resolução</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2011/2015 - Indicações Legislativas',25);">Indicações Legislativas</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2011/2015 - Indicações',26);">Indicações</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2011/2015 - Mensagens',27);">Mensagens</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2011/2015 - Moções',28);">Moções</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2011/2015 - Ofícios',29);">Ofícios</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2011/2015 - Processos',30);">Processos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2011/2015 - Requerimentos',31);">Requerimentos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2011/2015 - Requerimentos de Infor.',32);">Requerimentos de Infor.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2011/2015 - Requerimentos sem Número',33);">Requerimentos sem Número</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2011/2015 - Proposições Gerais',34);">Proposições Gerais</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                            <li class="pai">
+                              <a href="#">Proj. Lei 2007/2011<span class="caret"></span></a>
+                              <div class="submenu_movel">
+                              <ul>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2007/2011 - Proj. Emenda Const. 2007 - 2011',35);">Proj. Emenda Const.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2007/2011 - Proj. de Lei Complementar',36);">Proj. de Lei Complementar</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2007/2011 - Proj. de Lei',37);" >Proj. de Lei</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2007/2011 - Proj. Decreto Legislativo',38);">Proj. Decreto Legislativo</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2007/2011 - Proj. de Resolução',39);">Proj. de Resolução</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2007/2011 - Indicações Legislativas',40);">Indicações Legislativas</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2007/2011 - Indicações',41);">Indicações</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2007/2011 - Mensagens',42);">Mensagens</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2007/2011 - Moções',43);">Moções</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2007/2011 - Ofícios',44);">Ofícios</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2007/2011 - Processos',45);">Processos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2007/2011 - Requerimentos',46);">Requerimentos</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2007/2011 - Requerimentos de Infor.',47);">Requerimentos de Infor.</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2007/2011 - Requerimentos sem Número',48);">Requerimentos sem Número</a></li>
+                                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2007/2011 - Proposições Gerais',49);">Proposições Gerais</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                 <li class="pai">
+                  <a href="#">Proj. Lei 2003/2007<span class="caret"></span></a>
+                  <div class="submenu_movel">
+                  <ul>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2003/2007 - Proj. Emenda Const. 2003-2007',80);">Proj. Emenda Const.</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2003/2007 - Proj. de Lei Complementar',81);">Proj. de Lei Complementar</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2003/2007 - Proj. de Lei',82);" >Proj. de Lei</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2003/2007 - Proj. Decreto Legislativo',38);">Proj. Decreto Legislativo</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2003/2007 - Proj. de Resolução',84);">Proj. de Resolução</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2003/2007 - Indicações Legislativas',85);">Indicações Legislativas</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2003/2007 - Indicações',86);">Indicações</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2003/2007 - Mensagens',87);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2003/2007 - Moções',88);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2003/2007 - Ofícios',89);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2003/2007 - Processos',90);">Processos</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2003/2007 - Requerimentos',91);">Requerimentos</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2003/2007 - Requerimentos de Infor.',92);">Requerimentos de Infor.</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2003/2007 - Requerimentos sem Número',93);">Requerimentos sem Número</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2003/2007 - Proposições Gerais',94);">Proposições Gerais</a></li>
+                  </ul>
+                  </div>
+                </li>
+                <li class="pai">
+                  <a href="#">Proj. Lei 1999/2003<span class="caret"></span></a>
+                  <div class="submenu_movel">
+                  <ul>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 1999/2003 - Proj. Emenda Const. 1999-2003',95);">Proj. Emenda Const.</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 1999/2003 - Proj. de Lei Complementar',96);">Proj. de Lei Complementar</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vlei?OpenView', 'Proj. Lei 1999/2003 - Proj. de Lei',97);" >Proj. de Lei</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 1999/2003 - Proj. Decreto Legislativo',98);">Proj. Decreto Legislativo</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 1999/2003 - Proj. de Resolução',99);">Proj. de Resolução</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 1999/2003 - Indicações Legislativas',100);">Indicações Legislativas</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 1999/2003 - Indicações',101);">Indicações</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 1999/2003 - Mensagens',102);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 1999/2003 - Moções',103);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 1999/2003 - Ofícios',104);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 1999/2003 - Processos',105);">Processos</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 1999/2003 - Requerimentos',106);">Requerimentos</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 1999/2003 - Requerimentos de Infor.',107);">Requerimentos de Infor.</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 1999/2003 - Requerimentos sem Número',108);">Requerimentos sem Número</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 1999/2003 - Proposições Gerais',109);">Proposições Gerais</a></li>
+                  </ul>
+                  </div>
+                </li>
+                <!--  /-->
+                <li class="pai">
+                  <a href="#">Proj. Lei 1995/1998<span class="caret"></span></a>
+                  <div class="submenu_movel">
+                  <ul>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vemenda?OpenView','Proj. Lei 1995/1998 - Proj. Emenda Const. 1995-1998',110);">Proj. Emenda Const.</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vleicomp?OpenView', 'Proj. Lei 1995/1998 - Proj. de Lei Complementar',111);">Proj. de Lei Complementar</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vlei?OpenView', 'Proj. Lei 1995/1998 - Proj. de Lei',112);" >Proj. de Lei</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vdecreto?OpenView', 'Proj. Lei 1995/1998 - Proj. Decreto Legislativo',113);">Proj. Decreto Legislativo</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vresolucao?OpenView', 'Proj. Lei 1995/1998 - Proj. de Resolução',114);">Proj. de Resolução</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vindLeg?OpenView', 'Proj. Lei 1995/1998 - Indicações Legislativas',115);">Indicações Legislativas</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vindicacao?OpenView', 'Proj. Lei 1995/1998 - Indicações',116);">Indicações</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vMensagem?OpenView', 'Proj. Lei 1995/1998 - Mensagens',117);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vmocao?OpenView','Proj. Lei 1995/1998 - Moções',118);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/voficio?OpenView', 'Proj. Lei 1995/1998 - Ofícios',119);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vprocesso?OpenView', 'Proj. Lei 1995/1998 - Processos',120);">Processos</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vreq?OpenView', 'Proj. Lei 1995/1998 - Requerimentos',121);">Requerimentos</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vreqinfo?OpenView', 'Proj. Lei 1995/1998 - Requerimentos de Infor.',122);">Requerimentos de Infor.</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vreqSN?OpenView', 'Proj. Lei 1995/1998 - Requerimentos sem Número',123);">Requerimentos sem Número</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vprop?OpenView', 'Proj. Lei 1995/1998 - Proposições Gerais',124);">Proposições Gerais</a></li>
+                  </ul>
+                  </div>
+                </li>
+                 <!--  /-->
+                <li class="pai">
+                  <a href="#">Proj. Lei 1991/1994<span class="caret"></span></a>
+                  <div class="submenu_movel">
+                  <ul>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vEmenda?OpenView','Proj. Lei 1991/1994 - Proj. Emenda Const. 1991-1994',125);">Proj. Emenda Const.</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vLeiComp?OpenView', 'Proj. Lei 1991/1994 - Proj. de Lei Complementar',126);">Proj. de Lei Complementar</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vLei?OpenView', 'Proj. Lei 1991/1994 - Proj. de Lei',127);" >Proj. de Lei</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vDecreto?OpenView', 'Proj. Lei 1991/1994 - Proj. Decreto Legislativo',128);">Proj. Decreto Legislativo</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vResolucao?OpenView', 'Proj. Lei 1991/1994 - Proj. de Resolução',129);">Proj. de Resolução</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vIndLeg?OpenView', 'Proj. Lei 1991/1994 - Indicações Legislativas',130);">Indicações Legislativas</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vIndicacao?OpenView', 'Proj. Lei 1991/1994 - Indicações',131);">Indicações</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vMensagem?OpenView', 'Proj. Lei 1991/1994 - Mensagens',132);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vMocao?OpenView','Proj. Lei 1995/1998 - Moções',133);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vOficio?OpenView', 'Proj. Lei 1995/1998 - Ofícios',134);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vProcesso?OpenView', 'Proj. Lei 1995/1998 - Processos',135);">Processos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vReq?OpenView', 'Proj. Lei 1991/1994 - Requerimentos',136);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vReqInf?OpenView', 'Proj. Lei 1991/1994 - Requerimentos de Infor.',137);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vReqSN?OpenView', 'Proj. Lei 1991/1994 - Requerimentos sem Número',138);">Requerimentos sem Número</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vProp?OpenView', 'Proj. Lei 1991/1994 - Proposições Gerais',139);">Proposições Gerais</a></li>
+                  </ul>
+                  </div>
+                </li>
+                            <li class="pai">
+                              <a href="#">Leis Estaduais<span class="caret"></span></a>
+                              <div class="submenu_movel">
+                              <ul>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/DecretoInt?OpenForm','Legislação - Decretos Legislativos',50);">Decretos Legislativos</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/EmendaInt?OpenForm', 'Emendas Constitucionais',51);">Emendas Constitucionais</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/LeiCompInt?OpenForm', 'Leis Complementares',52);">Leis Complementares</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/LeiOrdInt?OpenForm', 'Leis Ordinárias',53);">Leis Ordinárias</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/ResolucaoInt?OpenForm','Resoluções',54);">Resoluções</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/GeralInt?OpenForm', 'Legislações Gerais',55);">Legislações Gerais</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                            <li>
+                                <a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/IndicacaoInt?OpenForm','Sugest. Legisl. Aprovadas',56);">Suges. Legisl. Aprovadas</a> 
+                            </li>
+                            <li class="pai">
+                              <a href="#">Discursos e Votações<span class="caret"></span></a>
+                              <div class="submenu_movel">
+                              <ul>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/taqalerj.nsf/AnoInt?OpenForm','Discursos e Votações - 2015/2019',57);">Legislatura 2015/2019</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/taqalerj2006.nsf/AnoInt?OpenForm', 'Discursos e Votações - Legislaturas Ant.',58);">Legislaturas Anteriores</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/ordemdia.nsf/OrdemInt?OpenForm','Ordem do Dia',59);">Ordem do Dia</a> </li>
+                            <li class="pai">
+                              <a href="#">Comissões<span class="caret"></span></a>
+                              <div class="submenu_movel">
+                              <ul>
+                                <li class="dropdown-header">O que são</li>
+                                <li><a href="#" onclick="openURL('/comissao/center_comis_oque.asp','O que São?',60);">Resumo</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/compcom.nsf/ComCompInt?OpenForm','Composição das Comissões Permanentes',61);">Comissões Permanentes</a></li>
+                                <li><a href="#" onclick="openURL('/comissao/cpi.asp','CPI',62);">CPI (Comissões Parlamentares de Inquérito)</a></li>
+                                <li><a href="#" onclick="openURL('/comissao/especiais.asp','Comissões Especiais',63);">Comissões Especiais</a></li>
+                                <li><a href="#" onclick="openURL('/comissao/com_rep.asp','Comissões de Representação',64);">Comissões de Representação</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Permanentes</li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/compcom.nsf/AtasInt?OpenForm','Comissões Permanentes - Atas',65);">Atas</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/compcom.nsf/EditalInt?OpenForm','Comissões Permanentes - Editais',66);">Editais</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/CCParInt?OpenForm','Comissões Permanentes - Pareceres',67);">Pareceres</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/compcom.nsf/ComCompInt?OpenForm','Comissões Permanentes - Composição',68);">Composição</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Temporárias</li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/comtemp.nsf/AtasInt?OpenForm','Comissões Temporárias - Atas',69);">Atas</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/comtemp.nsf/EditalInt?OpenForm','Comissões Temporárias - Editais',70);">Editais</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/comtemp.nsf/ComCompInt?OpenForm','Comissões Temporárias - Composição',71);">Composição</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                            <li class="pai">
+                              <a href="#">Constituições<span class="caret"></span></a>
+                              <div class="submenu_movel" >
+                              <ul>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/constfed.nsf/IndiceInt?OpenForm','Constituição Federal',72);">Federal</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/constest.nsf/IndiceInt?OpenForm','Constituição Estadual',73);">Estadual</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/regiment2.nsf/IndiceInt?OpenForm','Regimento Interno',74);">Regimento Interno</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/codj.nsf/IndiceInt?OpenForm','Código de Organização e Div. Judiciária',75);">Código de Organização e Div. Judiciária</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/estatuto.nsf/IndiceInt?OpenForm','Estatuto',76);">Estatudo dos Sevidores</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/regestservidor.nsf/IndiceInt?OpenForm','Regulamento do Estatuto dos Servidores Est. RJ',77);">Regulamento do Estatuto dos Servidores Est. RJ</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/regsec.nsf/IndiceInt?OpenForm','Regulamento da Secretaria da ALERJ',78);">Regulamento da Secretaria da ALERJ</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/codpar.nsf/IndiceInt?OpenForm','Código de Ética e Decoro Parlamentar',79);">Código de Ética e Decoro Parlamentar</a></li>
+                              </ul>
+                              </div>
+                            </li>
+                <!--  /-->
+            </ul>
+                    </div>
+                    <div class="detalhe"></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="http://www.alerj.rj.gov.br">INÍCIO</a></li>                
+                <li><a href="#"  onclick="window.history.back();">VOLTAR</a></li>   
+                <li class="pai">
+                    <a href="#">Processo Legislativo<span class="caret"></span></a>
+                    <div class="submenu">
+                    <ul>
+                        <li><a href="#" onclick="openURL('http://www2.alerj.rj.gov.br/center_proc_oque.htm', 'O que é Processo Legislativo',1);">O que é Processo Legislativo</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/CONTLEI.NSF/LeiOrdInt?OpenForm', 'Leis Estaduais',2);">Leis Estaduais</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/LeiInt?OpenForm', 'Projetos de Lei',157);">Projetos de Leis</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/EmendaInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. Emenda Const. 2023-2027',159);">Proj. Emenda Const. 2023-2027</a></li>
+                    </ul>
+                    <div class='detalhe'></div>
+                    </div>
+                </li>
+				<li class="pai">
+                  <a href="#">Proj. Lei 2023/2027<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Projetos">Projetos</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2023/2027 - Proj. Emenda Const. 2023/2027',158);">Proj. Emenda Const.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. de Lei Complementar',160);">Proj. de Lei Complementar</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. de Lei',161);" >Proj. de Lei</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. Decreto Legislativo',162);">Proj. Decreto Legislativo</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2023/2027 - Proj. de Resolução',163);">Proj. de Resolução</a></li>
+                        </ul>
+                    </li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Indicações">Indicações</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2023/2027 - Indicações Legislativas',164);">Indicações Legislativas</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2023/2027 - Indicações',165);">Indicações</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2023/2027 - Mensagens',166);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2023/2027 - Moções',167);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2023/2027 - Ofícios',168);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2023/2027 - Processos',169);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2023/2027 - Requerimentos',170);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2023/2027 - Requerimentos de Infor.',171);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2023/2027 - Requerimentos sem Número',172);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro2327.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2023/2027 - Proposições Gerais',173);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+				<li class="pai">
+                  <a href="#">Proj. Lei 2019/2023<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Projetos">Projetos</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2019/2023 - Proj. Emenda Const. 2019/2023',142);">Proj. Emenda Const.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2019/2023 - Proj. de Lei Complementar',143);">Proj. de Lei Complementar</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2019/2023 - Proj. de Lei',144);" >Proj. de Lei</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2019/2023 - Proj. Decreto Legislativo',145);">Proj. Decreto Legislativo</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2019/2023 - Proj. de Resolução',146);">Proj. de Resolução</a></li>
+                        </ul>
+                    </li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Indicações">Indicações</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2019/2023 - Indicações Legislativas',147);">Indicações Legislativas</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2019/2023 - Indicações',148);">Indicações</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2019/2023 - Mensagens',149);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2019/2023- Moções',150);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2019/2023 - Ofícios',151);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2019/2023 - Processos',152);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2019/2023 - Requerimentos',153);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2019/2023 - Requerimentos de Infor.',154);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2019/2023 - Requerimentos sem Número',155);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1923.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2019/2023- Proposições Gerais',156);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                <li class="pai">
+                  <a href="#">Proj. Lei 2015/2019<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Projetos">Projetos</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2015/2019 - Proj. Emenda Const. 2015-2019',5);">Proj. Emenda Const.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2015/2019 - Proj. de Lei Complementar',6);">Proj. de Lei Complementar</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2015/2019 - Proj. de Lei',7);" >Proj. de Lei</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2015/2019 - Proj. Decreto Legislativo',8);">Proj. Decreto Legislativo</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2015/2019 - Proj. de Resolução',9);">Proj. de Resolução</a></li>
+                        </ul>
+                    </li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Indicações">Indicações</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2015/2019 - Indicações Legislativas',10);">Indicações Legislativas</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2015/2019 - Indicações',11);">Indicações</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2015/2019 - Mensagens',12);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2015/2019- Moções',13);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2015/2019 - Ofícios',14);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2015/2019 - Processos',15);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2015/2019 - Requerimentos',16);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2015/2019 - Requerimentos de Infor.',17);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2015/2019 - Requerimentos sem Número',18);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2015/2019- Proposições Gerais',19);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                <li class="pai">
+                  <a>Proj. Lei 2011/2015<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Projetos">Projetos</a>
+                        <ul class="submenu_filho_pai comissoes" >                        
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2011/2015 - Proj. Emenda Const. 2011-2015',20);">Proj. Emenda Const.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2011/2015 - Proj. de Lei Complementar',21);">Proj. de Lei Complementar</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2011/2015 - Proj. de Lei',22);" >Proj. de Lei</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2011/2015 - Proj. Decreto Legislativo',23);">Proj. Decreto Legislativo</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2011/2015 - Proj. de Resolução',24);">Proj. de Resolução</a></li>
+                        </ul>
+                     </li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Indicações">Indicações</a>
+                        <ul class="submenu_filho_pai comissoes" >                        
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2011/2015 - Indicações Legislativas',25);">Indicações Legislativas</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2011/2015 - Indicações',26);">Indicações</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2011/2015 - Mensagens',27);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2011/2015 - Moções',28);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2011/2015 - Ofícios',29);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2011/2015 - Processos',30);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >                        
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2011/2015 - Requerimentos',31);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2011/2015 - Requerimentos de Infor.',32);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2011/2015 - Requerimentos sem Número',33);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1115.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2011/2015 - Proposições Gerais',34);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                <li class="pai">
+                  <a href="#">Proj. Lei 2007/2011<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                        <li class="filho_pai">
+                            <a id="filho_pai" target="" href="#" title="Projetos">Projetos</a>
+                            <ul class="submenu_filho_pai comissoes" >
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2007/2011 - Proj. Emenda Const. 2011-2015',35);">Proj. Emenda Const.</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2007/2011 - Proj. de Lei Complementar',36);">Proj. de Lei Complementar</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2007/2011 - Proj. de Lei',37);" >Proj. de Lei</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2007/2011 - Proj. Decreto Legislativo',38);">Proj. Decreto Legislativo</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2007/2011 - Proj. de Resolução',39);">Proj. de Resolução</a></li>
+                            </ul>
+                       </li>
+                        <li class="filho_pai">
+                            <a id="filho_pai" target="" href="#" title="Indicações">Indicações</a>
+                            <ul class="submenu_filho_pai comissoes" >                        
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2007/2011 - Indicações Legislativas',40);">Indicações Legislativas</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2007/2011 - Indicações',41);">Indicações</a></li>
+                            </ul>
+                       </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2007/2011 - Mensagens',42);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2007/2011 - Moções',43);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2007/2011 - Ofícios',44);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2007/2011 - Processos',45);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="filho_pai" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >                        
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2007/2011 - Requerimentos',46);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2007/2011 - Requerimentos de Infor.',47);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2007/2011 - Requerimentos sem Número',48);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0711.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2007/2011 - Proposições Gerais',49);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                                <!--  /-->
+                <li class="pai">
+                  <a href="#">Proj. Lei 2003/2007<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                        <li class="filho_pai">
+                            <a id="A1" target="" href="#" title="Projetos">Projetos</a>
+                            <ul class="submenu_filho_pai comissoes" >
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 2003/2007 - Proj. Emenda Const. 2003-2007',80);">Proj. Emenda Const.</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 2003/2007 - Proj. de Lei Complementar',81);">Proj. de Lei Complementar</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/LeiInt?OpenForm', 'Proj. Lei 2003/2007 - Proj. de Lei',82);" >Proj. de Lei</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 2003/2007 - Proj. Decreto Legislativo',38);">Proj. Decreto Legislativo</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 2003/2007 - Proj. de Resolução',84);">Proj. de Resolução</a></li>
+                            </ul>
+                       </li>
+                        <li class="filho_pai">
+                            <a id="A2" target="" href="#" title="Indicações">Indicações</a>
+                            <ul class="submenu_filho_pai comissoes" >                        
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 2003/2007 - Indicações Legislativas',85);">Indicações Legislativas</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 2003/2007 - Indicações',86);">Indicações</a></li>
+                            </ul>
+                       </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 2003/2007 - Mensagens',87);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 2003/2007 - Moções',88);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 2003/2007 - Ofícios',89);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 2003/2007 - Processos',90);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="A3" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >                        
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 2003/2007 - Requerimentos',91);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 2003/2007 - Requerimentos de Infor.',92);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 2003/2007 - Requerimentos sem Número',93);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 2003/2007 - Proposições Gerais',94);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>                
+                <!--  /-->
+                <li class="pai">
+                  <a href="#">Proj. Lei 1999/2003<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                        <li class="filho_pai">
+                            <a id="A7" target="" href="#" title="Projetos">Projetos</a>
+                            <ul class="submenu_filho_pai comissoes" >
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/EmendaInt?OpenForm','Proj. Lei 1999/2003 - Proj. Emenda Const. 1999-2003',95);">Proj. Emenda Const.</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/LeiCompInt?OpenForm', 'Proj. Lei 1999/2003 - Proj. de Lei Complementar',96);">Proj. de Lei Complementar</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vlei?OpenView', 'Proj. Lei 1999/2003 - Proj. de Lei',97);" >Proj. de Lei</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/DecretoInt?OpenForm', 'Proj. Lei 1999/2003 - Proj. Decreto Legislativo',98);">Proj. Decreto Legislativo</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ResolucaoInt?OpenForm', 'Proj. Lei 1999/2003 - Proj. de Resolução',99);">Proj. de Resolução</a></li>
+                            </ul>
+                       </li>
+                        <li class="filho_pai">
+                            <a id="A8" target="" href="#" title="Indicações">Indicações</a>
+                            <ul class="submenu_filho_pai comissoes" >                        
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/IndLegInt?OpenForm', 'Proj. Lei 1999/2003 - Indicações Legislativas',100);">Indicações Legislativas</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/IndInt?OpenForm', 'Proj. Lei 1999/2003 - Indicações',101);">Indicações</a></li>
+                            </ul>
+                       </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/MensInt?OpenForm', 'Proj. Lei 1999/2003 - Mensagens',102);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/MocaoInt?OpenForm','Proj. Lei 1999/2003 - Moções',103);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/OficioInt?OpenForm', 'Proj. Lei 1999/2003 - Ofícios',104);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ProcessoInt?OpenForm', 'Proj. Lei 1999/2003 - Processos',105);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="A9" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >                        
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ReqInt?OpenForm', 'Proj. Lei 1999/2003 - Requerimentos',106);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ReqInfInt?OpenForm', 'Proj. Lei 1999/2003 - Requerimentos de Infor.',107);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/ReqSNInt?OpenForm', 'Proj. Lei 1999/2003 - Requerimentos sem Número',108);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro99.nsf/Internet/PropInt?OpenForm', 'Proj. Lei 1999/2003 - Proposições Gerais',109);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                <!--  /-->
+                <li class="pai">
+                  <a href="#">Proj. Lei 1995/1998<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                        <li class="filho_pai">
+                            <a id="A10" target="" href="#" title="Projetos">Projetos</a>
+                            <ul class="submenu_filho_pai comissoes" >
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vemenda?OpenView','Proj. Lei 1995/1998 - Proj. Emenda Const. 1995-1998',110);">Proj. Emenda Const.</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vleicomp?OpenView', 'Proj. Lei 1995/1998 - Proj. de Lei Complementar',111);">Proj. de Lei Complementar</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vlei?OpenView', 'Proj. Lei 1995/1998 - Proj. de Lei',112);" >Proj. de Lei</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vdecreto?OpenView', 'Proj. Lei 1995/1998 - Proj. Decreto Legislativo',113);">Proj. Decreto Legislativo</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vresolucao?OpenView', 'Proj. Lei 1995/1998 - Proj. de Resolução',114);">Proj. de Resolução</a></li>
+                            </ul>
+                       </li>
+                        <li class="filho_pai">
+                            <a id="A11" target="" href="#" title="Indicações">Indicações</a>
+                            <ul class="submenu_filho_pai comissoes" >                        
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vindLeg?OpenView', 'Proj. Lei 1995/1998 - Indicações Legislativas',115);">Indicações Legislativas</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vindicacao?OpenView', 'Proj. Lei 1995/1998 - Indicações',116);">Indicações</a></li>
+                            </ul>
+                       </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vMensagem?OpenView', 'Proj. Lei 1995/1998 - Mensagens',117);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vmocao?OpenView','Proj. Lei 1995/1998 - Moções',118);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/voficio?OpenView', 'Proj. Lei 1995/1998 - Ofícios',119);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vprocesso?OpenView', 'Proj. Lei 1995/1998 - Processos',120);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="A12" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >                        
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vreq?OpenView', 'Proj. Lei 1995/1998 - Requerimentos',121);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vreqinfo?OpenView', 'Proj. Lei 1995/1998 - Requerimentos de Infor.',122);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vreqSN?OpenView', 'Proj. Lei 1995/1998 - Requerimentos sem Número',123);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro.nsf/vprop?OpenView', 'Proj. Lei 1995/1998 - Proposições Gerais',124);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                 <!--  /-->
+                <li class="pai">
+                  <a href="#">Proj. Lei 1991/1994<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                        <li class="filho_pai">
+                            <a id="A13" target="" href="#" title="Projetos">Projetos</a>
+                            <ul class="submenu_filho_pai comissoes" >
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vEmenda?OpenView','Proj. Lei 1991/1994 - Proj. Emenda Const. 1991-1994',125);">Proj. Emenda Const.</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vLeiComp?OpenView', 'Proj. Lei 1991/1994 - Proj. de Lei Complementar',126);">Proj. de Lei Complementar</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vLei?OpenView', 'Proj. Lei 1991/1994 - Proj. de Lei',127);" >Proj. de Lei</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vDecreto?OpenView', 'Proj. Lei 1991/1994 - Proj. Decreto Legislativo',128);">Proj. Decreto Legislativo</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vResolucao?OpenView', 'Proj. Lei 1991/1994 - Proj. de Resolução',129);">Proj. de Resolução</a></li>
+                            </ul>
+                       </li>
+                        <li class="filho_pai">
+                            <a id="A14" target="" href="#" title="Indicações">Indicações</a>
+                            <ul class="submenu_filho_pai comissoes" >                        
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vIndLeg?OpenView', 'Proj. Lei 1991/1994 - Indicações Legislativas',130);">Indicações Legislativas</a></li>
+                                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vIndicacao?OpenView', 'Proj. Lei 1991/1994 - Indicações',131);">Indicações</a></li>
+                            </ul>
+                       </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vMensagem?OpenView', 'Proj. Lei 1991/1994 - Mensagens',132);">Mensagens</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vMocao?OpenView','Proj. Lei 1995/1998 - Moções',133);">Moções</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vOficio?OpenView', 'Proj. Lei 1995/1998 - Ofícios',134);">Ofícios</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vProcesso?OpenView', 'Proj. Lei 1995/1998 - Processos',135);">Processos</a></li>
+                    <li class="filho_pai">
+                        <a id="A15" target="" href="#" title="Requerimentos">Requerimentos</a>
+                        <ul class="submenu_filho_pai comissoes" >                        
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vReq?OpenView', 'Proj. Lei 1991/1994 - Requerimentos',136);">Requerimentos</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vReqInf?OpenView', 'Proj. Lei 1991/1994 - Requerimentos de Infor.',137);">Requerimentos de Infor.</a></li>
+                            <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vReqSN?OpenView', 'Proj. Lei 1991/1994 - Requerimentos sem Número',138);">Requerimentos sem Número</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro91_94.nsf/vProp?OpenView', 'Proj. Lei 1991/1994 - Proposições Gerais',139);">Proposições Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                <li class="pai">
+                  <a href="#">Leis Estaduais<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/DecretoInt?OpenForm','Legislação - Decretos Legislativos',50);">Decretos Legislativos</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/EmendaInt?OpenForm', 'Emendas Constitucionais',51);">Emendas Constitucionais</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/LeiCompInt?OpenForm', 'Leis Complementares',52);">Leis Complementares</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/LeiOrdInt?OpenForm', 'Leis Ordinárias',53);">Leis Ordinárias</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/ResolucaoInt?OpenForm','Resoluções',54);">Resoluções</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/GeralInt?OpenForm', 'Legislações Gerais',55);">Legislações Gerais</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                <li>
+                    <a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/contlei.nsf/IndicacaoInt?OpenForm','Sugest. Legisl. Aprovadas',56);">Suges. Legisl. Aprovadas</a> 
+                </li>
+                <li class="pai">
+                  <a href="#">Discursos e Votações<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/taqalerj.nsf/AnoInt?OpenForm','Discursos e Votações - 2015/2019',57);">Legislatura 2015/2019</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/taqalerj2006.nsf/AnoInt?OpenForm', 'Discursos e Votações - Legislaturas Ant.',58);">Legislaturas Anteriores</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/ordemdia.nsf/OrdemInt?OpenForm','Ordem do Dia',59);">Ordem do Dia</a> </li>
+                <li class="pai">
+                  <a href="#">Comissões<span class="caret"></span></a>
+                  <div class="submenu">
+                  <ul>
+                    <li class="filho_pai">
+                    <a id="filho_pai" target="" href="#" title="O que são">O que são</a>
+                    <ul class="submenu_filho_pai comissoes" >
+                        <li><a href="#" onclick="openURL('/comissao/center_comis_oque.asp','O que São?',60);">Resumo</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/compcom.nsf/ComCompInt?OpenForm','Composição das Comissões Permanentes',61);">Comissões Permanentes</a></li>
+                        <li><a href="#" onclick="openURL('/comissao/cpi.asp','CPI',62);">CPI (Comissões Parlamentares de Inquérito)</a></li>
+                        <li><a href="#" onclick="openURL('/comissao/especiais.asp','Comissões Especiais',63);">Comissões Especiais</a></li>
+                        <li><a href="#" onclick="openURL('/comissao/com_rep.asp','Comissões de Representação',64);">Comissões de Representação</a></li>
+                    </ul>
+                    </li>
+                    <li class="filho_pai">
+                    <a id="filho_pai" target="" href="#" title="Permanentes">Permanetes</a>
+                    <ul class="submenu_filho_pai">
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/compcom.nsf/AtasInt?OpenForm','Comissões Permanentes - Atas',65);">Atas</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/compcom.nsf/EditalInt?OpenForm','Comissões Permanentes - Editais',66);">Editais</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/scpro1519.nsf/Internet/CCParInt?OpenForm','Comissões Permanentes - Pareceres',67);">Pareceres</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/compcom.nsf/ComCompInt?OpenForm','Comissões Permanentes - Composição',68);">Composição</a></li>
+                    </ul>
+                    </li>
+                    <li class="filho_pai">
+                    <a id="filho_pai" target="" href="#" title="Temporárias">Temporárias</a>
+                    <ul class="submenu_filho_pai">
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/comtemp.nsf/AtasInt?OpenForm','Comissões Temporárias - Atas',69);">Atas</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/comtemp.nsf/EditalInt?OpenForm','Comissões Temporárias - Editais',70);">Editais</a></li>
+                        <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/comtemp.nsf/ComCompInt?OpenForm','Comissões Temporárias - Composição',71);">Composição</a></li>
+                    </ul>
+                    </li> 
+                   </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li>
+                <li class="pai">
+                  <a href="#">Constituições<span class="caret"></span></a>
+                  <div class="submenu" >
+                  <ul>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/constfed.nsf/IndiceInt?OpenForm','Constituição Federal',72);">Federal</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/constest.nsf/IndiceInt?OpenForm','Constituição Estadual',73);">Estadual</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/regiment2.nsf/IndiceInt?OpenForm','Regimento Interno',74);">Regimento Interno</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/codj.nsf/IndiceInt?OpenForm','Código de Organização e Div. Judiciária',75);">Código de Organização e Div. Judiciária</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/estatuto.nsf/IndiceInt?OpenForm','Estatuto',76);">Estatudo dos Sevidores</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/regestservidor.nsf/IndiceInt?OpenForm','Regulamento do Estatuto dos Servidores Est. RJ',77);">Regulamento do Estatuto dos Servidores Est. RJ</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/regsec.nsf/IndiceInt?OpenForm','Regulamento da Secretaria da ALERJ',78);">Regulamento da Secretaria da ALERJ</a></li>
+                    <li><a href="#" onclick="openURL('http://alerjln1.alerj.rj.gov.br/codpar.nsf/IndiceInt?OpenForm','Código de Ética e Decoro Parlamentar',79);">Código de Ética e Decoro Parlamentar</a></li>
+                  </ul>
+                  <div class='detalhe'></div>
+                  </div>
+                </li> 
+            </ul>
+        </div>
+</div>
+<div class="base_menu linha2"> 
+<div class="menu"></div>
+</div>
+<div class="base_menu linha2"> 
+<div class="menu"></div>
+</div>
+    <div class="interna">
+    <div class="controle">
+    	<div class="conteudo_total">
+                <div class="pagina_central" >
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+   <form class="navbar-form navbar-right" role="search" id="searchNotes" >
+        <label>Pesquisar</label>
+        <div class="form-group">
+            <input type="text" id="txtPesquisa" class="form-control" placeholder="digite o assunto" />
+        </div>
+        <label>Em</label>
+        <div class="form-group">        
+            <select name="status" id="viewsNotes"  class="form-control" >
+            <option value="0">Atos do Executivo</option>
+            <option value="1">Cod. Org. Juridica</option>
+            <option value="2">Constituição Estadual</option>
+            <option value="3">Constituição Federal</option>
+            <option value="4">Discursos e Votações</option>
+            <option value="5">Legislação</option>
+            <option value="6">Ordem do Dia</option>
+            <option value="7">Processo Leg. 2003/2007</option>
+            <option value="8">Processo Leg. 2007/2011</option>
+            <option value="9">Processo Leg. 2011/2015</option>
+            <option value="10">Processo Leg. 2015/2019</option>
+            <option value="11">Processo Leg. 2019/2023</option>
+            <option value="12">Processo Leg. 2023/2027</option>
+            </select>
+        </div> 
+        <button type="button" class="btn btn-post" onclick="buscaGeral();">pesquisar</button>
+        <button type="button" class="btn btn-default" onclick="window.location = 'default.asp';">limpar</button>
+    </form>
+  </div>
+</nav>
+    <div class="jumbotron" id="divLoading">
+        <p><img src="imagens/loading.gif" alt="Aguarde, carregando..." /><span id="msg">Aguarde, carregando o conteúdo</span></p>
+    </div>
+    <h2 id="titulo" class="page-header"></h2>
+    <a id="lnkPrintBusca" class="voltar hidden" onclick="window.print();" value="imprimir" href="#" ><span class="glyphicon glyphicon-print" ></span></a>
+
+<div id="divConteudo">
+
+        <div class="alert alert-warning" role="alert">
+            <a id="A1" onclick="openNotes();" href="#" >Clique aqui caso você tenha dificuldade em ler o conteúdo desta página</a>
+        </div>
+
+        <div id="barraBotoes" style="display:block; width:100%;float:left;">
+        <a id="lnkReload" class="voltar" onclick="refreshFrame(66);" value="atualizar" href="#" ><span class="glyphicon glyphicon-refresh" ></span></a>
+        <a id="lnkPrint" class="voltar" onclick="printNotes();" value="imprimir" href="#" ><span class="glyphicon glyphicon-print" ></span></a>
+                
+                    <a id="lnkAbrir" class="voltar" onclick="openNotes();" value="abrir" href="#" ><span class="glyphicon glyphicon-open-file" ></span></a>
+
+                    <a class="voltar" onclick="loadFormNotes2(66 , '/compcom.nsf/EditalInt?OpenForm', 'Comissões Permanentes - Editais -> Por Ano',0);"  href="#" alt="por ano">Por Ano</a>
+        
+    </div>
+   <div style='width:100%;'>
+
+
+
+
+
+<form method="post" target="_blank" action="http://alerjln1.alerj.rj.gov.br/compcom.nsf/4ccb4c0dd764aaa1832569d7004efbb8?CreateDocument" id="_DominoForm" name="_DominoForm">
+<map name="222.map">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/$searchForm?SearchView" shape="rect" coords="366,1,467,17" alt="">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;CollapseView" shape="rect" coords="153,3,223,17" alt="">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;ExpandView" shape="rect" coords="225,0,289,18" alt="">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;Start=1.3.4" shape="rect" coords="0,4,82,18" alt="">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;Start=1" shape="rect" coords="80,3,152,18" alt=""></map>
+<a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f71436635b6773a00325680f0067b97d?OpenNavigator"><img src="http://alerjln1.alerj.rj.gov.br/compcom.nsf/f71436635b6773a00325680f0067b97d/$ViewMapLayout/0.446?OpenElement&amp;FieldElemFormat=gif" width="492" height="19" usemap="#222.map" border="0" ismap></a><br>
+
+<div class="table-responsive" style="overflow-x:scroll; -webkit-overflow-scrolling: auto;"><table class="table">
+<tr><th><img width="16" height="1" src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" alt=""></th><th><img width="16" height="1" src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" alt=""></th><th nowrap align="center"><b><font size="2" face="Verdana">Data</font></b></th><th nowrap align="center"><b><font size="2" face="Verdana">Editais</font></b></th><th nowrap align="left"><b><font size="2">Comissões</font></b></th><th nowrap align="left"><b><font size="2">Cancelado/Republicado</font></b></th><th></th></tr>
+
+<tr><td colspan="6">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;Start=1&amp;Count=15&amp;Collapse=1" target="_self"><img src="http://alerjln1.alerj.rj.gov.br/icons/collapse.gif" border="0" height="16" width="16" alt="Hide details for 2026"></a></td><td><b><font >2026</font></b></td></tr>
+</table></div>
+</td><td></td></tr>
+
+<tr><td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr>
+</table></div>
+</td><td colspan="5">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;Start=1&amp;Count=15&amp;Collapse=1.1" target="_self"><img src="http://alerjln1.alerj.rj.gov.br/icons/collapse.gif" border="0" height="16" width="16" alt="Hide details for Comissão da Pessoa com Deficiência"></a></td><td><font >Comissão da Pessoa com Deficiência</font></td></tr>
+</table></div>
+</td><td></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/832550e376a6004d03258e1e006b4740?OpenDocument">25/06/2026</a></font></td><td><font >3ª Reunião ORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão da Pessoa com Deficiência</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/a6d0907c8c5e9dd003258df400700ad2?OpenDocument">14/05/2026</a></font></td><td><font >2ª Reunião ORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão da Pessoa com Deficiência</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/59d474221068099e03258de1006445bf?OpenDocument">30/04/2026</a></font></td><td><font >Audiência Pública</font></td><td><font size="2" face="Arial">Comissão da Pessoa com Deficiência</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/a7b5bcb274763f3903258dd1006ab73d?OpenDocument">09/04/2026</a></font></td><td><font >Audiência Pública</font></td><td><font size="2" face="Arial">Comissão da Pessoa com Deficiência</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/5200b2143d0c6f7d03258d99006c6395?OpenDocument">12/02/2026</a></font></td><td><font >1ª Reunião ORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão da Pessoa com Deficiência</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr>
+</table></div>
+</td><td colspan="5">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;Start=1&amp;Count=15&amp;Collapse=1.2" target="_self"><img src="http://alerjln1.alerj.rj.gov.br/icons/collapse.gif" border="0" height="16" width="16" alt="Hide details for Comissão de Agricultura Pecuária e Políticas Rural Agraria e Pesqueira"></a></td><td><font >Comissão de Agricultura Pecuária e Políticas Rural Agraria e Pesqueira</font></td></tr>
+</table></div>
+</td><td></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/c33fe9187da2ac1803258e2200731f79?OpenDocument">30/06/2026</a></font></td><td><font >2ª Reunião EXTRAORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão de Agricultura Pecuária e Políticas Rural Agraria e Pesqueira</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/df76341788cff18103258e17005da18f?OpenDocument">17/06/2026</a></font></td><td><font >1ª Reunião EXTRAORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão de Agricultura Pecuária e Políticas Rural Agraria e Pesqueira</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr>
+</table></div>
+</td><td colspan="5">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;Start=1&amp;Count=15&amp;Collapse=1.3" target="_self"><img src="http://alerjln1.alerj.rj.gov.br/icons/collapse.gif" border="0" height="16" width="16" alt="Hide details for Comissão de Assuntos da Criança do Adolescente e do Idoso"></a></td><td><font >Comissão de Assuntos da Criança do Adolescente e do Idoso</font></td></tr>
+</table></div>
+</td><td></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/9e21039044d5588b03258e8a0062cc93?OpenDocument">14/10/2026</a></font></td><td><font >9ª Reunião EXTRAORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão de Assuntos da Criança do Adolescente e do Idoso</font></td><td><font size="2" face="Arial">Republicado</font></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/fba7da055e46a83103258e140068a532?OpenDocument">16/06/2026</a></font></td><td><font >8ª Reunião EXTRAORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão de Assuntos da Criança do Adolescente e do Idoso</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/9595a69d544a80c303258e03006c2552?OpenDocument">02/06/2026</a></font></td><td><font >6ª Reunião EXTRAORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão de Assuntos da Criança do Adolescente e do Idoso</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+
+<tr><td></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="1" width="16" alt=""><font ><a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/5e9c2aef975b721803258e040062f248?OpenDocument">02/06/2026</a></font></td><td><font >7ª Reunião EXTRAORDINÁRIA</font></td><td><font size="2" face="Arial">Comissão de Assuntos da Criança do Adolescente e do Idoso</font></td><td></td><td><img src="http://alerjln1.alerj.rj.gov.br/icons/ecblank.gif" border="0" height="16" width="1" alt=""></td></tr>
+</table></div>
+<br>
+
+<map name="222.map">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/f70dd9b364d412fa802567f8006df54c/$searchForm?SearchView" shape="rect" coords="366,1,467,17" alt="">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;CollapseView" shape="rect" coords="153,3,223,17" alt="">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;ExpandView" shape="rect" coords="225,0,289,18" alt="">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;Start=1.3.4" shape="rect" coords="0,4,82,18" alt="">
+<area href="#" onclick="loadFormNotes(66 , this);" data-role="/compcom.nsf/EditalInt?OpenForm&amp;Start=1" shape="rect" coords="80,3,152,18" alt=""></map>
+<a href="#" onclick="loadFormNotes(66, this);" data-role="/compcom.nsf/f71436635b6773a00325680f0067b97d?OpenNavigator"><img src="http://alerjln1.alerj.rj.gov.br/compcom.nsf/f71436635b6773a00325680f0067b97d/$ViewMapLayout/0.446?OpenElement&amp;FieldElemFormat=gif" width="492" height="19" usemap="#222.map" border="0" ismap></a><script>
+</script>
+
+<!--
+<input type="submit" value="">-->   </form>
+
+
+</div>
+        <div style="width:100%;padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; left:0px;">
+        <div class="alert alert-warning" style="max-width:1000px; margin-left:15%; role="alert">
+            <a id="A2" onclick="openNotes();" href="#" >Clique aqui caso você tenha dificuldade em ler o conteúdo desta página</a>
+        </div>
+        </div>
+
+</div>
+<script language="javascript" type="text/javascript">
+    function loadFormNotes(id, me) {
+        try {
+            var encUrl = btoa($(me).attr('data-role'));
+            //alert(url);
+            //alert($(me).attr('data-role'));
+            window.location = 'default.asp?id=' + id + '&url=' + encUrl;
+        }
+        catch (ex) {
+            alert('Erro ao carregar o formulário do notes: ' + ex);
+        }
+
+        return false;
+    }
+
+    function loadFormNotes2(id, url, titulo, codigo) {
+        try {
+            var encUrl = btoa(url);
+            var encTitulo = "";
+            if (titulo.length > 0) { encTitulo = '&titulo= ' + titulo; }
+
+            //alert(url);
+            //alert($(me).attr('data-role'));
+            window.location = 'default.asp?id=' + id + '&url=' + encUrl + encTitulo;
+        }
+        catch (ex) {
+            alert('Erro ao carregar o formulário do notes: ' + ex);
+        }
+
+        return false;
+    }
+</script>
+
+<script language='javascript'> $('#titulo').append('Comissões Permanentes - Editais');</script></div>
+</div>
+</div>
+</div>
+<div class="inferior interna">
+	<div class="controle_botao">
+		<a href="javascript:;" class="scrolltop">TOPO</a>
+    </div>
+	<div class="controle">
+		<div class="logotipo">
+			<a href="http://www.alerj.rj.gov.br" title="Assembléia Legislativa do Estado do Rio de Janeiro"><img src="imagens/logotipo_inferior.png" width="145" alt="Assembléia Legislativa do Estado do Rio de Janeiro" title="Assembléia Legislativa do Estado do Rio de Janeiro"></a>
+		</div>
+		<div class="informacoes">
+			<p class="titulo">PALÁCIO TIRADENTES</p>
+			<p>Rua Primeiro de Março, s/n - Praça XV - Rio de Janeiro<br />
+				<span>CEP</span> 20010-090 &nbsp;&nbsp; <span>Telefone</span> +55 (21) 2588-1000 &nbsp;&nbsp; <span>Fax</span> +55 (21) 2588-1516</p>
+		</div>
+		<div class="redes_sociais">
+			<div class="logotipo_redes"><a href="https://instagram.com/instalerj/" title="Instagram" target="_blank"><img src="imagens/icone_36.png" width="20" height="20" alt="Instagram" title="Instagram"></a></div>
+			<div class="logotipo_redes"><a href="https://www.facebook.com/assembleiaRJ" title="Facebook" target="_blank"><img src="imagens/icone_06.png" width="20" height="20" alt="Facebook" title="Facebook"></a></div>
+			<div class="logotipo_redes"><a href="https://plus.google.com/u/0/+alerj/posts" title="Google Mais" target="_blank"><img src="imagens/icone_07.png" width="20" height="20" alt="Google Mais" title="Google Mais"></a></div>
+			<div class="logotipo_redes"><a href="https://twitter.com/alerj" title="Twitter" target="_blank"><img src="imagens/icone_08.png" width="20" height="20" alt="Twitter" title="Twitter"></a></div>
+			<div class="logotipo_redes"><a href="https://www.youtube.com/user/AlerjTV" title="Youtube" target="_blank"><img src="imagens/icone_09.png" width="20" height="20" alt="Youtube" title="Youtube"></a></div>
+		</div>
+	</div>
+</div>
+<script language="javascript" type="text/javascript">
+    $(document).ready(function () { 
+        $('#divLoading').addClass('hidden');
+     })   
+</script>
+</body>
+</html>
