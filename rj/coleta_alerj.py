@@ -24,10 +24,15 @@ def texto(h):
     return re.sub(r"\n\s*\n+", "\n", h).strip()
 
 def conteudo_doc(h):
-    """Retira o menu do portal: mantém do título da página em diante."""
+    """Retira o menu do portal e o rodapé; mantém só o edital/pauta."""
     t = texto(h)
-    i = t.find("Por Ano")
-    return t[i:] if 0 <= i < 6000 else t
+    m = t.rfind('alt="por ano">Por Ano')
+    if m >= 0:
+        t = t[m + len('alt="por ano">Por Ano'):].strip()
+    f = t.find("Clique aqui caso você tenha dificuldade")
+    if f >= 0:
+        t = t[:f].strip()
+    return t
 
 def d(s):
     return datetime.datetime.strptime(s, "%d/%m/%Y").date()
