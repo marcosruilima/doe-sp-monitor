@@ -1,0 +1,50 @@
+{
+ "coletado_em": "2026-11-17T17:51:04.106862Z",
+ "fonte": "https://extra.globo.com/rio/",
+ "itens": [
+  {
+   "titulo": "Professor é espancado após tentar ajudar mulher agredida no Centro do Rio; suspeito foi preso por tentativa de homicídio",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/professor-e-espancado-apos-tentar-ajudar-mulher-agredida-no-centro-do-rio-suspeito-foi-preso-por-tentativa-de-homicidio.ghtml"
+  },
+  {
+   "titulo": "Douglas Ruas anuncia novo secretário de Educação e promete transformar 200 escolas do Rio em cívico-militares",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/douglas-ruas-anuncia-novo-secretario-de-educacao-e-promete-transformar-200-escolas-do-rio-em-civico-militares.ghtml"
+  },
+  {
+   "titulo": "Delegacia comandada por futuro secretário de Segurança do Rio ficou em último em ranking de investigações",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/delegacia-comandada-por-futuro-secretario-de-seguranca-do-rio-ficou-em-ultimo-em-ranking-de-investigacoes.ghtml"
+  },
+  {
+   "titulo": "Traficante que gravou vídeo armado de fuzil na Lagoa tem pelo menos dez processos por roubo e 14 mandados de prisão em aberto",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/traficante-que-gravou-video-armado-de-fuzil-na-lagoa-tem-pelo-menos-dez-processos-por-roubo-e-14-mandados-de-prisao-em-aberto.ghtml"
+  },
+  {
+   "titulo": "Perícia diz que 26 das 31 munições apreendidas na casa de contrarregra eram verdadeiras, e 5, de festim",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/pericia-diz-que-26-das-31-municoes-apreendidas-na-casa-de-contrarregra-eram-verdadeiras-e-seis-de-festim.ghtml"
+  },
+  {
+   "titulo": "Jovens do Jardim Catarina criam jogo sobre saneamento básico e vencem prêmio no Rio",
+   "url": "https://extra.globo.com/blogs/corre-de-cria/post/2026/11/jovens-do-jardim-catarina-criam-jogo-sobre-saneamento-basico-e-vence-premio-no-rio.ghtml"
+  },
+  {
+   "titulo": "Coroas de flores com nomes de PMs vivos são deixadas em batalhão no Rio; homem é detido",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/coroas-de-flores-com-nomes-de-pms-vivos-sao-deixadas-em-batalhao-no-rio-homem-e-detido.ghtml"
+  },
+  {
+   "titulo": "Câmara do Rio nega pedido contra medalha de Eduarda Campopiano; Casa destaca os cerca de dois milhões de votos da deputada eleita por SP",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/camara-do-rio-nega-pedido-contra-medalha-de-eduarda-campopiano-casa-destaca-os-cerca-de-dois-milhoes-de-votos-da-deputada-eleita-por-sp.ghtml"
+  },
+  {
+   "titulo": "Menina de 5 anos baleada na cabeça tem alta; PM diz que não fazia operação e delegacia investiga o caso",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/menina-de-5-anos-baleada-na-cabeca-tem-alta-pm-diz-que-nao-fazia-operacao-e-delegacia-investiga-o-caso.ghtml"
+  },
+  {
+   "titulo": "Ruas diz que vai planejar expansão do Metrô, mas não terá tempo para entregar novos serviços durante mandato",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/ruas-diz-que-vai-planejar-expansao-do-metro-mas-nao-tera-tempo-para-entregar-novos-servicos.ghtml"
+  },
+  {
+   "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
+   "url": "https://extra.globo.com${r}"
+  }
+ ]
+}
