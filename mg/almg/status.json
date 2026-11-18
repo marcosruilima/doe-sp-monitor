@@ -1,16 +1,10 @@
 {
- "coletado_em_utc": "2026-11-18T10:31:42Z",
+ "coletado_em_utc": "2026-11-18T11:25:38Z",
  "hoje": "2026-11-18",
  "janela_dias": 30,
  "reunioes_comissoes": 43,
  "reunioes_plenario": 6,
- "diario_legislativo": [
-  {
-   "data": "2026-11-18",
-   "bytes_pdf": 1034322,
-   "rc": 0
-  }
- ],
+ "diario_legislativo": [],
  "noticias": 20,
  "diagnostico_agenda_comissoes": {
   "periodo": "2026-11-17 a 2026-12-18",
