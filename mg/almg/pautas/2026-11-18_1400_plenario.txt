@@ -1,0 +1,432 @@
+URL: https://www.almg.gov.br/atividade-parlamentar/plenario/reuniao/?dia=18&mes=11&ano=2026&hr=14:00
+
+40ª Reunião Ordinária de Plenário - 18/11/2026 14:00 - Assembleia Legislativa de Minas Gerais
+ Compartilhar
+ Compartilhar via apps
+ Compartilhar por e-mail
+ Imprimir
+ Compartilhar
+ Whatsapp
+ Telegram
+ Facebook
+ X (Antigo Twitter)
+ Email
+ {"type":"br.gov.almg.sipub.modelo.plenario.DetalheEstruturadoReuniaoPlenarioSipub","reuniao":{"id":8606,"data":"2026-11-18T00:00:00.000-03:00","hora":"14:00","numero":40,"tipo":{"id":1,"descricao":"ORDINÁRIA","idCategoria":0},"descricao":"40ª Reunião Ordinária de Plenário","pautaCompleta":true,"resultadoCompleto":false,"situacao":{"codigo":"AGENDADA","descricao":"Agendada"},"reuniaoDesconvocada":false},"primeiraParte":{"titulo":"1ª Parte","descricao":"","primeiraFase":{"titulo":"1ª Fase","descricao":"Expediente","itens":["Leitura e aprovação da ata anterior","Leitura da correspondência"]},"segundaFase":{"titulo":"2ª Fase","descricao":"Grande Expediente","itens":["Apresentação de proposições e oradores inscritos"]}},"segundaParte":{"titulo":"2ª Parte","descricao":"Ordem do Dia","primeiraFase":{"titulo":"1ª Fase","descricao":"","comunicacoesAtosPresidencia":{"titulo":"Comunicações e atos da presidência"},"apreciacoes":{"titulo":"Apreciação de pareceres, requerimentos e indicações"}},"terceiraFase":{"titulo":"3ª Fase","descricao":"","pareceresRedacaoFinal":{"titulo":"Pareceres de redação final"}},"segundaFase":{"titulo":"2ª Fase","descricao":"","ordemDoDia":[{"ordem":1,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":1,"faixaConstitucional":false,"primeiraFaseReuniao":false,"urgencia":"Faixa Constitucional","proposicao":{"id":250908,"tipo":{"id":6,"descricao":"Veto","idCategoria":0,"sigla":"VET"},"numero":37,"ano":2026,"ementaOuAssunto":"Veto parcial à Proposição de Lei nº 27.011, que dispõe sobre as diretrizes para a elaboração e a execução da Lei Orçamentária Anual para o exercício de 2027.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"nome":"Governador do Estado"}]},"descricao":"Discussão - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão Especial opina pela rejeição do veto."}]},{"ordem":2,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":2,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":195221,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":3597,"ano":2022,"ementaOuAssunto":"Institui o Programa Mineiro de Atenção à Saúde no Climatério.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":19150,"nome":"Deputada Ana Paula Siqueira"}]},"descricao":"Votação - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça concluiu pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresentou."},{"sequencia":2,"textoTramitacao":"A Comissão dos Direitos da Mulher opinou pela aprovação do projeto na forma do Substitutivo nº 2, que apresentou."},{"sequencia":3,"textoTramitacao":"A Comissão de Saúde opinou pela aprovação do projeto na forma do Substitutivo nº 3, que apresentou."},{"sequencia":4,"textoTramitacao":"A Comissão de Fiscalização Financeira opinou pela aprovação do projeto na forma do Substitutivo nº 3, da Comissão de Saúde."},{"sequencia":5,"textoTramitacao":"Emendado em Plenário, voltou o projeto à Comissão dos Direitos da Mulher, que opina pela rejeição da Emenda nº 1."}]},{"ordem":3,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":3,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":252616,"tipo":{"id":4,"descricao":"Projeto de Resolução","idCategoria":0,"sigla":"PRE"},"numero":141,"ano":2026,"ementaOuAssunto":"Concede o título de Cidadã Honorária do Estado a Fernanda Barbosa Takai.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":101,"nome":"Mesa da Assembleia"}]},"descricao":"Discussão - Turno Único"},{"ordem":4,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":4,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":252617,"tipo":{"id":4,"descricao":"Projeto de Resolução","idCategoria":0,"sigla":"PRE"},"numero":142,"ano":2026,"ementaOuAssunto":"Concede o título de Cidadã Honorária do Estado a Maristela Rangel Paes.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":101,"nome":"Mesa da Assembleia"}]},"descricao":"Discussão - Turno Único"},{"ordem":5,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":5,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":219979,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":2399,"ano":2024,"ementaOuAssunto":"Institui o Dia Estadual da Serra do Espinhaço.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":28860,"nome":"Deputada Bella Gonçalves"},{"id":0,"sequencia":2,"primeiroSignatario":true,"idDeputado":26153,"nome":"Deputada Leninha"}]},"descricao":"Discussão - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"A Comissão de Meio Ambiente opina pela aprovação do projeto na forma do Substitutivo nº 2, que apresenta."}]},{"ordem":6,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":6,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":169176,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":779,"ano":2019,"ementaOuAssunto":"Altera o inciso III do art. 3º da Lei nº 14.937, de 2003, que dispõe sobre a isenção do Imposto sobre a Propriedade de Veículos Automotores - IPVA.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":22523,"nome":"Deputado Cristiano Silveira"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Fiscalização Financeira opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta, ao vencido em 1º turno."}]},{"ordem":7,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":7,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":185016,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":2420,"ano":2021,"ementaOuAssunto":"Obriga os estabelecimentos comerciais situados no Estado que realizam arrecadação de doações financeiras através da modalidade Troco Solidário e campanhas similares a prestarem informações ao consumidor.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":9673,"nome":"Deputado Sargento Rodrigues"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Defesa do Consumidor opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":8,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":8,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":204987,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":737,"ano":2023,"ementaOuAssunto":"Autoriza o Poder Executivo a doar ao Município de Mutum o imóvel que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":18848,"nome":"Deputado Cassio Soares"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":9,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":9,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":213045,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":1725,"ano":2023,"ementaOuAssunto":"Institui o Polo das Frutas Vermelhas do Sul de Minas.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":26111,"nome":"Deputado Mauro Tramonte"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Agropecuária opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":10,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":10,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":217221,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":2119,"ano":2024,"ementaOuAssunto":"Dispõe sobre a desafetação da rodovia que especifica e autoriza o Poder Executivo a doar área correspondente ao Município de Rio Novo.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":26105,"nome":"Deputado Zé Guilherme"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":11,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":11,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":220001,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":2404,"ano":2024,"ementaOuAssunto":"Autoriza o Poder Executivo a doar ao Município de Natércia o imóvel que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":17919,"nome":"Deputado Duarte Bechir"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":12,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":12,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":223828,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":2863,"ano":2024,"ementaOuAssunto":"Dispõe sobre a classificação do transtorno do déficit de atenção com hiperatividade - TDAH - e dos transtornos hipercinéticos como deficiências.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":28870,"nome":"Deputado Lucas Lasmar"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão da Pessoa com Deficiência opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":13,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":13,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":223848,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":2868,"ano":2024,"ementaOuAssunto":"Reconhece como de relevante interesse cultural, patrimônio material e imaterial do Estado o Sindicato dos Músicos Profissionais de Minas Gerais.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":12552,"nome":"Deputado Leleco Pimentel"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Cultura opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta, ao vencido em 1º turno."}]},{"ordem":14,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":14,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":225628,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":3085,"ano":2024,"ementaOuAssunto":"Cria o Selo Origem Mineira - Uai Wine.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":28877,"nome":"Deputado Rodrigo Lopes"},{"id":0,"sequencia":2,"primeiroSignatario":true,"idDeputado":7327,"nome":"Deputado Antonio Carlos Arantes"},{"id":0,"sequencia":3,"primeiroSignatario":true,"idDeputado":22607,"nome":"Deputado Roberto Andrade"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Desenvolvimento Econômico opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":15,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":15,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":228497,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":3476,"ano":2025,"ementaOuAssunto":"Dispõe sobre a separação dos locais de retirada do dispositivo de proteção e de notificação de descumprimento de medida protetiva, com vistas a garantir a segurança das mulheres vítimas de violência doméstica e familiar no âmbito do Estado.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":15330,"nome":"Deputada Carol Caram"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão dos Direitos da Mulher opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta, ao vencido em 1º turno."}]},{"ordem":16,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":16,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":231455,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":3794,"ano":2025,"ementaOuAssunto":"Concede ao Município de Bom Jesus da Penha o título de Capital Estadual do Jaracatiá.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":28877,"nome":"Deputado Rodrigo Lopes"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Cultura opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":17,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":17,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":234715,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":4137,"ano":2025,"ementaOuAssunto":"Autoriza o Poder Executivo a doar ao Município de Porteirinha o imóvel que especifica para a construção da Escola Municipal do Distrito do Tanque.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":7762,"nome":"Deputado Gil Pereira"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta, ao vencido em 1º turno."}]},{"ordem":18,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":18,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":234807,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":4152,"ano":2025,"ementaOuAssunto":"Dispõe sobre o prazo de validade do laudo e da perícia médica que atestem o diagnóstico de doença de Parkinson, para os fins que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":26098,"nome":"Deputada Beatriz Cerqueira"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Saúde opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":19,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":19,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":239147,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":4614,"ano":2025,"ementaOuAssunto":"Dispõe sobre a obrigatoriedade de fixação de placas informativas ou comunicados, nas unidades públicas e privadas de saúde situadas no Estado, que versem sobre a entrega legal, instituída pela Lei nº 13.509, de 22 de novembro de 2017.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":26148,"nome":"Deputado Bruno Engler"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão dos Direitos da Mulher opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":20,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":20,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":243269,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":5155,"ano":2026,"ementaOuAssunto":"Dispõe sobre a desafetação do trecho de rodovia que especifica e autoriza o Poder Executivo a doá-lo ao Município de Prata.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":26114,"nome":"Deputado Raul Belém"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":21,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":21,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":243440,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":5180,"ano":2026,"ementaOuAssunto":"Dispõe sobre a desafetação do trecho de rodovia que especifica e autoriza o Poder Executivo a doar ao Município de Tocantins a área correspondente.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":22607,"nome":"Deputado Roberto Andrade"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno."}]},{"ordem":22,"turno":{"codigo":2,"descricao":"2º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":22,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":247744,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":5744,"ano":2026,"ementaOuAssunto":"Dispõe sobre a desafetação dos trechos de rodovia que especifica e autoriza o Poder Executivo a doar ao Município de Alto Jequitibá as áreas correspondentes.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":28868,"nome":"Deputado Grego da Fundação"}]},"descricao":"Discussão - 2º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto."}]},{"ordem":23,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":23,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":185639,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":2521,"ano":2021,"ementaOuAssunto":"Autoriza o Poder Executivo a doar ao Município de Itapecerica o imóvel que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":22516,"nome":"Deputado Fábio Avelar"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do Substitutivo nº 1, da Comissão de Justiça."}]},{"ordem":24,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":24,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":197501,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":3842,"ano":2022,"ementaOuAssunto":"Altera a Lei nº 14.184, de 30 de janeiro 2002, que dispõe sobre o processo administrativo no âmbito da administração pública estadual.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":9655,"nome":"Deputado Dalmo Ribeiro"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"As Comissões da Pessoa com Deficiência e de Administração Pública opinam pela aprovação do projeto na forma do Substitutivo nº 1, da Comissão de Justiça."}]},{"ordem":25,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":25,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":205467,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":790,"ano":2023,"ementaOuAssunto":"Autoriza o Poder Executivo a doar ao Município de Vespasiano o imóvel que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":18022,"nome":"Deputada Nayara Rocha"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto com a Emenda nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto com a Emenda nº 1, da Comissão de Justiça."}]},{"ordem":26,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":26,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":206069,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":847,"ano":2023,"ementaOuAssunto":"Altera o art. 1º e o Anexo da Lei nº 21.841, de 27 de novembro de 2015, que autoriza o Poder Executivo a doar ao Município de Brás Pires a área que especifica.","detalhamentoEmentaAssunto":"Corrige informações sobre área e coordenadas geográficas do terreno.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":13425,"nome":"Deputado Betinho Pinto Coelho"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do Substitutivo nº 1, da Comissão de Justiça."}]},{"ordem":27,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":27,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":209382,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":1291,"ano":2023,"ementaOuAssunto":"Dispõe sobre a valorização dos produtos artesanais do Estado em eventos com apoio financeiro do governo do Estado.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":22581,"nome":"Deputado Doutor Jean Freire"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"A Comissão de Cultura opina pela aprovação do projeto na forma do Substitutivo nº 2, que apresenta, e pela rejeição do Substitutivo nº 1, da Comissão de Justiça."}]},{"ordem":28,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":28,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":238880,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":4581,"ano":2025,"ementaOuAssunto":"Autoriza o Poder Executivo a doar ao Município de Cataguases o imóvel que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":22561,"nome":"Deputado João Magalhães"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto na forma do Substitutivo nº 1, da Comissão de Justiça."}]},{"ordem":29,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":29,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":241593,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":4889,"ano":2025,"ementaOuAssunto":"Reconhece como de relevante interesse cultural do Estado a Festa do Capelinhense Ausente, realizada no Município de Capelinha.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":28879,"nome":"Deputado Zé Laviola"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto."},{"sequencia":2,"textoTramitacao":"A Comissão de Cultura opina pela aprovação do projeto."}]},{"ordem":30,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":30,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":242587,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":4984,"ano":2025,"ementaOuAssunto":"Reconhece como de relevante interesse cultural do Estado o Grupo Mundo Cênico, do Município de Perdões.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":26119,"nome":"Deputado Professor Cleiton"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto."},{"sequencia":2,"textoTramitacao":"A Comissão de Cultura opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":31,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":31,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":245567,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":5482,"ano":2026,"ementaOuAssunto":"Reconhece como de relevante interesse social, cultural e econômico do Estado a Festa da Mandioca, realizada anualmente no Município de Padre Carvalho.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":11307,"nome":"Deputado Ricardo Campos"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"A Comissão de Cultura opina pela aprovação do projeto na forma do Substitutivo nº 2, que apresenta."}]},{"ordem":32,"turno":{"codigo":1,"descricao":"1º Turno"},"tipoApreciacao":{"codigo":1,"descricao":"Discussão"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":32,"faixaConstitucional":false,"primeiraFaseReuniao":false,"proposicao":{"id":248431,"tipo":{"id":1,"descricao":"Projeto de Lei","idCategoria":0,"sigla":"PL."},"numero":5799,"ano":2026,"ementaOuAssunto":"Autoriza o Poder Executivo a doar ao Município de Mariana o imóvel que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":22521,"nome":"Deputado Noraldino Júnior"}]},"descricao":"Discussão - 1º Turno","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Comissão de Justiça conclui pela constitucionalidade do projeto com a Emenda nº 1, que apresenta."},{"sequencia":2,"textoTramitacao":"A Comissão de Administração Pública opina pela aprovação do projeto com a Emenda nº 1, da Comissão de Justiça."}]}]}},"hashAtualizacao":-1143694684,"_Id":"6afcc1080361a5ffb97fcef5","_id":"6afcc1080361a5ffb97fcef5"}
+ 18/11/2026 às 14:00
+ Plenário
+ 40ª Reunião Ordinária
+ 1ª Parte
+1ª Fase
+ Expediente
+Leitura e aprovação da ata anterior
+Leitura da correspondência
+2ª Fase
+ Grande Expediente
+Apresentação de proposições e oradores inscritos
+ 2ª Parte - Ordem do Dia
+1ª Fase
+ Comunicações e atos da presidência, apreciação de pareceres, requerimentos e indicações
+Comunicações e atos da presidência
+Apreciação de pareceres, requerimentos e indicações
+2ª Fase
+ Discussão e votação de propostas de emenda à Constituição, vetos e projetos
+VET Veto 37/2026
+ VET
+ 37/2026
+ Veto
+ Faixa Constitucional
+ Discussão - 
+ Turno Único
+ Ementa:
+ Veto parcial à Proposição de Lei nº 27.011, que dispõe sobre as diretrizes para a elaboração e a execução da Lei Orçamentária Anual para o exercício de 2027.
+ Autoria:
+ Governador do Estado
+ Situação:
+A Comissão Especial opina pela rejeição do veto.
+PL Projeto de Lei 3597/2022
+ PL
+ 3597/2022
+ Projeto de Lei
+ Votação - 
+ 1º Turno
+ Ementa:
+ Institui o Programa Mineiro de Atenção à Saúde no Climatério.
+ Autoria:
+ Deputada Ana Paula Siqueira
+ Situação:
+A Comissão de Justiça concluiu pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresentou.
+A Comissão dos Direitos da Mulher opinou pela aprovação do projeto na forma do Substitutivo nº 2, que apresentou.
+A Comissão de Saúde opinou pela aprovação do projeto na forma do Substitutivo nº 3, que apresentou.
+A Comissão de Fiscalização Financeira opinou pela aprovação do projeto na forma do Substitutivo nº 3, da Comissão de Saúde.
+Emendado em Plenário, voltou o projeto à Comissão dos Direitos da Mulher, que opina pela rejeição da Emenda nº 1.
+PRE Projeto de Resolução 141/2026
+ PRE
+ 141/2026
+ Projeto de Resolução
+ Discussão - 
+ Turno Único
+ Ementa:
+ Concede o título de Cidadã Honorária do Estado a Fernanda Barbosa Takai.
+ Autoria:
+ Mesa da Assembleia
+PRE Projeto de Resolução 142/2026
+ PRE
+ 142/2026
+ Projeto de Resolução
+ Discussão - 
+ Turno Único
+ Ementa:
+ Concede o título de Cidadã Honorária do Estado a Maristela Rangel Paes.
+ Autoria:
+ Mesa da Assembleia
+PL Projeto de Lei 2399/2024
+ PL
+ 2399/2024
+ Projeto de Lei
+ Discussão - 
+ Turno Único
+ Ementa:
+ Institui o Dia Estadual da Serra do Espinhaço.
+ Autoria:
+Deputada Bella Gonçalves
+Deputada Leninha
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta.
+A Comissão de Meio Ambiente opina pela aprovação do projeto na forma do Substitutivo nº 2, que apresenta.
+PL Projeto de Lei 779/2019
+ PL
+ 779/2019
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Altera o inciso III do art. 3º da Lei nº 14.937, de 2003, que dispõe sobre a isenção do Imposto sobre a Propriedade de Veículos Automotores - IPVA.
+ Autoria:
+ Deputado Cristiano Silveira
+ Situação:
+A Comissão de Fiscalização Financeira opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta, ao vencido em 1º turno.
+PL Projeto de Lei 2420/2021
+ PL
+ 2420/2021
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Obriga os estabelecimentos comerciais situados no Estado que realizam arrecadação de doações financeiras através da modalidade Troco Solidário e campanhas similares a prestarem informações ao consumidor.
+ Autoria:
+ Deputado Sargento Rodrigues
+ Situação:
+A Comissão de Defesa do Consumidor opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 737/2023
+ PL
+ 737/2023
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Autoriza o Poder Executivo a doar ao Município de Mutum o imóvel que especifica.
+ Autoria:
+ Deputado Cassio Soares
+ Situação:
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 1725/2023
+ PL
+ 1725/2023
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Institui o Polo das Frutas Vermelhas do Sul de Minas.
+ Autoria:
+ Deputado Mauro Tramonte
+ Situação:
+A Comissão de Agropecuária opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 2119/2024
+ PL
+ 2119/2024
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Dispõe sobre a desafetação da rodovia que especifica e autoriza o Poder Executivo a doar área correspondente ao Município de Rio Novo.
+ Autoria:
+ Deputado Zé Guilherme
+ Situação:
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 2404/2024
+ PL
+ 2404/2024
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Autoriza o Poder Executivo a doar ao Município de Natércia o imóvel que especifica.
+ Autoria:
+ Deputado Duarte Bechir
+ Situação:
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 2863/2024
+ PL
+ 2863/2024
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Dispõe sobre a classificação do transtorno do déficit de atenção com hiperatividade - TDAH - e dos transtornos hipercinéticos como deficiências.
+ Autoria:
+ Deputado Lucas Lasmar
+ Situação:
+A Comissão da Pessoa com Deficiência opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 2868/2024
+ PL
+ 2868/2024
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Reconhece como de relevante interesse cultural, patrimônio material e imaterial do Estado o Sindicato dos Músicos Profissionais de Minas Gerais.
+ Autoria:
+ Deputado Leleco Pimentel
+ Situação:
+A Comissão de Cultura opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta, ao vencido em 1º turno.
+PL Projeto de Lei 3085/2024
+ PL
+ 3085/2024
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Cria o Selo Origem Mineira - Uai Wine.
+ Autoria:
+Deputado Rodrigo Lopes
+Deputado Antonio Carlos Arantes
+Deputado Roberto Andrade
+ Situação:
+A Comissão de Desenvolvimento Econômico opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 3476/2025
+ PL
+ 3476/2025
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Dispõe sobre a separação dos locais de retirada do dispositivo de proteção e de notificação de descumprimento de medida protetiva, com vistas a garantir a segurança das mulheres vítimas de violência doméstica e familiar no âmbito do Estado.
+ Autoria:
+ Deputada Carol Caram
+ Situação:
+A Comissão dos Direitos da Mulher opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta, ao vencido em 1º turno.
+PL Projeto de Lei 3794/2025
+ PL
+ 3794/2025
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Concede ao Município de Bom Jesus da Penha o título de Capital Estadual do Jaracatiá.
+ Autoria:
+ Deputado Rodrigo Lopes
+ Situação:
+A Comissão de Cultura opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 4137/2025
+ PL
+ 4137/2025
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Autoriza o Poder Executivo a doar ao Município de Porteirinha o imóvel que especifica para a construção da Escola Municipal do Distrito do Tanque.
+ Autoria:
+ Deputado Gil Pereira
+ Situação:
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta, ao vencido em 1º turno.
+PL Projeto de Lei 4152/2025
+ PL
+ 4152/2025
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Dispõe sobre o prazo de validade do laudo e da perícia médica que atestem o diagnóstico de doença de Parkinson, para os fins que especifica.
+ Autoria:
+ Deputada Beatriz Cerqueira
+ Situação:
+A Comissão de Saúde opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 4614/2025
+ PL
+ 4614/2025
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Dispõe sobre a obrigatoriedade de fixação de placas informativas ou comunicados, nas unidades públicas e privadas de saúde situadas no Estado, que versem sobre a entrega legal, instituída pela Lei nº 13.509, de 22 de novembro de 2017.
+ Autoria:
+ Deputado Bruno Engler
+ Situação:
+A Comissão dos Direitos da Mulher opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 5155/2026
+ PL
+ 5155/2026
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Dispõe sobre a desafetação do trecho de rodovia que especifica e autoriza o Poder Executivo a doá-lo ao Município de Prata.
+ Autoria:
+ Deputado Raul Belém
+ Situação:
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 5180/2026
+ PL
+ 5180/2026
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Dispõe sobre a desafetação do trecho de rodovia que especifica e autoriza o Poder Executivo a doar ao Município de Tocantins a área correspondente.
+ Autoria:
+ Deputado Roberto Andrade
+ Situação:
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do vencido em 1º turno.
+PL Projeto de Lei 5744/2026
+ PL
+ 5744/2026
+ Projeto de Lei
+ Discussão - 
+ 2º Turno
+ Ementa:
+ Dispõe sobre a desafetação dos trechos de rodovia que especifica e autoriza o Poder Executivo a doar ao Município de Alto Jequitibá as áreas correspondentes.
+ Autoria:
+ Deputado Grego da Fundação
+ Situação:
+A Comissão de Administração Pública opina pela aprovação do projeto.
+PL Projeto de Lei 2521/2021
+ PL
+ 2521/2021
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Autoriza o Poder Executivo a doar ao Município de Itapecerica o imóvel que especifica.
+ Autoria:
+ Deputado Fábio Avelar
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta.
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do Substitutivo nº 1, da Comissão de Justiça.
+PL Projeto de Lei 3842/2022
+ PL
+ 3842/2022
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Altera a Lei nº 14.184, de 30 de janeiro 2002, que dispõe sobre o processo administrativo no âmbito da administração pública estadual.
+ Autoria:
+ Deputado Dalmo Ribeiro
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta.
+As Comissões da Pessoa com Deficiência e de Administração Pública opinam pela aprovação do projeto na forma do Substitutivo nº 1, da Comissão de Justiça.
+PL Projeto de Lei 790/2023
+ PL
+ 790/2023
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Autoriza o Poder Executivo a doar ao Município de Vespasiano o imóvel que especifica.
+ Autoria:
+ Deputada Nayara Rocha
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto com a Emenda nº 1, que apresenta.
+A Comissão de Administração Pública opina pela aprovação do projeto com a Emenda nº 1, da Comissão de Justiça.
+PL Projeto de Lei 847/2023
+ PL
+ 847/2023
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Altera o art. 1º e o Anexo da Lei nº 21.841, de 27 de novembro de 2015, que autoriza o Poder Executivo a doar ao Município de Brás Pires a área que especifica. (Corrige informações sobre área e coordenadas geográficas do terreno.)
+ Autoria:
+ Deputado Betinho Pinto Coelho
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta.
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do Substitutivo nº 1, da Comissão de Justiça.
+PL Projeto de Lei 1291/2023
+ PL
+ 1291/2023
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Dispõe sobre a valorização dos produtos artesanais do Estado em eventos com apoio financeiro do governo do Estado.
+ Autoria:
+ Deputado Doutor Jean Freire
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta.
+A Comissão de Cultura opina pela aprovação do projeto na forma do Substitutivo nº 2, que apresenta, e pela rejeição do Substitutivo nº 1, da Comissão de Justiça.
+PL Projeto de Lei 4581/2025
+ PL
+ 4581/2025
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Autoriza o Poder Executivo a doar ao Município de Cataguases o imóvel que especifica.
+ Autoria:
+ Deputado João Magalhães
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta.
+A Comissão de Administração Pública opina pela aprovação do projeto na forma do Substitutivo nº 1, da Comissão de Justiça.
+PL Projeto de Lei 4889/2025
+ PL
+ 4889/2025
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Reconhece como de relevante interesse cultural do Estado a Festa do Capelinhense Ausente, realizada no Município de Capelinha.
+ Autoria:
+ Deputado Zé Laviola
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto.
+A Comissão de Cultura opina pela aprovação do projeto.
+PL Projeto de Lei 4984/2025
+ PL
+ 4984/2025
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Reconhece como de relevante interesse cultural do Estado o Grupo Mundo Cênico, do Município de Perdões.
+ Autoria:
+ Deputado Professor Cleiton
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto.
+A Comissão de Cultura opina pela aprovação do projeto na forma do Substitutivo nº 1, que apresenta.
+PL Projeto de Lei 5482/2026
+ PL
+ 5482/2026
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Reconhece como de relevante interesse social, cultural e econômico do Estado a Festa da Mandioca, realizada anualmente no Município de Padre Carvalho.
+ Autoria:
+ Deputado Ricardo Campos
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto na forma do Substitutivo nº 1, que apresenta.
+A Comissão de Cultura opina pela aprovação do projeto na forma do Substitutivo nº 2, que apresenta.
+PL Projeto de Lei 5799/2026
+ PL
+ 5799/2026
+ Projeto de Lei
+ Discussão - 
+ 1º Turno
+ Ementa:
+ Autoriza o Poder Executivo a doar ao Município de Mariana o imóvel que especifica.
+ Autoria:
+ Deputado Noraldino Júnior
+ Situação:
+A Comissão de Justiça conclui pela constitucionalidade do projeto com a Emenda nº 1, que apresenta.
+A Comissão de Administração Pública opina pela aprovação do projeto com a Emenda nº 1, da Comissão de Justiça.
+3ª Fase - Pareceres de redação final
