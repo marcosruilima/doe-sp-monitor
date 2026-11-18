@@ -3,7 +3,7 @@
 incluindo edicoes extras (qualquer caderno cujo nome comece por 'Parte I (' ou 'Parte II (').
 Fluxo: do_seleciona_edicao.php?data=b64(AAAAMMDD) -> links mostra_edicao.php?session=... ->
 pagina do visualizador traz var pd = GUID -> PDF em mostra_edicao.php?k=pd[:12]+'P'+pd[12:].
-Salva texto (pdftotext -layout) e sumario em rj/doerj/AAAA-MM-DD_<caderno>.txt (PDF nao e versionado)."""
+Salva texto (pdftotext (ordem de leitura)) e sumario em rj/doerj/AAAA-MM-DD_<caderno>.txt (PDF nao e versionado)."""
 import base64, datetime, html, json, os, re, subprocess, sys, zoneinfo
 import requests
 
@@ -40,7 +40,7 @@ def coletar(dia):
             pdf = S.get(f"{BASE}mostra_edicao.php?k={pd[:12]}P{pd[12:]}", timeout=180)
             assert pdf.content[:4] == b"%PDF", "resposta nao e PDF"
             tmp = "/tmp/doerj.pdf"; open(tmp, "wb").write(pdf.content)
-            txt = subprocess.run(["pdftotext", "-layout", tmp, "-"], capture_output=True, text=True).stdout
+            txt = subprocess.run(["pdftotext", tmp, "-"], capture_output=True, text=True).stdout
             os.makedirs(OUT, exist_ok=True)
             with open(arq, "w") as f:
                 f.write(f"# DOERJ {dia} - {nome}\n# bytes_pdf={len(pdf.content)} caracteres_texto={len(txt)}\n\n## SUMARIO\n" + "\n".join(sumario) + "\n\n## TEXTO\n" + txt)
