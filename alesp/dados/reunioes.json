@@ -659,7 +659,7 @@
     "tipo": null
    }
   ],
-  "descricao": "REUNIÃO",
+  "descricao": "REUNIÃO SEM QUORUM",
   "documentosReuniao": [
    {
     "ano": 2026,
@@ -705,11 +705,11 @@
   "presidente": null,
   "solicitante": "Comissão de Relações Internacionais",
   "status": {
-   "idStatus": 2,
-   "txNome": "Convocada"
+   "idStatus": 6,
+   "txNome": "Sem Quórum"
   },
   "tipoConvocacao": "Extraordinária",
-  "tituloReuniao": "Reunião de Pauta",
+  "tituloReuniao": "Reunião de Pauta sem Quorum",
   "txAssunto": "realizar o encerramento dos trabalhos desta 20ª Legislatura, com a presença de autoridades consulares, diplomáticas e agentes do governo de São Paulo."
  },
  {
@@ -721,7 +721,7 @@
     "tipo": null
    }
   ],
-  "descricao": "REUNIÃO DE PAUTA",
+  "descricao": "REUNIÃO DE PAUTA SEM QUORUM",
   "documentosReuniao": [
    {
     "ano": 2026,
@@ -798,11 +798,104 @@
   "presidente": null,
   "solicitante": "Comissão de Segurança Pública e Assuntos Penitenciários",
   "status": {
+   "idStatus": 6,
+   "txNome": "Sem Quórum"
+  },
+  "tipoConvocacao": "Ordinária",
+  "tituloReuniao": "Reunião de Pauta sem Quorum",
+  "txAssunto": "apreciar pauta anexa e tratar de assuntos de interesse da comissão."
+ },
+ {
+  "colegiadosRelacionados": [
+   {
+    "id": 1000000128,
+    "nome": "Comissão de Defesa dos Direitos do Consumidor",
+    "sigla": "CDDC",
+    "tipo": null
+   }
+  ],
+  "descricao": "REUNIÃO DE PAUTA",
+  "documentosReuniao": [
+   {
+    "ano": 2026,
+    "apoiadores": null,
+    "arquivos": null,
+    "autores": null,
+    "cdTipoSessaoOuReuniao": "O",
+    "colegiados": null,
+    "descricao": "Pauta de colegiado nº 3/2026",
+    "dtDocumento": "2026-11-18",
+    "dtPublicacao": null,
+    "dtSessao": null,
+    "idDocumento": 310000025479,
+    "idDocumentoSpl": null,
+    "idReuniao": 1100000066,
+    "idSessao": null,
+    "idTipoDocumento": 20011,
+    "interessados": null,
+    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/18/310000025479.html",
+    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/18/310000025479_cv.pdf",
+    "nomeTipoSessaoReuniao": "Ordinária",
+    "numero": 3,
+    "ordem": null,
+    "processos": null,
+    "relatores": null,
+    "resumo": "2ª Reunião Ordinária de 24/11/2026 às 15:00, da CDDC.",
+    "tipo": "Pauta de colegiado",
+    "txNomeArq": "310000025479.html",
+    "txNomePDF": "310000025479_cv.pdf",
+    "txPath": "/docs/2026/11/18/",
+    "urlDocumento": null
+   },
+   {
+    "ano": 2026,
+    "apoiadores": null,
+    "arquivos": null,
+    "autores": null,
+    "cdTipoSessaoOuReuniao": "O",
+    "colegiados": null,
+    "descricao": "Comunicado de colegiado nº 3/2026",
+    "dtDocumento": "2026-11-18",
+    "dtPublicacao": null,
+    "dtSessao": null,
+    "idDocumento": 310000025484,
+    "idDocumentoSpl": null,
+    "idReuniao": 1100000066,
+    "idSessao": null,
+    "idTipoDocumento": 20012,
+    "interessados": null,
+    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/18/310000025484.html",
+    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/18/310000025484_cv.pdf",
+    "nomeTipoSessaoReuniao": "Ordinária",
+    "numero": 3,
+    "ordem": null,
+    "processos": null,
+    "relatores": null,
+    "resumo": "2ª Reunião Ordinária de 24/11/2026 às 15:00, da CDDC.",
+    "tipo": "Comunicado de colegiado",
+    "txNomeArq": "310000025484.html",
+    "txNomePDF": "310000025484_cv.pdf",
+    "txPath": "/docs/2026/11/18/",
+    "urlDocumento": null
+   }
+  ],
+  "dtReuniao": "2026-11-24T15:00",
+  "idReuniao": 1100000066,
+  "local": {
+   "flAtivo": "S",
+   "idLocal": 2017,
+   "txNome": "Plenário José Bonifácio"
+  },
+  "nuReuniao": 2,
+  "parlamentaresPresentes": null,
+  "presidente": null,
+  "solicitante": "Comissão de Defesa dos Direitos do Consumidor",
+  "status": {
    "idStatus": 2,
    "txNome": "Convocada"
   },
   "tipoConvocacao": "Ordinária",
   "tituloReuniao": "Reunião de Pauta",
-  "txAssunto": "apreciar pauta anexa e tratar de assuntos de interesse da comissão."
+  "txAssunto": "apreciar a pauta anexa e tratar de outros assuntos de interesse da Comissão."
  }
 ]

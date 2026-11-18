@@ -1,0 +1,402 @@
+{
+ "corpo": null,
+ "data": "2026-11-19T14:00",
+ "dataDiarioOficial": "2026-11-19",
+ "dtFimSessao": null,
+ "dtInicioSessao": "2026-11-19T14:00",
+ "idPauta": 1100000074,
+ "idSessaoPlenaria": 24209,
+ "secoes": [
+  {
+   "gruposSessao": [
+    {
+     "itens": [
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2338,
+       "idProcesso": 1100005811,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Declara o Município de Itatiba “Capital Estadual dos Casamentos”.",
+       "txNomeAutores": "Rafa Zimbaldi",
+       "txProcesso": "PL 923/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2339,
+       "idProcesso": 1100005814,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui o selo \"Abdias do Nascimento”, com a finalidade de reconhecer, fortalecer e fomentar iniciativas antirracistas nas escolas da rede estadual de ensino.",
+       "txNomeAutores": "Ediane Maria",
+       "txProcesso": "PL 924/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2340,
+       "idProcesso": 1100005816,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Altera a Lei nº 17.832, de 1º de novembro de 2023, que consolida a legislação relativa à defesa do consumidor, para estabelecer a obrigatoriedade de disponibilização de, no mínimo, um caixa de atendimento presencial em funcionamento nas agências bancárias existentes no Estado.",
+       "txNomeAutores": "Rafa Zimbaldi",
+       "txProcesso": "PL 925/2026"
+      }
+     ],
+     "nuDiaAtual": 1,
+     "txSessao": "1ª Sessão"
+    },
+    {
+     "itens": [
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2325,
+       "idProcesso": 1100005686,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Estabelece diretrizes e instrumentos de apoio à implementação da Política Nacional de Saúde Integral da População Negra, no Estado.",
+       "txNomeAutores": "Ediane Maria",
+       "txProcesso": "PL 919/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2326,
+       "idProcesso": 1100005690,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui a Lei \"Fiação Segura SP\", que estabelece medidas de prevenção de acidentes, identificação, comunicação e acompanhamento de situações de risco relacionadas à fiação aérea, inclusive fios e cabos inutilizados, desativados ou abandonados, no Estado.",
+       "txNomeAutores": "Profª Camila Godoi",
+       "txProcesso": "PL 920/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2327,
+       "idProcesso": 1100005701,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Declara de utilidade pública a Associação de Pais e Amigos dos Excepcionais de Barueri – APAE Barueri, com sede naquele Município.",
+       "txNomeAutores": "Bruna Furlan",
+       "txProcesso": "PL 921/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2328,
+       "idProcesso": 1100005704,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Denomina \"Professora Maria José Boretti de Almeida - Dona Lia Boretti\" a Escola Estadual localizada na Área Institucional I do Loteamento Jardim Teixeira, em Itapira.",
+       "txNomeAutores": "Barros Munhoz",
+       "txProcesso": "PL 922/2026"
+      }
+     ],
+     "nuDiaAtual": 2,
+     "txSessao": "2ª Sessão"
+    },
+    {
+     "itens": [
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2329,
+       "idProcesso": 1100005654,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Estabelece medidas para preservação dos vínculos familiares e comunitários de pessoas submetidas a acolhimento institucional ou moradia assistida de caráter residencial e continuado fora de seu município de origem, no Estado.",
+       "txNomeAutores": "Itamar Borges",
+       "txProcesso": "PL 918/2026"
+      }
+     ],
+     "nuDiaAtual": 3,
+     "txSessao": "3ª Sessão"
+    },
+    {
+     "itens": [
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2330,
+       "idProcesso": 1100005614,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui o Programa Estadual de Gratuidade de Transporte Público ao acompanhante legal de pessoa com deficiência.",
+       "txNomeAutores": "Carla Morando",
+       "txProcesso": "PL 917/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2331,
+       "idProcesso": 1100005620,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Aplaude a resolução aprovada pela Assembleia Geral das Nações Unidas, em 28 de outubro de 2026, que exige o fim do embargo econômico, comercial e financeiro imposto pelos Estados Unidos contra Cuba, em reconhecimento à importância da defesa da soberania e da autodeterminação dos povos, bem como do fortalecimento das relações de amizade, solidariedade e cooperação internacional.",
+       "txNomeAutores": "Paulo Fiorilo, Luiz Claudio Marcolino, Ediane Maria, Paula da Bancada Feminista, Maurici",
+       "txProcesso": "Moção 270/2026"
+      }
+     ],
+     "nuDiaAtual": 4,
+     "txSessao": "4ª Sessão"
+    },
+    {
+     "itens": [
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2332,
+       "idProcesso": 1100005557,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui a Política Estadual de Educação Antirracista e estabelece diretrizes para a prevenção e o enfrentamento do racismo nas instituições de ensino.",
+       "txNomeAutores": "Paula da Bancada Feminista",
+       "txProcesso": "PL 912/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2333,
+       "idProcesso": 1100005558,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui a Política Estadual de Informação sobre Equidade Étnico-Racial na Educação.",
+       "txNomeAutores": "Paula da Bancada Feminista",
+       "txProcesso": "PL 913/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2334,
+       "idProcesso": 1100005560,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui o Selo de Educação Antirracista, no Estado.",
+       "txNomeAutores": "Paula da Bancada Feminista",
+       "txProcesso": "PL 914/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2335,
+       "idProcesso": 1100005563,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui a Política Estadual de Educação Escolar Indígena e de Valorização dos Saberes e dos Processos Próprios de Aprendizagem dos Povos Indígenas para o Bem Viver.",
+       "txNomeAutores": "Paula da Bancada Feminista",
+       "txProcesso": "PL 915/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2336,
+       "idProcesso": 1100005566,
+       "itensPorSecao": null,
+       "nuDiaTotal": 5,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui Diretrizes Curriculares Estaduais para a Educação Escolar Quilombola no Sistema Estadual de Ensino de São Paulo, fixa seus objetivos, princípios e diretrizes de gestão.",
+       "txNomeAutores": "Paula da Bancada Feminista",
+       "txProcesso": "PL 916/2026"
+      }
+     ],
+     "nuDiaAtual": 5,
+     "txSessao": "5ª Sessão"
+    }
+   ],
+   "id": 1,
+   "txDescricao": "5 Sessões-Ordinária",
+   "txDescricaoCompleta": "Em pauta por 5 (cinco) sessões, para conhecimento, recebimento de emendas e estudos das Sras. Deputadas e dos Srs. Deputados, de acordo com o artigo 156 e o item 2 do parágrafo único do artigo 148 do Regimento Interno",
+   "txSigla": "PAUTA_CAB_EM"
+  },
+  {
+   "gruposSessao": [
+    {
+     "itens": [
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2341,
+       "idProcesso": 1100005857,
+       "itensPorSecao": null,
+       "nuDiaTotal": 3,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui o Programa Meu Diploma SP, cria a Prova Meu Diploma SP como instrumento de avaliação e certificação da Educação de Jovens e Adultos – EJA, autoriza a concessão de incentivo financeiro aos estudantes aprovados e dá outras providências.\r\n",
+       "txNomeAutores": "Governador",
+       "txProcesso": "PL 926/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2342,
+       "idProcesso": 1100005858,
+       "itensPorSecao": null,
+       "nuDiaTotal": 3,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Dispõe sobre medidas relativas à Copa do Mundo Feminina da Fédération Internationale de Football Association - FIFA 2027.",
+       "txNomeAutores": "Governador",
+       "txProcesso": "PL 927/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2343,
+       "idProcesso": 1100005859,
+       "itensPorSecao": null,
+       "nuDiaTotal": 3,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Extingue os fundos especiais de despesa que especifica, altera a Lei nº 15.266, de 26 de dezembro de 2013, que dispõe sobre as taxas no âmbito do Poder Executivo Estadual, e dá outras providências.",
+       "txNomeAutores": "Governador",
+       "txProcesso": "PL 928/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2344,
+       "idProcesso": 1100005860,
+       "itensPorSecao": null,
+       "nuDiaTotal": 3,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Exclui as áreas que especifica do Parque Estadual Restinga de Bertioga.",
+       "txNomeAutores": "Governador",
+       "txProcesso": "PL 929/2026"
+      },
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2345,
+       "idProcesso": 1100005861,
+       "itensPorSecao": null,
+       "nuDiaTotal": 3,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Institui a Política Estadual da Fauna Silvestre.",
+       "txNomeAutores": "Governador",
+       "txProcesso": "PL 930/2026"
+      }
+     ],
+     "nuDiaAtual": 1,
+     "txSessao": "1ª Sessão"
+    }
+   ],
+   "id": 4,
+   "txDescricao": "3 Sessões-Urgência",
+   "txDescricaoCompleta": "Em pauta por 3 (três) sessões para conhecimento, recebimento de emendas e estudos das Sras. Deputadas e dos Srs. Deputados, de acordo com o item 1 do parágrafo único do artigo 148 do Regimento Interno (Urgência)",
+   "txSigla": "PAUTA_CAB_EM_RU"
+  },
+  {
+   "gruposSessao": [
+    {
+     "itens": [
+      {
+       "dtInclusao": "2026-11-18T14:22",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2346,
+       "idProcesso": 1100005856,
+       "itensPorSecao": null,
+       "nuDiaTotal": 3,
+       "tpEmenda": "N",
+       "tpEmendaDescricao": "Normal",
+       "txEmentaPauta": "Dá nova redação à alínea “b” do inciso XVIII do artigo 115 da Constituição do Estado.",
+       "txNomeAutores": "Governador",
+       "txProcesso": "PEC 3/2026"
+      }
+     ],
+     "nuDiaAtual": 1,
+     "txSessao": "1ª Sessão"
+    }
+   ],
+   "id": 9,
+   "txDescricao": "3 Sessões-PEC",
+   "txDescricaoCompleta": "Em pauta por 3 (três) sessões para conhecimento, recebimento de emendas e estudos das Sras. Deputadas e dos Srs. Deputados, de acordo com o artigo 253 do Regimento Interno (Reforma da Constituição)",
+   "txSigla": "PAUTA_CAB_PEC"
+  },
+  {
+   "gruposSessao": [
+    {
+     "itens": [
+      {
+       "dtInclusao": "2026-11-18T14:21",
+       "flSuspenso": "N",
+       "idPauta": 1100000074,
+       "idPautaItem": 2337,
+       "idProcesso": 1000635353,
+       "itensPorSecao": null,
+       "nuDiaTotal": 3,
+       "tpEmenda": "C",
+       "tpEmendaDescricao": "Recurso",
+       "txEmentaPauta": "Denomina \"Prefeito João Rinaldo\" o Dispositivo de Acesso e Retorno SPD 023-101, localizado no km 22,609 da Rodovia Jornalista Francisco Aguirre Proença - SP 101, em Monte Mor.",
+       "txNomeAutores": "Gil Diniz Bolsonaro",
+       "txProcesso": "PL 1122/2025"
+      }
+     ],
+     "nuDiaAtual": 2,
+     "txSessao": "2ª Sessão"
+    }
+   ],
+   "id": 10,
+   "txDescricao": "3 Sessões-Recurso",
+   "txDescricaoCompleta": "Em pauta por 3 (três) sessões, para conhecimento e recebimento de recursos das Sras. Deputadas e dos Srs. Deputados, de acordo com o § 1º do artigo 33 do Regimento Interno (Pauta para Recursos)",
+   "txSigla": "PAUTA_CAB_REC"
+  }
+ ],
+ "titulo": "PAUTA PARA EMENDAS E RECURSOS PARA A 175ª SESSÃO ORDINÁRIA, EM 19 DE NOVEMBRO DE 2026",
+ "txTituloSessao": "175ª Sessão Ordinária",
+ "urlDocumento": null
+}
