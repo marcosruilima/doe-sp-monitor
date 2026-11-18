@@ -1,0 +1,39 @@
+{
+ "coletado_em_utc": "2026-11-18T20:36:31",
+ "hoje": "2026-11-18",
+ "cadernos": [
+  {
+   "dia": "2026-11-18",
+   "caderno": "Parte I (Poder Executivo)",
+   "arquivo": "rj/doerj/2026-11-18_parte-i-poder-executivo.txt",
+   "bytes_pdf": 4569211,
+   "chars": 1597631,
+   "itens_sumario": 193
+  },
+  {
+   "dia": "2026-11-18",
+   "caderno": "Parte II (Poder Legislativo)",
+   "arquivo": "rj/doerj/2026-11-18_parte-ii-poder-legislativo.txt",
+   "bytes_pdf": 2669375,
+   "chars": 1037848,
+   "itens_sumario": 8
+  },
+  {
+   "dia": "2026-11-17",
+   "caderno": "Parte I (Poder Executivo)",
+   "arquivo": "rj/doerj/2026-11-17_parte-i-poder-executivo.txt",
+   "bytes_pdf": 4372825,
+   "chars": 1301912,
+   "itens_sumario": 178
+  },
+  {
+   "dia": "2026-11-17",
+   "caderno": "Parte II (Poder Legislativo)",
+   "arquivo": "rj/doerj/2026-11-17_parte-ii-poder-legislativo.txt",
+   "bytes_pdf": 608742,
+   "chars": 11552,
+   "itens_sumario": 2
+  }
+ ],
+ "erros": []
+}
