@@ -22,7 +22,7 @@ def slug(t):
 def coletar(dia):
     data = base64.b64encode(dia.strftime("%Y%m%d").encode()).decode()
     r = S.get(f"{BASE}do_seleciona_edicao.php?data={data}", timeout=60)
-    r.raise_for_status()
+    r.raise_for_status(); r.encoding = "utf-8"
     links = re.findall(r'<a href="(mostra_edicao\.php\?session=[^"]+)"[^>]*>([^<]+)</a>', r.text)
     if not links:
         status["cadernos"].append({"dia": str(dia), "caderno": None, "nota": "sem cadernos listados"})
@@ -34,7 +34,7 @@ def coletar(dia):
         if dia < HOJE and os.path.exists(arq):
             continue
         try:
-            p = S.get(BASE + html.unescape(href), timeout=60)
+            p = S.get(BASE + html.unescape(href), timeout=60); p.encoding = "utf-8"
             pd = re.search(r'var pd = "([0-9A-F-]{36})"', p.text).group(1)
             sumario = [html.unescape(re.sub(r"\s+", " ", o)).strip() for o in re.findall(r'<option[^>]*value="\d+"[^>]*>([^<]+)</option>', p.text.split('id="sumario"')[1].split("</select>")[0])]
             pdf = S.get(f"{BASE}mostra_edicao.php?k={pd[:12]}P{pd[12:]}", timeout=180)
@@ -53,6 +53,12 @@ for i in range(DIAS + 1):
         coletar(HOJE - datetime.timedelta(days=i))
     except Exception as e:
         status["erros"].append(f"{HOJE - datetime.timedelta(days=i)}: {e!r}")
+# retencao: apaga textos com mais de 7 dias (volume ~3 MB/dia)
+if os.path.isdir(OUT):
+    corte = str(HOJE - datetime.timedelta(days=7))
+    for n in os.listdir(OUT):
+        if n[:10] < corte and n.endswith(".txt"):
+            os.remove(f"{OUT}/{n}")
 os.makedirs(OUT, exist_ok=True)
 json.dump(status, open(f"{OUT}/status.json", "w"), ensure_ascii=False, indent=1)
 print(json.dumps(status, ensure_ascii=False, indent=1))
