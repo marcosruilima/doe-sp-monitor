@@ -1,0 +1,22 @@
+name: Coletar DOERJ
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 9 * * 1-5"     # 6h15 Brasília
+    - cron: "45 10 * * 1-5"    # 7h45 Brasília (antes do diário RelGov RJ das 8h52)
+    - cron: "0 18 * * 1-5"     # 15h Brasília (extras do dia, para o checkup das 16h)
+permissions:
+  contents: write
+jobs:
+  coleta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests && (which pdftotext || sudo apt-get install -y poppler-utils)
+      - run: python rj/coleta_doerj.py
+      - run: |
+          git config user.name rj-bot; git config user.email rj-bot@users.noreply.github.com
+          git add rj/doerj; git commit -m "Coleta DOERJ" || true; git pull --rebase -q; git push
