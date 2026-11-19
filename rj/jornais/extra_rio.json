@@ -1,7 +1,31 @@
 {
- "coletado_em": "2026-11-18T19:00:39.422086Z",
+ "coletado_em": "2026-11-19T10:31:03.474317Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "Obras na Serra das Araras chegam a 90% e têm fábrica de vigas e até 'pedreira' no canteiro",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/obras-na-serra-das-araras-chegam-a-90percent-e-tem-fabrica-de-vigas-e-ate-pedreira-no-canteiro.ghtml"
+  },
+  {
+   "titulo": "Mais da metade dos fuzis apreendidos este ano no Estado do Rio estava na área de apenas seis batalhões da PM",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/mais-da-metade-dos-fuzis-apreendidos-este-ano-no-estado-do-rio-estava-na-area-de-apenas-seis-batalhoes-da-pm.ghtml"
+  },
+  {
+   "titulo": "PF cumpre mandados de busca e apreensão em endereços de suspeitos por fraudes na obtenção de CAC",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/pf-cumpre-mandados-de-busca-e-apreensao-em-enderecos-de-suspeitos-por-fraudes-na-obtencao-de-cac.ghtml"
+  },
+  {
+   "titulo": "Rio vacina mais de 5 mil pessoas contra mpox, e Ministério da Saúde envia novas doses",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/rio-vacina-mais-de-5-mil-pessoas-contra-mpox-e-ministerio-da-saude-envia-novas-doses.ghtml"
+  },
+  {
+   "titulo": "Enel Rio remove 'gatos' de energia em comércios na Baixada Fluminense",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/enel-rio-remove-gatos-de-energia-em-comercios-na-baixada-fluminense.ghtml"
+  },
+  {
+   "titulo": "PM vai instalar centro de policiamento especializado em ponto estratégico da Avenida Brasil, próximo à Maré",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/pm-vai-instalar-centro-de-policiamento-especializado-em-ponto-estrategico-da-avenida-brasil-proximo-a-mare.ghtml"
+  },
   {
    "titulo": "Mário Gomes é condenado a pagar 13 anos de aluguel por ocupação irregular de imóvel leiloado; entenda decisão",
    "url": "https://extra.globo.com/rio/noticia/2026/11/mario-gomes-e-condenado-a-pagar-13-anos-de-aluguel-por-ocupacao-irregular-de-imovel-leiloado-entenda-decisao.ghtml"
@@ -17,30 +41,6 @@
   {
    "titulo": "Estado do Rio concentra quase metade das apreensões de fuzis do Brasil",
    "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/estado-do-rio-concentra-quase-metade-das-apreensoes-de-fuzis-do-brasil.ghtml"
-  },
-  {
-   "titulo": "Justiça manda soltar contrarregra preso com munições e notas falsas",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/justica-manda-soltar-contrarregra-preso-com-municoes-e-notas-falsas.ghtml"
-  },
-  {
-   "titulo": "Homem é preso na Via Dutra, suspeito de fingir ser delegado para estuprar mulher em Barra do Piraí",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/homem-e-preso-na-via-dutra-suspeito-de-fingir-ser-delegado-para-estuprar-mulher-em-barra-do-pirai.ghtml"
-  },
-  {
-   "titulo": "Com Edson Celulari como embaixador, festival promove ações de incentivo à doação de sangue no Hemorio",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/com-edson-celulari-como-embaixador-festival-promove-acoes-de-incentivo-a-doacao-de-sangue-no-hemorio.ghtml"
-  },
-  {
-   "titulo": "Pessoas que fazem uso de PrEP poderão se vacinar contra mpox no Rio; veja onde encontrar doses",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/pessoas-que-fazem-uso-de-prep-poderao-se-vacinar-contra-mpox-no-rio-veja-onde-encontrar-doses.ghtml"
-  },
-  {
-   "titulo": "Rua no Centro do Rio é eleita a 11ª 'mais legal' do mundo em 2026; veja ranking",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/rua-no-centro-do-rio-e-eleita-a-11a-mais-legal-do-mundo-em-2026-veja-ranking.ghtml"
-  },
-  {
-   "titulo": "Fábrica clandestina de fuzis é localizada pelo Bope em operação no Complexo da Maré",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/fabrica-clandestina-de-fuzis-e-localizada-pelo-bope-em-operacao-no-complexo-da-mare.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
