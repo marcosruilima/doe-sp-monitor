@@ -257,6 +257,36 @@
   "arquivo": "mg/almg/pautas/2026-11-24_1100_comissao_com1260_tipo1.txt"
  },
  {
+  "data": "2026-11-24",
+  "idTipo": "2",
+  "idCom": "800",
+  "dia": "24",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "15:30",
+  "arquivo": "mg/almg/pautas/2026-11-24_1530_comissao_com800_tipo2.txt"
+ },
+ {
+  "data": "2026-11-24",
+  "idTipo": "1",
+  "idCom": "3",
+  "dia": "24",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "16:00",
+  "arquivo": "mg/almg/pautas/2026-11-24_1600_comissao_com3_tipo1.txt"
+ },
+ {
+  "data": "2026-11-24",
+  "idTipo": "2",
+  "idCom": "799",
+  "dia": "24",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "16:00",
+  "arquivo": "mg/almg/pautas/2026-11-24_1600_comissao_com799_tipo2.txt"
+ },
+ {
   "data": "2026-11-25",
   "idTipo": "1",
   "idCom": "14",
@@ -267,6 +297,46 @@
   "arquivo": "mg/almg/pautas/2026-11-25_1000_comissao_com14_tipo1.txt"
  },
  {
+  "data": "2026-11-25",
+  "idTipo": "2",
+  "idCom": "1258",
+  "dia": "25",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "15:30",
+  "arquivo": "mg/almg/pautas/2026-11-25_1530_comissao_com1258_tipo2.txt"
+ },
+ {
+  "data": "2026-11-25",
+  "idTipo": "2",
+  "idCom": "675",
+  "dia": "25",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "18:00",
+  "arquivo": "mg/almg/pautas/2026-11-25_1800_comissao_com675_tipo2.txt"
+ },
+ {
+  "data": "2026-11-26",
+  "idTipo": "2",
+  "idCom": "8",
+  "dia": "26",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "10:00",
+  "arquivo": "mg/almg/pautas/2026-11-26_1000_comissao_com8_tipo2.txt"
+ },
+ {
+  "data": "2026-11-26",
+  "idTipo": "2",
+  "idCom": "849",
+  "dia": "26",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "14:00",
+  "arquivo": "mg/almg/pautas/2026-11-26_1400_comissao_com849_tipo2.txt"
+ },
+ {
   "data": "2026-11-27",
   "idTipo": "2",
   "idCom": "585",
@@ -275,6 +345,16 @@
   "ano": "2026",
   "hr": "16:00",
   "arquivo": "mg/almg/pautas/2026-11-27_1600_comissao_com585_tipo2.txt"
+ },
+ {
+  "data": "2026-11-30",
+  "idTipo": "2",
+  "idCom": "1",
+  "dia": "30",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "18:30",
+  "arquivo": "mg/almg/pautas/2026-11-30_1830_comissao_com1_tipo2.txt"
  },
  {
   "data": "2026-12-01",

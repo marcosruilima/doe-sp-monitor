@@ -100,7 +100,7 @@ RQC Requerimento de Comissão 23822/2026
  Prefeito - Prefeitura Municipal de São João da Lagoa
  Guilherme Augusto Guimarães de Oliveira
  Prefeito - Prefeitura Municipal de Montes Claros
- Heron Domingues Guimarães
+ Heron Domingues Guimarães Confirmado
  Prefeito - Prefeitura Municipal de Betim
  Elisa Gonçalves de Araújo
  Prefeita - Prefeitura Municipal de Uberaba
@@ -142,7 +142,17 @@ Representando André Christiano dos Santos
  Secretário Municipal de Saúde - Prefeitura Municipal de Belo Horizonte
  Adenilson Lima e Silva
  Secretário Municipal de Saúde - Prefeitura Municipal de Uberlândia
- Taciana Malheiros Lima Carvalho
+ Júlia Diniz Baptista Confirmado
+ Superintendente de Redes de Atenção à Saúde da Secretaria Municipal de Saúde - Prefeitura Municipal de Contagem
+Representando Taciana Malheiros Lima Carvalho
+ Secretária Municipal de Saúde - Prefeitura Municipal de Contagem
+ Filipe Malta Confirmado
+ Superintendente de Atenção Primária à Saúde da Secretaria Municipal de Saúde - Prefeitura Municipal de Contagem
+Representando Taciana Malheiros Lima Carvalho
+ Secretária Municipal de Saúde - Prefeitura Municipal de Contagem
+ Lucas Neviton Confirmado
+ Médico e Assessor da Secretaria Municipal de Saúde - Prefeitura Municipal de Contagem
+Representando Taciana Malheiros Lima Carvalho
  Secretária Municipal de Saúde - Prefeitura Municipal de Contagem
  Eduardo Luiz da Silva
  Secretário Municipal de Saúde - Prefeitura Municipal de Montes Claros
