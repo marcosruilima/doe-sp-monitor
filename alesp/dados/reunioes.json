@@ -560,6 +560,99 @@
  {
   "colegiadosRelacionados": [
    {
+    "id": 12445,
+    "nome": "Comissão de Finanças, Orçamento e Planejamento",
+    "sigla": "CFOP",
+    "tipo": null
+   }
+  ],
+  "descricao": "REUNIÃO DE PAUTA",
+  "documentosReuniao": [
+   {
+    "ano": 2026,
+    "apoiadores": null,
+    "arquivos": null,
+    "autores": null,
+    "cdTipoSessaoOuReuniao": "O",
+    "colegiados": null,
+    "descricao": "Pauta de colegiado nº 7/2026",
+    "dtDocumento": "2026-11-19",
+    "dtPublicacao": null,
+    "dtSessao": null,
+    "idDocumento": 310000025589,
+    "idDocumentoSpl": null,
+    "idReuniao": 1100000067,
+    "idSessao": null,
+    "idTipoDocumento": 20011,
+    "interessados": null,
+    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/19/310000025589.html",
+    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/19/310000025589_cv.pdf",
+    "nomeTipoSessaoReuniao": "Ordinária",
+    "numero": 7,
+    "ordem": null,
+    "processos": null,
+    "relatores": null,
+    "resumo": "6ª Reunião Ordinária de 24/11/2026 às 14:00, da CFOP.",
+    "tipo": "Pauta de colegiado",
+    "txNomeArq": "310000025589.html",
+    "txNomePDF": "310000025589_cv.pdf",
+    "txPath": "/docs/2026/11/19/",
+    "urlDocumento": null
+   },
+   {
+    "ano": 2026,
+    "apoiadores": null,
+    "arquivos": null,
+    "autores": null,
+    "cdTipoSessaoOuReuniao": "O",
+    "colegiados": null,
+    "descricao": "Comunicado de colegiado nº 7/2026",
+    "dtDocumento": "2026-11-19",
+    "dtPublicacao": null,
+    "dtSessao": null,
+    "idDocumento": 310000025588,
+    "idDocumentoSpl": null,
+    "idReuniao": 1100000067,
+    "idSessao": null,
+    "idTipoDocumento": 20012,
+    "interessados": null,
+    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/19/310000025588.html",
+    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/19/310000025588_cv.pdf",
+    "nomeTipoSessaoReuniao": "Ordinária",
+    "numero": 7,
+    "ordem": null,
+    "processos": null,
+    "relatores": null,
+    "resumo": "6ª Reunião Ordinária de 24/11/2026 às 14:00, da CFOP.",
+    "tipo": "Comunicado de colegiado",
+    "txNomeArq": "310000025588.html",
+    "txNomePDF": "310000025588_cv.pdf",
+    "txPath": "/docs/2026/11/19/",
+    "urlDocumento": null
+   }
+  ],
+  "dtReuniao": "2026-11-24T14:00",
+  "idReuniao": 1100000067,
+  "local": {
+   "flAtivo": "S",
+   "idLocal": 2015,
+   "txNome": "Plenário D. Pedro I"
+  },
+  "nuReuniao": 6,
+  "parlamentaresPresentes": null,
+  "presidente": null,
+  "solicitante": "Comissão de Finanças, Orçamento e Planejamento",
+  "status": {
+   "idStatus": 2,
+   "txNome": "Convocada"
+  },
+  "tipoConvocacao": "Ordinária",
+  "tituloReuniao": "Reunião de Pauta",
+  "txAssunto": "deliberar sobre o RGL 15656/26, que trata do Balanço Geral do Estado acompanhado do Relatório sobre as contas do exercício financeiro de 2025."
+ },
+ {
+  "colegiadosRelacionados": [
+   {
     "id": 1000000128,
     "nome": "Comissão de Defesa dos Direitos do Consumidor",
     "sigla": "CDDC",
