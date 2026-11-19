@@ -1,7 +1,31 @@
 {
- "coletado_em": "2026-11-19T11:30:24.872473Z",
+ "coletado_em": "2026-11-19T18:55:03.920456Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "Pré-matrícula em Mesquita tem \nacompanhamento em tempo real",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/pre-matricula-em-mesquita-tem-acompanhamento-em-tempo-real.ghtml"
+  },
+  {
+   "titulo": "Escola da Maré perde quase 40 dias de aula devido a tiroteios, mas supera médias de ensino e ganha prêmio mundial",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/escola-da-mare-perde-quase-40-dias-de-aula-devido-a-tiroteios-mas-supera-medias-de-ensino-e-ganha-premio-mundial.ghtml"
+  },
+  {
+   "titulo": "Réveillon 2027 em Copacabana terá Simone Mendes, Pedro Sampaio e Xande de Pilares; veja programação",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/reveillon-2027-em-copacabana-tera-simone-mendes-pedro-sampaio-e-xande-de-pilares-veja-programacao.ghtml"
+  },
+  {
+   "titulo": "Copacabana terá show de drones inspirado em Harry Potter no Réveillon 2027",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/copacabana-tera-show-de-drones-inspirado-em-harry-potter-no-reveillon-2027.ghtml"
+  },
+  {
+   "titulo": "Programação do Réveillon 2027 começa no Natal e terá Zeca Pagodinho, Alcione e Jorge Aragão",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/reveillon-2027-programacao-comeca-no-natal-e-tera-zeca-pagodinho-alcione-e-jorge-aragao.ghtml"
+  },
+  {
+   "titulo": "Homem simula próprio sequestro e pede à mulher para pagar R$ 7 mil de resgate em Duque de Caxias; veja vídeo",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/homem-simula-proprio-sequestro-e-pede-a-mulher-para-pagar-r-7-mil-de-resgate-em-duque-de-caxias-veja-video.ghtml"
+  },
   {
    "titulo": "Obras na Serra das Araras chegam a 90% e têm fábrica de vigas e até 'pedreira' no canteiro",
    "url": "https://extra.globo.com/rio/noticia/2026/11/obras-na-serra-das-araras-chegam-a-90percent-e-tem-fabrica-de-vigas-e-ate-pedreira-no-canteiro.ghtml"
@@ -17,30 +41,6 @@
   {
    "titulo": "Rio vacina mais de 5 mil pessoas contra mpox, e Ministério da Saúde envia novas doses",
    "url": "https://extra.globo.com/rio/noticia/2026/11/rio-vacina-mais-de-5-mil-pessoas-contra-mpox-e-ministerio-da-saude-envia-novas-doses.ghtml"
-  },
-  {
-   "titulo": "Enel Rio remove 'gatos' de energia em comércios na Baixada Fluminense",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/enel-rio-remove-gatos-de-energia-em-comercios-na-baixada-fluminense.ghtml"
-  },
-  {
-   "titulo": "PM vai instalar centro de policiamento especializado em ponto estratégico da Avenida Brasil, próximo à Maré",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/pm-vai-instalar-centro-de-policiamento-especializado-em-ponto-estrategico-da-avenida-brasil-proximo-a-mare.ghtml"
-  },
-  {
-   "titulo": "Mário Gomes é condenado a pagar 13 anos de aluguel por ocupação irregular de imóvel leiloado; entenda decisão",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/mario-gomes-e-condenado-a-pagar-13-anos-de-aluguel-por-ocupacao-irregular-de-imovel-leiloado-entenda-decisao.ghtml"
-  },
-  {
-   "titulo": "Fábrica clandestina de fuzis descoberta na Maré podia produzir oito armas por dia",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/fabrica-clandestina-de-fuzis-descoberta-na-mare-podia-produzir-oito-armas-por-dia.ghtml"
-  },
-  {
-   "titulo": "Entre desafios e conquistas, mulheres fortalecem seus negócios com apoio em Niterói",
-   "url": "https://extra.globo.com/rio/cidades/niteroi/noticia/2026/11/entre-desafios-e-conquistas-mulheres-fortalecem-seus-negocios-com-apoio-em-niteroi.ghtml"
-  },
-  {
-   "titulo": "Estado do Rio concentra quase metade das apreensões de fuzis do Brasil",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/estado-do-rio-concentra-quase-metade-das-apreensoes-de-fuzis-do-brasil.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
