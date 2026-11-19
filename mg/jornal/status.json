@@ -1,6 +1,13 @@
 {
- "coletado_em_utc": "2026-11-18T18:42:22+00:00",
- "ultima_edicao": "2026-11-18T00:00:00",
- "edicoes": [],
+ "coletado_em_utc": "2026-11-19T10:32:22+00:00",
+ "ultima_edicao": "2026-11-19T00:00:00",
+ "edicoes": [
+  {
+   "data": "2026-11-19",
+   "id": 331350,
+   "bytes_pdf": 2645951,
+   "pdftotext_rc": 0
+  }
+ ],
  "erros": []
 }
