@@ -1,5 +1,23 @@
 [
  {
+  "data": "2026-11-26",
+  "hora": "10:30:00",
+  "tipo": "Sessão Plenária",
+  "arquivo": "2026-11-26_1030_plenario.txt"
+ },
+ {
+  "data": "2026-11-25",
+  "hora": "15:00:00",
+  "tipo": "Sessão Plenária",
+  "arquivo": "2026-11-25_1500_plenario.txt"
+ },
+ {
+  "data": "2026-11-24",
+  "hora": "15:00:00",
+  "tipo": "Sessão Plenária",
+  "arquivo": "2026-11-24_1500_plenario.txt"
+ },
+ {
   "data": "2026-11-19",
   "hora": "10:30:00",
   "tipo": "Sessão Plenária",
@@ -10,11 +28,5 @@
   "hora": "15:00:00",
   "tipo": "Sessão Plenária",
   "arquivo": "2026-11-18_1500_plenario.txt"
- },
- {
-  "data": "2026-11-17",
-  "hora": "15:00:00",
-  "tipo": "Sessão Plenária",
-  "arquivo": "2026-11-17_1500_plenario.txt"
  }
 ]

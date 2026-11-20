@@ -1,40 +1,5 @@
 [
  {
-  "data": "2026-11-17",
-  "tipo": "10ª Reunião EXTRAORDINÁRIA",
-  "comissao": "Comissão de Constituição e Justiça",
-  "situacao": "",
-  "arquivo": "2026-11-17_comisso-de-constituio-e-justia_2325f4.txt"
- },
- {
-  "data": "2026-11-17",
-  "tipo": "3ª Reunião ORDINÁRIA",
-  "comissao": "Comissão de Cultura",
-  "situacao": "",
-  "arquivo": "2026-11-17_comisso-de-cultura_33901b.txt"
- },
- {
-  "data": "2026-11-17",
-  "tipo": "Audiência Pública",
-  "comissao": "Comissão de Defesa dos Direitos da Mulher",
-  "situacao": "",
-  "arquivo": "2026-11-17_comisso-de-defesa-dos-direitos-da-mulher_b58cce.txt"
- },
- {
-  "data": "2026-11-17",
-  "tipo": "4ª Reunião EXTRAORDINÁRIA",
-  "comissao": "Comissão de Emendas Constitucionais e Vetos",
-  "situacao": "",
-  "arquivo": "2026-11-17_comisso-de-emendas-constitucionais-e-vet_946da5.txt"
- },
- {
-  "data": "2026-11-17",
-  "tipo": "3ª Reunião ORDINÁRIA",
-  "comissao": "Comissão de Esporte e Lazer",
-  "situacao": "",
-  "arquivo": "2026-11-17_comisso-de-esporte-e-lazer_b95d70.txt"
- },
- {
   "data": "2026-11-18",
   "tipo": "2ª Reunião EXTRAORDINÁRIA",
   "comissao": "Comissão de Prevenção ao Uso de Drogas e Dependentes Químicos em Geral",
@@ -68,5 +33,19 @@
   "comissao": "Comissão de Orçamento Finanças Fiscalização Financeira e Controle",
   "situacao": "",
   "arquivo": "2026-11-23_comisso-de-oramento-finanas-fiscalizao-f_8596c9.txt"
+ },
+ {
+  "data": "2026-11-24",
+  "tipo": "1ª Reunião ORDINÁRIA",
+  "comissao": "Comissão de Combate às Discriminações e Preconceitos de Raça Cor Etnia Religião e Procedência Nacional",
+  "situacao": "",
+  "arquivo": "2026-11-24_comisso-de-combate-s-discriminaes-e-prec_aa4bc7.txt"
+ },
+ {
+  "data": "2026-11-24",
+  "tipo": "11ª Reunião EXTRAORDINÁRIA",
+  "comissao": "Comissão de Constituição e Justiça",
+  "situacao": "",
+  "arquivo": "2026-11-24_comisso-de-constituio-e-justia_24751b.txt"
  }
 ]
