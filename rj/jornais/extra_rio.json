@@ -1,7 +1,35 @@
 {
- "coletado_em": "2026-11-20T11:34:34.512375Z",
+ "coletado_em": "2026-11-20T19:02:59.841484Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "Parceria entre conselho de arquitetura e organizações prevê entrega de 96 moradias populares na Zona Norte do Rio",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/parceria-entre-conselho-de-arquitetura-e-organizacoes-preve-entrega-de-96-moradias-populares-na-zona-norte-do-rio.ghtml"
+  },
+  {
+   "titulo": "Jovem se afoga em praia no Recreio durante luau com amigas e é internada em estado gravíssimo",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/jovem-se-afoga-em-praia-no-recreio-durante-luau-com-amigas-e-e-internada-em-estado-gravissimo.ghtml"
+  },
+  {
+   "titulo": "Turista estrangeiro é baleado e morto em tentativa de assalto no Centro do Rio",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/turista-estrangeiro-e-baleado-e-morto-em-tentativa-de-assalto-no-centro-do-rio.ghtml"
+  },
+  {
+   "titulo": "Município do Rio registra índice de calor alto e entra em nível 3 de alerta; veja as orientações da prefeitura",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/municipio-do-rio-registra-indice-de-calor-alto-e-entra-em-nivel-3-de-alerta-veja-as-orientacoes-da-prefeitura.ghtml"
+  },
+  {
+   "titulo": "Dia da Consciência Negra no Rio: veja a programação na cidade no feriado de Zumbi dos Palmares",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/dia-da-consciencia-negra-no-rio-veja-a-programacao-na-cidade-no-feriado-de-zumbi-dos-palmares.ghtml"
+  },
+  {
+   "titulo": "Homem furta carro de familiar e bate contra muro de delegacia no Leblon porque 'queria ser preso'",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/homem-furta-carro-de-familiar-e-bate-contra-muro-de-delegacia-no-leblon-porque-queria-ser-preso.ghtml"
+  },
+  {
+   "titulo": "Ponte fica interditada no sentido Niterói após incêndio em carro; feriado tem trânsito pesado em direção à Região dos Lagos",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/transito-pesado-em-direcao-a-regiao-dos-lagos-marca-inicio-de-feriado-travessia-da-ponte-rio-niteroi-esta-em-40-minutos.ghtml"
+  },
   {
    "titulo": "Escola da Maré premiada como a melhor do mundo na categoria adversidade tem protocolo para proteger alunos durante tiroteios",
    "url": "https://extra.globo.com/rio/noticia/2026/11/escola-da-mare-premiada-como-a-melhor-do-mundo-na-categoria-adversidade-tem-protocolo-para-proteger-alunos-durante-tiroteios.ghtml"
@@ -13,34 +41,6 @@
   {
    "titulo": "Primeiros trilhos da Estação Gávea da linha 4 do metrô começam a ser instalados",
    "url": "https://extra.globo.com/rio/noticia/2026/11/primeiros-trilhos-da-estacao-gavea-da-linha-4-do-metro-comecam-a-ser-instalados.ghtml"
-  },
-  {
-   "titulo": "Homem que se passou por delegado para estuprar vítima teve flagrante convertido em prisão preventiva",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/homem-que-se-passou-por-delegado-para-estuprar-vitima-teve-flagrante-convertido-em-prisao-preventiva.ghtml"
-  },
-  {
-   "titulo": "Semana da Consciência Negra tem oficinas em São Gonçalo e Duque de Caxias",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/semana-da-consciencia-negra-tem-oficinas-em-sao-goncalo-e-duque-de-caxias.ghtml"
-  },
-  {
-   "titulo": "PSD recorre de decisão de Zanin e volta a defender segundo turno no Rio entre Paes e Ruas",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/psd-recorre-de-decisao-de-zanin-e-volta-a-defender-segundo-turno-no-rio-entre-paes-e-ruas.ghtml"
-  },
-  {
-   "titulo": "Funkeiro Gugu Hawaiano é preso no Galeão, quando estava indo viajar com a família",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/funkeiro-gugu-hawaiano-e-preso-no-galeao-quando-estava-indo-viajar-com-a-familia.ghtml"
-  },
-  {
-   "titulo": "Corrida do Dia da Consciência Negra deve reunir 10 mil pessoas em Duque de Caxias",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/corrida-do-dia-da-consciencia-negra-deve-reunir-10-mil-pessoas-em-duque-de-caxias.ghtml"
-  },
-  {
-   "titulo": "Como fica o tempo no Rio neste feriadão? Veja previsão até domingo",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/como-fica-o-tempo-no-rio-neste-feriadao-veja-previsao-ate-domingo.ghtml"
-  },
-  {
-   "titulo": "Réveillon 2027: Palco Rio será o maior já montado para a virada do ano em Copacabana",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/reveillon-2027-palco-rio-sera-o-maior-ja-montado-para-a-virada-do-ano-em-copacabana.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
