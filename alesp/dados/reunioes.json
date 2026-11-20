@@ -653,6 +653,99 @@
  {
   "colegiadosRelacionados": [
    {
+    "id": 1000001015,
+    "nome": "Comissão de Defesa dos Direitos das Pessoas com Deficiência",
+    "sigla": "CDDPD",
+    "tipo": null
+   }
+  ],
+  "descricao": "REUNIÃO DE PAUTA",
+  "documentosReuniao": [
+   {
+    "ano": 2026,
+    "apoiadores": null,
+    "arquivos": null,
+    "autores": null,
+    "cdTipoSessaoOuReuniao": "O",
+    "colegiados": null,
+    "descricao": "Comunicado de colegiado nº 2/2026",
+    "dtDocumento": "2026-11-19",
+    "dtPublicacao": null,
+    "dtSessao": null,
+    "idDocumento": 310000025593,
+    "idDocumentoSpl": null,
+    "idReuniao": 1100000065,
+    "idSessao": null,
+    "idTipoDocumento": 20012,
+    "interessados": null,
+    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/19/310000025593.html",
+    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/19/310000025593_cv.pdf",
+    "nomeTipoSessaoReuniao": "Ordinária",
+    "numero": 2,
+    "ordem": null,
+    "processos": null,
+    "relatores": null,
+    "resumo": "1ª Reunião Ordinária de 24/11/2026 às 15:00, da CDDPD.",
+    "tipo": "Comunicado de colegiado",
+    "txNomeArq": "310000025593.html",
+    "txNomePDF": "310000025593_cv.pdf",
+    "txPath": "/docs/2026/11/19/",
+    "urlDocumento": null
+   },
+   {
+    "ano": 2026,
+    "apoiadores": null,
+    "arquivos": null,
+    "autores": null,
+    "cdTipoSessaoOuReuniao": "O",
+    "colegiados": null,
+    "descricao": "Pauta de colegiado nº 2/2026",
+    "dtDocumento": "2026-11-19",
+    "dtPublicacao": null,
+    "dtSessao": null,
+    "idDocumento": 310000025584,
+    "idDocumentoSpl": null,
+    "idReuniao": 1100000065,
+    "idSessao": null,
+    "idTipoDocumento": 20011,
+    "interessados": null,
+    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/19/310000025584.html",
+    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/19/310000025584_cv.pdf",
+    "nomeTipoSessaoReuniao": "Ordinária",
+    "numero": 2,
+    "ordem": null,
+    "processos": null,
+    "relatores": null,
+    "resumo": "1ª Reunião Ordinária de 24/11/2026 às 15:00, da CDDPD.",
+    "tipo": "Pauta de colegiado",
+    "txNomeArq": "310000025584.html",
+    "txNomePDF": "310000025584_cv.pdf",
+    "txPath": "/docs/2026/11/19/",
+    "urlDocumento": null
+   }
+  ],
+  "dtReuniao": "2026-11-24T15:00",
+  "idReuniao": 1100000065,
+  "local": {
+   "flAtivo": "S",
+   "idLocal": 2016,
+   "txNome": "Plenário Tiradentes"
+  },
+  "nuReuniao": 1,
+  "parlamentaresPresentes": null,
+  "presidente": null,
+  "solicitante": "Comissão de Defesa dos Direitos das Pessoas com Deficiência",
+  "status": {
+   "idStatus": 2,
+   "txNome": "Convocada"
+  },
+  "tipoConvocacao": "Ordinária",
+  "tituloReuniao": "Reunião de Pauta",
+  "txAssunto": "apreciar a pauta anexa e tratar de outros assuntos de interesse da Comissão."
+ },
+ {
+  "colegiadosRelacionados": [
+   {
     "id": 1000000128,
     "nome": "Comissão de Defesa dos Direitos do Consumidor",
     "sigla": "CDDC",
