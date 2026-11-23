@@ -1,23 +1,5 @@
 [
  {
-  "data": "2026-11-19",
-  "dia": "19",
-  "mes": "11",
-  "ano": "2026",
-  "hr": "14:00",
-  "arquivo": "mg/almg/pautas/2026-11-19_1400_plenario.txt",
-  "ja_baixada": true
- },
- {
-  "data": "2026-11-19",
-  "dia": "19",
-  "mes": "11",
-  "ano": "2026",
-  "hr": "19:00",
-  "arquivo": "mg/almg/pautas/2026-11-19_1900_plenario.txt",
-  "ja_baixada": true
- },
- {
   "data": "2026-11-23",
   "dia": "23",
   "mes": "11",
