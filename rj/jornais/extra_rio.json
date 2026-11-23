@@ -1,7 +1,15 @@
 {
- "coletado_em": "2026-11-23T10:47:54.888837Z",
+ "coletado_em": "2026-11-23T11:40:04.204025Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "PM mira disputas territoriais e roubos de veículos em operação na Cidade de Deus",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/pm-mira-disputas-territoriais-e-roubos-de-veiculos-em-operacao-na-cidade-de-deus.ghtml"
+  },
+  {
+   "titulo": "Lapa e arredores têm 21 projetos de moradia pelo Reviver Centro; veja onde ficam",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/lapa-e-arredores-tem-21-projetos-de-moradia-pelo-reviver-centro-veja-onde-ficam.ghtml"
+  },
   {
    "titulo": "Rio pode chegar a 39°C antes da passagem de frente fria, e semana tem previsão de chuva forte",
    "url": "https://extra.globo.com/rio/noticia/2026/11/rio-pode-chegar-a-39c-antes-da-passagem-de-frente-fria-e-semana-tem-previsao-de-chuva-forte.ghtml"
@@ -33,14 +41,6 @@
   {
    "titulo": "Jovem é preso no Galeão com 83 tabletes de haxixe no fundo falso da mala",
    "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/jovem-e-preso-no-galeao-com-83-tabletes-de-haxixe-no-fundo-falso-da-mala.ghtml"
-  },
-  {
-   "titulo": "Volta da praia tem ônibus depredados na Zona Sul do Rio, diz sindicato",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/volta-da-praia-tem-onibus-depredados-na-zona-sul-do-rio-diz-sindicato.ghtml"
-  },
-  {
-   "titulo": "Motorista de app atropela homem em possível tentativa de assalto na rua onde turista americano foi baleado na Lapa",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/motorista-de-app-atropela-homem-em-possivel-tentativa-de-assalto-na-rua-onde-turista-americano-foi-baleado-na-lapa.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
