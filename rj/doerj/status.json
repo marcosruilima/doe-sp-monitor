@@ -1,5 +1,5 @@
 {
- "coletado_em_utc": "2026-11-23T11:32:13",
+ "coletado_em_utc": "2026-11-23T18:54:54",
  "hoje": "2026-11-23",
  "cadernos": [
   {
@@ -17,6 +17,14 @@
    "bytes_pdf": 972237,
    "chars": 102733,
    "itens_sumario": 9
+  },
+  {
+   "dia": "2026-11-23",
+   "caderno": "Parte II (Poder Legislativo)",
+   "arquivo": "rj/doerj/2026-11-23_parte-ii-poder-legislativo.txt",
+   "bytes_pdf": 783571,
+   "chars": 20869,
+   "itens_sumario": 2
   },
   {
    "dia": "2026-11-22",
