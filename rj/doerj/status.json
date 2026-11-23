@@ -1,9 +1,14 @@
 {
- "coletado_em_utc": "2026-11-20T18:54:27",
- "hoje": "2026-11-20",
+ "coletado_em_utc": "2026-11-23T10:23:25",
+ "hoje": "2026-11-23",
  "cadernos": [
   {
-   "dia": "2026-11-20",
+   "dia": "2026-11-23",
+   "caderno": null,
+   "nota": "sem cadernos listados"
+  },
+  {
+   "dia": "2026-11-22",
    "caderno": null,
    "nota": "sem cadernos listados"
   }
