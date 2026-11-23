@@ -14,10 +14,24 @@
   "arquivo": "2026-11-24_comisso-de-combate-s-discriminaes-e-prec_aa4bc7.txt"
  },
  {
-  "data": "2026-11-24",
-  "tipo": "11ª Reunião EXTRAORDINÁRIA",
+  "data": "2026-11-25",
+  "tipo": "1ª Reunião ORDINÁRIA",
+  "comissao": "Comissão de Ciência e Tecnologia",
+  "situacao": "",
+  "arquivo": "2026-11-25_comisso-de-cincia-e-tecnologia_15718b.txt"
+ },
+ {
+  "data": "2026-11-25",
+  "tipo": "24ª Reunião ORDINÁRIA",
   "comissao": "Comissão de Constituição e Justiça",
   "situacao": "",
-  "arquivo": "2026-11-24_comisso-de-constituio-e-justia_24751b.txt"
+  "arquivo": "2026-11-25_comisso-de-constituio-e-justia_5aad4e.txt"
+ },
+ {
+  "data": "2026-11-26",
+  "tipo": "3ª Reunião EXTRAORDINÁRIA",
+  "comissao": "Comissão de Defesa dos Direitos Humanos e Cidadania",
+  "situacao": "",
+  "arquivo": "2026-11-26_comisso-de-defesa-dos-direitos-humanos-e_f08afd.txt"
  }
 ]
