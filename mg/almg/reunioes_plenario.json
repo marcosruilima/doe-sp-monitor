@@ -22,5 +22,29 @@
   "ano": "2026",
   "hr": "10:00",
   "arquivo": "mg/almg/pautas/2026-11-27_1000_plenario.txt"
+ },
+ {
+  "data": "2026-11-30",
+  "dia": "30",
+  "mes": "11",
+  "ano": "2026",
+  "hr": "19:00",
+  "arquivo": "mg/almg/pautas/2026-11-30_1900_plenario.txt"
+ },
+ {
+  "data": "2026-12-03",
+  "dia": "03",
+  "mes": "12",
+  "ano": "2026",
+  "hr": "19:00",
+  "arquivo": "mg/almg/pautas/2026-12-03_1900_plenario.txt"
+ },
+ {
+  "data": "2026-12-04",
+  "dia": "04",
+  "mes": "12",
+  "ano": "2026",
+  "hr": "10:00",
+  "arquivo": "mg/almg/pautas/2026-12-04_1000_plenario.txt"
  }
 ]
