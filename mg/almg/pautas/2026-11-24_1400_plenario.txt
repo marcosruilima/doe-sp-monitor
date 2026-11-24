@@ -1,0 +1,538 @@
+URL: https://www.almg.gov.br/atividade-parlamentar/plenario/reuniao/?dia=24&mes=11&ano=2026&hr=14:00
+
+41ª Reunião Ordinária de Plenário - 24/11/2026 14:00 - Assembleia Legislativa de Minas Gerais
+ Compartilhar
+ Compartilhar via apps
+ Compartilhar por e-mail
+ Imprimir
+ Compartilhar
+ Whatsapp
+ Telegram
+ Facebook
+ X (Antigo Twitter)
+ Email
+ {"type":"br.gov.almg.sipub.modelo.plenario.DetalheEstruturadoReuniaoPlenarioSipub","reuniao":{"id":8613,"data":"2026-11-24T00:00:00.000-03:00","hora":"14:00","numero":41,"tipo":{"id":1,"descricao":"ORDINÁRIA","idCategoria":0},"descricao":"41ª Reunião Ordinária de Plenário","pautaCompleta":true,"resultadoCompleto":false,"situacao":{"codigo":"AGENDADA","descricao":"Agendada"},"reuniaoDesconvocada":false},"primeiraParte":{"titulo":"1ª Parte","descricao":"","primeiraFase":{"titulo":"1ª Fase","descricao":"Expediente","itens":["Leitura e aprovação da ata anterior","Leitura da correspondência"]},"segundaFase":{"titulo":"2ª Fase","descricao":"Grande Expediente","itens":["Apresentação de proposições e oradores inscritos"]}},"segundaParte":{"titulo":"2ª Parte","descricao":"Ordem do Dia","primeiraFase":{"titulo":"1ª Fase","descricao":"","comunicacoesAtosPresidencia":{"titulo":"Comunicações e atos da presidência"},"apreciacoes":{"titulo":"Apreciação de pareceres, requerimentos e indicações","ordemDoDia":[{"ordem":1,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":1,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":213500,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":4660,"ano":2023,"ementaOuAssunto":"Requer seja encaminhado à secretária de Estado de Desenvolvimento Social pedido de informações sobre os programas e projetos de economia popular solidária realizados nos últimos quatro anos, com a especificação dos recursos aplicados.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1076,"nome":"Comissão do Trabalho, da Previdência e da Assistência Social"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":2,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":2,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":213510,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":4670,"ano":2023,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o montante de recursos financeiros destinados às instituições de ensino superior do Estado, de 2019 a 2022, para o desenvolvimento de atividades de ensino, pesquisa e extensão voltadas ao combate e à erradicação do trabalho escravo e do tráfico de pessoas.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1076,"nome":"Comissão do Trabalho, da Previdência e da Assistência Social"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":3,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":3,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":220074,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":7027,"ano":2024,"ementaOuAssunto":"Requer seja encaminhado à secretária de Estado de Meio Ambiente e Desenvolvimento Sustentável pedido de informações sobre o quantitativo de barragens no Estado que estão em conformidade com a Resolução ANM nº 95, de 2022, com a discriminação da projeção da capacidade máxima para o recebimento de águas de chuvas, em milímetros por hora.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":4,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":4,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":224623,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":8745,"ano":2024,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o quantitativo de crianças e adolescentes órfãos integrantes do sistema estadual de ensino; sobre a existência de estudos de impacto da situação de orfandade no processo de escolarização desses alunos no Estado; e sobre iniciativas desenvolvidas pela secretaria de que é titular para o suporte a esses estudantes e suas famílias.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1076,"nome":"Comissão do Trabalho, da Previdência e da Assistência Social"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":5,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":5,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":225803,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":9175,"ano":2024,"ementaOuAssunto":"Requer seja encaminhado à secretária de Estado de Desenvolvimento Social pedido de informações sobre os conselhos municipais do idoso, com os esclarecimentos que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1076,"nome":"Comissão do Trabalho, da Previdência e da Assistência Social"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":6,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":6,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":225804,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":9176,"ano":2024,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Governo pedido de informações sobre o volume de recursos oriundos de emendas parlamentares estaduais destinados, nos últimos cinco anos, às instituições de longa permanência para idosos, detalhando-se os valores destinados por transferências especiais.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1076,"nome":"Comissão do Trabalho, da Previdência e da Assistência Social"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":7,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":7,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":225806,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":9178,"ano":2024,"ementaOuAssunto":"Requer seja encaminhado à secretária de Estado de Desenvolvimento Social pedido de informações sobre o número de instituições de longa permanência para idosos em funcionamento no Estado e o número de pessoas idosas atendidas nessas instituições, categorizadas por gênero.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1076,"nome":"Comissão do Trabalho, da Previdência e da Assistência Social"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":8,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":8,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":225808,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":9180,"ano":2024,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Saúde pedido de informações sobre a quantidade de associações de pais e amigos dos excepcionais no Estado que são habilitadas como serviço de saúde.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1076,"nome":"Comissão do Trabalho, da Previdência e da Assistência Social"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":9,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":9,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":228844,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":10533,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao presidente do Tribunal de Contas pedido de informações sobre os resultados obtidos pela Operação Saúde, realizada de 5 a 7/11/2024, especificamente no que concerne às unidades de saúde no Município de Divinópolis.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":3,"nome":"Comissão de Assuntos Municipais e Regionalização"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":10,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":10,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":229317,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":10685,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado à secretária de Estado de Meio Ambiente e Desenvolvimento Sustentável pedido de informações sobre as pilhas de resíduos e rejeitos Fraile, na Mina Casa de Pedra, em Congonhas; sobre as pilhas de resíduos e rejeitos das Barragens B3 e B4 da Mina Mar Azul, no Distrito de São Sebastião das Águas Claras (Macacos), em Nova Lima; e sobre as pilhas de resíduos e rejeitos da Mina Apolo, situada entre os Municípios de Caeté e Santa Bárbara, na Serra do Gandarela, com os esclarecimentos que menciona.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":11,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":11,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":230609,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":11241,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao subsecretário de Esportes da Secretaria de Estado de Desenvolvimento Social pedido de informações sobre o investimento destinado ao fomento da prática do \"breaking\", ou \"breakdance\", no Estado, e o número de atletas mineiros que participaram, ou buscaram participar e não conseguiram, das Olimpíadas de 2024, em Paris, que inauguraram essa modalidade olímpica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":675,"nome":"Comissão de Cultura"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":12,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":12,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":230689,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":11282,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado aos coordenadores do Comitê de Compromitentes do Acordo Judicial de Reparação de Brumadinho pedido de informações sobre o referido acordo, com os esclarecimentos que especifica, relativos aos fundamentos de cláusulas, aos critérios de seleção e priorização de projetos, às comunidades consultadas, à divulgação pública, à execução das obras e à distribuição territorial dos investimentos.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":13,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":13,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":232611,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":12036,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado à secretária de Estado de Desenvolvimento Social pedido de informações sobre as ações de pós-resgate executadas em decorrência do resgate de oito trabalhadores submetidos a condições análogas à escravidão, ocorrido em maio de 2025, durante operação realizada pelo Ministério do Trabalho e Emprego em uma fazenda de eucaliptos e carvoaria localizada no Município de São Gonçalo do Rio Preto.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1076,"nome":"Comissão do Trabalho, da Previdência e da Assistência Social"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":14,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":14,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":233404,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":12337,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado à secretária de Estado de Planejamento e Gestão pedido de informações consubstanciadas em documento que detalhe os recursos investidos pelo Estado, em seus vários órgãos e programas, visando à educação para o trânsito.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":12,"nome":"Comissão de Transporte, Comunicação e Obras Públicas"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":15,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":15,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":234184,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":12669,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Educação pedido de informações consubstanciadas no parecer técnico emitido pela secretaria de que é titular a respeito da estrutura da Escola Estadual Francisco Fernandes.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":849,"nome":"Comissão de Educação, Ciência e Tecnologia"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":16,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":16,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":235968,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":13386,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao presidente do Instituto Estadual do Patrimônio Histórico e Artístico de Minas Gerais - Iepha-MG - pedido de informações consubstanciadas na análise do Projeto de Lei nº 2.080/2024, que cria o Monumento Natural da Serra do Lenheiro, apresentada por Luis Gustavo Molinari Mundim, representante do Iepha-MG, durante audiência pública da comissão em 10/7/2025.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":17,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":17,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":235969,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":13387,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao diretor-geral do Instituto Estadual de Florestas – IEF – pedido de informações consubstanciadas na nota técnica elaborada pelo IEF na análise do Projeto de Lei nº 2.080/2024, que cria o Monumento Natural da Serra do Lenheiro.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":18,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":18,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":235977,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":13395,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado à secretária de Estado de Meio Ambiente e Desenvolvimento Sustentável, ao presidente da Fundação Estadual de Meio Ambiente e ao diretor-geral do Instituto Mineiro de Gestão das Águas pedido de informações consubstanciadas na análise técnica do Projeto de Lei nº 3.402/2025, em especial quanto aos aspectos concernentes aos potenciais impactos ambientais que os minerodutos podem provocar na região a que se refere a proposição.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":19,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":19,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":236211,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":13467,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao comandante-geral e ao corregedor-geral da Polícia Militar pedido de informações consubstanciadas em documento em que conste o número de petições com pedidos de arquivamento de inquérito policial militar feitos pela Corregedoria-Geral da Polícia Militar à Justiça Militar, no período de 24/8/2023 a 24/8/2025, destacando-se as petições em questão que envolvam praça ou oficial.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":508,"nome":"Comissão de Segurança Pública"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":20,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":20,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":237539,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":13966,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Cultura e Turismo pedido de informações sobre o montante disponível, para a pasta de que é titular, dos recursos da Lei Aldir Blanc destinados à consecução dos objetivos previstos no inciso II do parágrafo único do art. 5º da Lei Federal nº 14.399, de 2022, e sobre o percentual desse montante já executado pela referida pasta.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":675,"nome":"Comissão de Cultura"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":21,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":21,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":238190,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":14199,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado à diretora-geral do Instituto Mineiro de Agropecuária e à secretária de Estado de Planejamento e Gestão pedido de informações sobre a situação do concurso público regido pelo Edital Seplag-IMA nº 1/2023, com as especificações que menciona.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idDeputado":28870,"nome":"Deputado Lucas Lasmar"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":22,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":22,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":238339,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":14235,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado à chefe da Polícia Civil pedido de informações sobre o quantitativo de servidores previsto em regulamento e o efetivo atualmente existente nas delegacias distritais, nas delegacias especializadas de atendimento à mulher, nas delegacias especializadas de repressão a crimes rurais e no plantão digital das unidades policiais, bem como sobre o quantitativo de servidores civis \"ad hoc\" em atuação nas delegacias do Estado, detalhado por município.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":508,"nome":"Comissão de Segurança Pública"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":23,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":23,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":238372,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":14250,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o número de alunos com deficiência, em especial com transtorno do espectro autista – TEA –, matriculados na rede estadual de ensino nos últimos cinco anos; as medidas de fiscalização e acompanhamento que a secretaria de que é titular tem adotado em relação às escolas particulares que recusam matrícula a estudantes com deficiência; e os programas, as políticas ou os protocolos de apoio à inclusão escolar de crianças com TEA.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":859,"nome":"Comissão de Defesa dos Direitos da Pessoa com Deficiência"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":24,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":24,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":238374,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":14252,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao procurador-geral de justiça pedido de informações sobre os casos de negativas de matrículas ou dificuldades de acesso à educação, nos últimos cinco anos, enfrentadas por crianças com transtorno do espectro autista em escolas públicas e privadas do Estado, com os esclarecimentos que menciona.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":859,"nome":"Comissão de Defesa dos Direitos da Pessoa com Deficiência"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":25,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":25,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":238376,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":14254,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao presidente do Conselho Estadual de Educação pedido de informações sobre as questões que especifica, relativas à garantia do acesso e da permanência de crianças com transtorno do espectro autista na educação básica no Estado.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":859,"nome":"Comissão de Defesa dos Direitos da Pessoa com Deficiência"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":26,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":26,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":239457,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":14625,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Justiça e Segurança Pública pedido de informações sobre a existência de campanhas educativas, em andamento ou programadas, destinadas à conscientização da população idosa sobre práticas de segurança para evitar golpes.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":14,"nome":"Comissão de Saúde"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":27,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":27,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":239461,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":14629,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Saúde pedido de informações sobre a rede de atendimento psicológico disponível para idosos no Estado e o número de profissionais especializados em gerontologia e saúde mental do idoso no Sistema Único de Saúde em âmbito estadual.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":14,"nome":"Comissão de Saúde"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":28,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":28,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":239463,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":14631,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Justiça e Segurança Pública pedido de informações sobre o número de ocorrências registradas, nos últimos cinco anos, relativas a fraudes, golpes financeiros e crimes de estelionato cujas vítimas foram pessoas idosas, bem como sobre as medidas específicas adotadas para prevenção, investigação e repressão desses crimes.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":14,"nome":"Comissão de Saúde"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":29,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":29,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":240756,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":15169,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Educação e à secretária de Estado de Cultura e Turismo pedido de informações sobre as políticas de preservação do patrimônio histórico e os mecanismos de fomento e incentivo utilizados com vistas à sustentabilidade dos museus que o Poder Executivo pretende apresentar à sociedade mineira, principalmente em relação ao Museu da Escola Professora Ana Maria Casasanta Peixoto, com os esclarecimentos que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":849,"nome":"Comissão de Educação, Ciência e Tecnologia"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":30,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":30,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":242360,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":15995,"ano":2025,"ementaOuAssunto":"Requer seja encaminhado ao diretor-geral da Agência Reguladora de Transportes de Minas Gerais pedido de informações sobre a ausência de iluminação pública no trecho da Rodovia MG-050 no Município de Divinópolis e sobre as razões da paralisação das obras na mesma rodovia, no Município de Formiga, com envio a esta Casa dos planos para a solução dos referidos problemas.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":12,"nome":"Comissão de Transporte, Comunicação e Obras Públicas"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":31,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":31,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":243005,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":16230,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Saúde pedido de informações sobre os serviços de neurocirurgia em funcionamento no Sistema Único de Saúde no Estado, com os detalhamentos que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":14,"nome":"Comissão de Saúde"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":32,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":32,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":243135,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":16261,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao presidente da Fundação Estadual de Meio Ambiente e ao secretário de Estado de Meio Ambiente e Desenvolvimento Sustentável pedido de informações sobre os impactos socioambientais e as causas dos rompimentos recentemente ocorridos em estruturas de empreendimentos da Vale S.A. e da CSN Mineração, bem como sobre a conformidade das estruturas desses empreendimentos com as normas ambientais e minerárias e com termo de ajustamento de conduta.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":33,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":33,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":243676,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":16443,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Meio Ambiente e Desenvolvimento Sustentável pedido de informações acerca de denúncia de possível rompimento de \"sump\" ou estrutura similar da mineradora Gerdau, ocorrido em 5/2/2026, na Mina de Miguel Burnier, em Ouro Preto.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":34,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":34,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":243766,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":16485,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao presidente do Tribunal de Justiça pedido de informações sobre o cumprimento de decisões judiciais que impuseram medidas à empresa Vale S.A. em razão de extravasamentos de água e sedimentos ocorridos nas Minas de Viga e de Fábrica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":35,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":35,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":244470,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":16794,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o plano de trabalho e o cronograma de execução para a elaboração do diagnóstico dos conselhos municipais de educação, que integra iniciativa informada em resposta ao Requerimento nº 11.437/2025.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":849,"nome":"Comissão de Educação, Ciência e Tecnologia"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":36,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":36,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":244472,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":16796,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o cumprimento das metas do Plano Estadual de Educação no período de 2019 a 2024, com os esclarecimentos que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":849,"nome":"Comissão de Educação, Ciência e Tecnologia"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":37,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":37,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":245813,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":17335,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Meio Ambiente e Desenvolvimento Sustentável, ao presidente da Fundação Estadual de Meio Ambiente, ao coordenador do Centro de Apoio Operacional às Promotorias de Justiça do Meio Ambiente, Patrimônio Cultural, Habitação e Urbanismo e ao coordenador-adjunto de Defesa Civil pedido de informações sobre o funcionamento e a finalidade da Cava 18 da Mina de Fábrica da empresa Vale S.A., com os esclarecimentos que menciona.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":799,"nome":"Comissão de Meio Ambiente e Desenvolvimento Sustentável"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":38,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":38,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":246274,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":17524,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao presidente da Companhia Energética de Minas Gerais pedido de informações sobre as respostas relativas ao conjunto de protocolos solicitados à companhia que tratam das melhorias no fornecimento de energia elétrica no Estado, no âmbito do programa Luz para Todos, com os esclarecimentos que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":585,"nome":"Comissão de Participação Popular"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":39,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":39,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":247050,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":17825,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao diretor-presidente da Companhia Energética de Minas Gerais pedido de informações sobre a previsão de conclusão das obras da subestação de energia elétrica que atenderá os municípios que menciona.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":585,"nome":"Comissão de Participação Popular"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":40,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":40,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":247619,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":17984,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado à chefe da Polícia Civil pedido de informações, em complementação à resposta ao Requerimento nº 12.402/2025, sobre inquéritos, procedimentos, ocorrências, medidas protetivas, feminicídios e o programa ProDeam, com os esclarecimentos que especifica.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":1132,"nome":"Comissão de Defesa dos Direitos da Mulher"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]},{"ordem":41,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":41,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":248088,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":18153,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o plano atual de aplicação dos recursos destinados à educação profissional técnica de nível médio enviado ao Ministério da Educação, no âmbito do programa Juros pela Educação, do Propag, instituído pela Lei Complementar Federal nº 212, de 13/1/2025, enviando-se a esta Casa cópia do plano atualmente em execução.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":849,"nome":"Comissão de Educação, Ciência e Tecnologia"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta."}]},{"ordem":42,"turno":{"codigo":0,"descricao":"Turno Único"},"tipoApreciacao":{"codigo":2,"descricao":"Votação"},"apreciacaoSobreParecer":false,"parecerPelaInconstitucionalidade":false,"ordemResultado":42,"faixaConstitucional":false,"primeiraFaseReuniao":true,"proposicao":{"id":250787,"tipo":{"id":5,"descricao":"Requerimento","idCategoria":0,"sigla":"RQN"},"numero":19329,"ano":2026,"ementaOuAssunto":"Requer seja encaminhado ao secretário de Estado de Agricultura, Pecuária e Abastecimento pedido de informações sobre o número de títulos de propriedade emitidos para a população ribeirinha e os pescadores da Comunidade Pesqueira de Porto Novo, localizada às margens da Represa de Três Marias, e o número de emissões de título que estão em curso, com as especificações e o envio dos documentos que menciona.","autoria":[{"id":0,"sequencia":1,"primeiroSignatario":true,"idComissao":8,"nome":"Comissão de Direitos Humanos"}]},"descricao":"Votação - Turno Único","tramitacoes":[{"sequencia":1,"textoTramitacao":"A Mesa da Assembleia opina pela aprovação do requerimento."}]}]}},"terceiraFase":{"titulo":"3ª Fase","descricao":"","pareceresRedacaoFinal":{"titulo":"Pareceres de redação final"}},"segundaFase":{"titulo":"2ª Fase","descricao":""}},"hashAtualizacao":1670854841,"_Id":"6b04a753b8eeccd0ea25faa8","_id":"6b04a753b8eeccd0ea25faa8"}
+ 24/11/2026 às 14:00
+ Plenário
+ 41ª Reunião Ordinária
+ 1ª Parte
+1ª Fase
+ Expediente
+Leitura e aprovação da ata anterior
+Leitura da correspondência
+2ª Fase
+ Grande Expediente
+Apresentação de proposições e oradores inscritos
+ 2ª Parte - Ordem do Dia
+1ª Fase
+ Comunicações e atos da presidência, apreciação de pareceres, requerimentos e indicações
+Comunicações e atos da presidência
+Apreciação de pareceres, requerimentos e indicações
+RQN Requerimento 4660/2023
+ RQN
+ 4660/2023
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à secretária de Estado de Desenvolvimento Social pedido de informações sobre os programas e projetos de economia popular solidária realizados nos últimos quatro anos, com a especificação dos recursos aplicados.
+ Autoria:
+ Comissão do Trabalho, da Previdência e da Assistência Social
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 4670/2023
+ RQN
+ 4670/2023
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o montante de recursos financeiros destinados às instituições de ensino superior do Estado, de 2019 a 2022, para o desenvolvimento de atividades de ensino, pesquisa e extensão voltadas ao combate e à erradicação do trabalho escravo e do tráfico de pessoas.
+ Autoria:
+ Comissão do Trabalho, da Previdência e da Assistência Social
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 7027/2024
+ RQN
+ 7027/2024
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à secretária de Estado de Meio Ambiente e Desenvolvimento Sustentável pedido de informações sobre o quantitativo de barragens no Estado que estão em conformidade com a Resolução ANM nº 95, de 2022, com a discriminação da projeção da capacidade máxima para o recebimento de águas de chuvas, em milímetros por hora.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 8745/2024
+ RQN
+ 8745/2024
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o quantitativo de crianças e adolescentes órfãos integrantes do sistema estadual de ensino; sobre a existência de estudos de impacto da situação de orfandade no processo de escolarização desses alunos no Estado; e sobre iniciativas desenvolvidas pela secretaria de que é titular para o suporte a esses estudantes e suas famílias.
+ Autoria:
+ Comissão do Trabalho, da Previdência e da Assistência Social
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 9175/2024
+ RQN
+ 9175/2024
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à secretária de Estado de Desenvolvimento Social pedido de informações sobre os conselhos municipais do idoso, com os esclarecimentos que especifica.
+ Autoria:
+ Comissão do Trabalho, da Previdência e da Assistência Social
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 9176/2024
+ RQN
+ 9176/2024
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Governo pedido de informações sobre o volume de recursos oriundos de emendas parlamentares estaduais destinados, nos últimos cinco anos, às instituições de longa permanência para idosos, detalhando-se os valores destinados por transferências especiais.
+ Autoria:
+ Comissão do Trabalho, da Previdência e da Assistência Social
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 9178/2024
+ RQN
+ 9178/2024
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à secretária de Estado de Desenvolvimento Social pedido de informações sobre o número de instituições de longa permanência para idosos em funcionamento no Estado e o número de pessoas idosas atendidas nessas instituições, categorizadas por gênero.
+ Autoria:
+ Comissão do Trabalho, da Previdência e da Assistência Social
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 9180/2024
+ RQN
+ 9180/2024
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Saúde pedido de informações sobre a quantidade de associações de pais e amigos dos excepcionais no Estado que são habilitadas como serviço de saúde.
+ Autoria:
+ Comissão do Trabalho, da Previdência e da Assistência Social
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 10533/2025
+ RQN
+ 10533/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao presidente do Tribunal de Contas pedido de informações sobre os resultados obtidos pela Operação Saúde, realizada de 5 a 7/11/2024, especificamente no que concerne às unidades de saúde no Município de Divinópolis.
+ Autoria:
+ Comissão de Assuntos Municipais e Regionalização
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 10685/2025
+ RQN
+ 10685/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à secretária de Estado de Meio Ambiente e Desenvolvimento Sustentável pedido de informações sobre as pilhas de resíduos e rejeitos Fraile, na Mina Casa de Pedra, em Congonhas; sobre as pilhas de resíduos e rejeitos das Barragens B3 e B4 da Mina Mar Azul, no Distrito de São Sebastião das Águas Claras (Macacos), em Nova Lima; e sobre as pilhas de resíduos e rejeitos da Mina Apolo, situada entre os Municípios de Caeté e Santa Bárbara, na Serra do Gandarela, com os esclarecimentos que menciona.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 11241/2025
+ RQN
+ 11241/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao subsecretário de Esportes da Secretaria de Estado de Desenvolvimento Social pedido de informações sobre o investimento destinado ao fomento da prática do "breaking", ou "breakdance", no Estado, e o número de atletas mineiros que participaram, ou buscaram participar e não conseguiram, das Olimpíadas de 2024, em Paris, que inauguraram essa modalidade olímpica.
+ Autoria:
+ Comissão de Cultura
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 11282/2025
+ RQN
+ 11282/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado aos coordenadores do Comitê de Compromitentes do Acordo Judicial de Reparação de Brumadinho pedido de informações sobre o referido acordo, com os esclarecimentos que especifica, relativos aos fundamentos de cláusulas, aos critérios de seleção e priorização de projetos, às comunidades consultadas, à divulgação pública, à execução das obras e à distribuição territorial dos investimentos.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 12036/2025
+ RQN
+ 12036/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à secretária de Estado de Desenvolvimento Social pedido de informações sobre as ações de pós-resgate executadas em decorrência do resgate de oito trabalhadores submetidos a condições análogas à escravidão, ocorrido em maio de 2025, durante operação realizada pelo Ministério do Trabalho e Emprego em uma fazenda de eucaliptos e carvoaria localizada no Município de São Gonçalo do Rio Preto.
+ Autoria:
+ Comissão do Trabalho, da Previdência e da Assistência Social
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 12337/2025
+ RQN
+ 12337/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à secretária de Estado de Planejamento e Gestão pedido de informações consubstanciadas em documento que detalhe os recursos investidos pelo Estado, em seus vários órgãos e programas, visando à educação para o trânsito.
+ Autoria:
+ Comissão de Transporte, Comunicação e Obras Públicas
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 12669/2025
+ RQN
+ 12669/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Educação pedido de informações consubstanciadas no parecer técnico emitido pela secretaria de que é titular a respeito da estrutura da Escola Estadual Francisco Fernandes.
+ Autoria:
+ Comissão de Educação, Ciência e Tecnologia
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 13386/2025
+ RQN
+ 13386/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao presidente do Instituto Estadual do Patrimônio Histórico e Artístico de Minas Gerais - Iepha-MG - pedido de informações consubstanciadas na análise do Projeto de Lei nº 2.080/2024, que cria o Monumento Natural da Serra do Lenheiro, apresentada por Luis Gustavo Molinari Mundim, representante do Iepha-MG, durante audiência pública da comissão em 10/7/2025.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 13387/2025
+ RQN
+ 13387/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao diretor-geral do Instituto Estadual de Florestas – IEF – pedido de informações consubstanciadas na nota técnica elaborada pelo IEF na análise do Projeto de Lei nº 2.080/2024, que cria o Monumento Natural da Serra do Lenheiro.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 13395/2025
+ RQN
+ 13395/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à secretária de Estado de Meio Ambiente e Desenvolvimento Sustentável, ao presidente da Fundação Estadual de Meio Ambiente e ao diretor-geral do Instituto Mineiro de Gestão das Águas pedido de informações consubstanciadas na análise técnica do Projeto de Lei nº 3.402/2025, em especial quanto aos aspectos concernentes aos potenciais impactos ambientais que os minerodutos podem provocar na região a que se refere a proposição.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 13467/2025
+ RQN
+ 13467/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao comandante-geral e ao corregedor-geral da Polícia Militar pedido de informações consubstanciadas em documento em que conste o número de petições com pedidos de arquivamento de inquérito policial militar feitos pela Corregedoria-Geral da Polícia Militar à Justiça Militar, no período de 24/8/2023 a 24/8/2025, destacando-se as petições em questão que envolvam praça ou oficial.
+ Autoria:
+ Comissão de Segurança Pública
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 13966/2025
+ RQN
+ 13966/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Cultura e Turismo pedido de informações sobre o montante disponível, para a pasta de que é titular, dos recursos da Lei Aldir Blanc destinados à consecução dos objetivos previstos no inciso II do parágrafo único do art. 5º da Lei Federal nº 14.399, de 2022, e sobre o percentual desse montante já executado pela referida pasta.
+ Autoria:
+ Comissão de Cultura
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 14199/2025
+ RQN
+ 14199/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à diretora-geral do Instituto Mineiro de Agropecuária e à secretária de Estado de Planejamento e Gestão pedido de informações sobre a situação do concurso público regido pelo Edital Seplag-IMA nº 1/2023, com as especificações que menciona.
+ Autoria:
+ Deputado Lucas Lasmar
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 14235/2025
+ RQN
+ 14235/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à chefe da Polícia Civil pedido de informações sobre o quantitativo de servidores previsto em regulamento e o efetivo atualmente existente nas delegacias distritais, nas delegacias especializadas de atendimento à mulher, nas delegacias especializadas de repressão a crimes rurais e no plantão digital das unidades policiais, bem como sobre o quantitativo de servidores civis "ad hoc" em atuação nas delegacias do Estado, detalhado por município.
+ Autoria:
+ Comissão de Segurança Pública
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 14250/2025
+ RQN
+ 14250/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o número de alunos com deficiência, em especial com transtorno do espectro autista – TEA –, matriculados na rede estadual de ensino nos últimos cinco anos; as medidas de fiscalização e acompanhamento que a secretaria de que é titular tem adotado em relação às escolas particulares que recusam matrícula a estudantes com deficiência; e os programas, as políticas ou os protocolos de apoio à inclusão escolar de crianças com TEA.
+ Autoria:
+ Comissão de Defesa dos Direitos da Pessoa com Deficiência
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 14252/2025
+ RQN
+ 14252/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao procurador-geral de justiça pedido de informações sobre os casos de negativas de matrículas ou dificuldades de acesso à educação, nos últimos cinco anos, enfrentadas por crianças com transtorno do espectro autista em escolas públicas e privadas do Estado, com os esclarecimentos que menciona.
+ Autoria:
+ Comissão de Defesa dos Direitos da Pessoa com Deficiência
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 14254/2025
+ RQN
+ 14254/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao presidente do Conselho Estadual de Educação pedido de informações sobre as questões que especifica, relativas à garantia do acesso e da permanência de crianças com transtorno do espectro autista na educação básica no Estado.
+ Autoria:
+ Comissão de Defesa dos Direitos da Pessoa com Deficiência
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 14625/2025
+ RQN
+ 14625/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Justiça e Segurança Pública pedido de informações sobre a existência de campanhas educativas, em andamento ou programadas, destinadas à conscientização da população idosa sobre práticas de segurança para evitar golpes.
+ Autoria:
+ Comissão de Saúde
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 14629/2025
+ RQN
+ 14629/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Saúde pedido de informações sobre a rede de atendimento psicológico disponível para idosos no Estado e o número de profissionais especializados em gerontologia e saúde mental do idoso no Sistema Único de Saúde em âmbito estadual.
+ Autoria:
+ Comissão de Saúde
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 14631/2025
+ RQN
+ 14631/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Justiça e Segurança Pública pedido de informações sobre o número de ocorrências registradas, nos últimos cinco anos, relativas a fraudes, golpes financeiros e crimes de estelionato cujas vítimas foram pessoas idosas, bem como sobre as medidas específicas adotadas para prevenção, investigação e repressão desses crimes.
+ Autoria:
+ Comissão de Saúde
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 15169/2025
+ RQN
+ 15169/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Educação e à secretária de Estado de Cultura e Turismo pedido de informações sobre as políticas de preservação do patrimônio histórico e os mecanismos de fomento e incentivo utilizados com vistas à sustentabilidade dos museus que o Poder Executivo pretende apresentar à sociedade mineira, principalmente em relação ao Museu da Escola Professora Ana Maria Casasanta Peixoto, com os esclarecimentos que especifica.
+ Autoria:
+ Comissão de Educação, Ciência e Tecnologia
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 15995/2025
+ RQN
+ 15995/2025
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao diretor-geral da Agência Reguladora de Transportes de Minas Gerais pedido de informações sobre a ausência de iluminação pública no trecho da Rodovia MG-050 no Município de Divinópolis e sobre as razões da paralisação das obras na mesma rodovia, no Município de Formiga, com envio a esta Casa dos planos para a solução dos referidos problemas.
+ Autoria:
+ Comissão de Transporte, Comunicação e Obras Públicas
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 16230/2026
+ RQN
+ 16230/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Saúde pedido de informações sobre os serviços de neurocirurgia em funcionamento no Sistema Único de Saúde no Estado, com os detalhamentos que especifica.
+ Autoria:
+ Comissão de Saúde
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 16261/2026
+ RQN
+ 16261/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao presidente da Fundação Estadual de Meio Ambiente e ao secretário de Estado de Meio Ambiente e Desenvolvimento Sustentável pedido de informações sobre os impactos socioambientais e as causas dos rompimentos recentemente ocorridos em estruturas de empreendimentos da Vale S.A. e da CSN Mineração, bem como sobre a conformidade das estruturas desses empreendimentos com as normas ambientais e minerárias e com termo de ajustamento de conduta.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 16443/2026
+ RQN
+ 16443/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Meio Ambiente e Desenvolvimento Sustentável pedido de informações acerca de denúncia de possível rompimento de "sump" ou estrutura similar da mineradora Gerdau, ocorrido em 5/2/2026, na Mina de Miguel Burnier, em Ouro Preto.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 16485/2026
+ RQN
+ 16485/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao presidente do Tribunal de Justiça pedido de informações sobre o cumprimento de decisões judiciais que impuseram medidas à empresa Vale S.A. em razão de extravasamentos de água e sedimentos ocorridos nas Minas de Viga e de Fábrica.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 16794/2026
+ RQN
+ 16794/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o plano de trabalho e o cronograma de execução para a elaboração do diagnóstico dos conselhos municipais de educação, que integra iniciativa informada em resposta ao Requerimento nº 11.437/2025.
+ Autoria:
+ Comissão de Educação, Ciência e Tecnologia
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 16796/2026
+ RQN
+ 16796/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o cumprimento das metas do Plano Estadual de Educação no período de 2019 a 2024, com os esclarecimentos que especifica.
+ Autoria:
+ Comissão de Educação, Ciência e Tecnologia
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 17335/2026
+ RQN
+ 17335/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Meio Ambiente e Desenvolvimento Sustentável, ao presidente da Fundação Estadual de Meio Ambiente, ao coordenador do Centro de Apoio Operacional às Promotorias de Justiça do Meio Ambiente, Patrimônio Cultural, Habitação e Urbanismo e ao coordenador-adjunto de Defesa Civil pedido de informações sobre o funcionamento e a finalidade da Cava 18 da Mina de Fábrica da empresa Vale S.A., com os esclarecimentos que menciona.
+ Autoria:
+ Comissão de Meio Ambiente e Desenvolvimento Sustentável
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 17524/2026
+ RQN
+ 17524/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao presidente da Companhia Energética de Minas Gerais pedido de informações sobre as respostas relativas ao conjunto de protocolos solicitados à companhia que tratam das melhorias no fornecimento de energia elétrica no Estado, no âmbito do programa Luz para Todos, com os esclarecimentos que especifica.
+ Autoria:
+ Comissão de Participação Popular
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 17825/2026
+ RQN
+ 17825/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao diretor-presidente da Companhia Energética de Minas Gerais pedido de informações sobre a previsão de conclusão das obras da subestação de energia elétrica que atenderá os municípios que menciona.
+ Autoria:
+ Comissão de Participação Popular
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 17984/2026
+ RQN
+ 17984/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado à chefe da Polícia Civil pedido de informações, em complementação à resposta ao Requerimento nº 12.402/2025, sobre inquéritos, procedimentos, ocorrências, medidas protetivas, feminicídios e o programa ProDeam, com os esclarecimentos que especifica.
+ Autoria:
+ Comissão de Defesa dos Direitos da Mulher
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+RQN Requerimento 18153/2026
+ RQN
+ 18153/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Educação pedido de informações sobre o plano atual de aplicação dos recursos destinados à educação profissional técnica de nível médio enviado ao Ministério da Educação, no âmbito do programa Juros pela Educação, do Propag, instituído pela Lei Complementar Federal nº 212, de 13/1/2025, enviando-se a esta Casa cópia do plano atualmente em execução.
+ Autoria:
+ Comissão de Educação, Ciência e Tecnologia
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento na forma do Substitutivo nº 1, que apresenta.
+RQN Requerimento 19329/2026
+ RQN
+ 19329/2026
+ Requerimento
+ Votação - 
+ Turno Único
+ Ementa:
+ Requer seja encaminhado ao secretário de Estado de Agricultura, Pecuária e Abastecimento pedido de informações sobre o número de títulos de propriedade emitidos para a população ribeirinha e os pescadores da Comunidade Pesqueira de Porto Novo, localizada às margens da Represa de Três Marias, e o número de emissões de título que estão em curso, com as especificações e o envio dos documentos que menciona.
+ Autoria:
+ Comissão de Direitos Humanos
+ Situação:
+A Mesa da Assembleia opina pela aprovação do requerimento.
+2ª Fase
+ Discussão e votação de propostas de emenda à Constituição, vetos e projetos
+ Nenhuma proposição para apreciação nesta fase.
+3ª Fase - Pareceres de redação final
