@@ -1,7 +1,11 @@
 {
- "coletado_em": "2026-11-24T10:38:14.469857Z",
+ "coletado_em": "2026-11-24T11:24:11.220520Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "Polícia prende ex-padrasto de jovem carbonizado em São Gonçalo; homem é suspeito de participação no crime",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/policia-prende-ex-padrasto-de-jovem-carbonizado-em-sao-goncalo-homem-e-suspeito-de-participacao-no-crime.ghtml"
+  },
   {
    "titulo": "Doca, Gardenal e outros dois réus seguem foragidos às vésperas de julgamento pela morte de médicos na Barra",
    "url": "https://extra.globo.com/rio/noticia/2026/11/doca-gardenal-e-outros-dois-reus-seguem-foragidos-as-vesperas-de-julgamento-pela-morte-de-medicos-na-barra.ghtml"
@@ -37,10 +41,6 @@
   {
    "titulo": "Estudantes de Macaé levam curtas para mostra gratuita de cinema na cidade",
    "url": "https://extra.globo.com/rio/cidades/macae/noticia/2026/11/estudantes-de-macae-levam-curtas-para-mostra-gratuita-de-cinema-na-cidade.ghtml"
-  },
-  {
-   "titulo": "Corpo parcialmente carbonizado é encontrado em retorno da BR-101, em São Gonçalo",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/corpo-parcialmente-carbonizado-e-encontrado-em-retorno-da-br-101-em-sao-goncalo.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
