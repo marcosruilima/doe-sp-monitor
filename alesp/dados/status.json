@@ -1,6 +1,6 @@
 {
- "arquivos_de_sessao": 6,
- "coletado_em_utc": "2026-11-25T11:24:38Z",
+ "arquivos_de_sessao": 7,
+ "coletado_em_utc": "2026-11-25T18:50:58Z",
  "erros": [],
  "janela": [
   "2026-11-18",
@@ -8,5 +8,5 @@
  ],
  "pautas_baixadas": 6,
  "reunioes": 5,
- "sessoes": 13
+ "sessoes": 14
 }
