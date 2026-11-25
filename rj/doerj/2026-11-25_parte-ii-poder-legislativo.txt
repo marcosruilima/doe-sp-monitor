@@ -1,5 +1,5 @@
 # DOERJ 2026-11-25 - Parte II (Poder Legislativo)
-# bytes_pdf=1252621 caracteres_texto=350595
+# bytes_pdf=1252617 caracteres_texto=350595
 
 ## SUMARIO
 Assembléia Legislativa do Estado do Rio de Janeiro
