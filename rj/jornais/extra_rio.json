@@ -1,7 +1,11 @@
 {
- "coletado_em": "2026-11-25T10:32:55.940344Z",
+ "coletado_em": "2026-11-25T11:33:11.091130Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "Rio tem alerta severo para temporal com raios e rajadas de vento no fim da tarde; veja como se proteger",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/rio-tem-alerta-severo-para-temporal-com-raios-e-rajadas-de-vento-no-fim-da-tarde-veja-como-se-proteger.ghtml"
+  },
   {
    "titulo": "De Alceu Valença a Zeca Pagodinho, canções viram pratos no Festival de Frutos do Mar de Rio das Ostras",
    "url": "https://extra.globo.com/rio/cidades/rio-das-ostras/noticia/2026/11/de-alceu-valenca-a-zeca-pagodinho-cancoes-viram-pratos-no-festival-de-frutos-do-mar-de-rio-das-ostras.ghtml"
@@ -37,10 +41,6 @@
   {
    "titulo": "Vídeo: mulher é atropelada e agredida com pauladas por quatro homens após discussão em bar",
    "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/video-mulher-e-atropelada-e-agredida-com-pauladas-por-quatro-homens-apos-discussao-em-bar.ghtml"
-  },
-  {
-   "titulo": "Condenado há 9 meses no caso Marielle, major Ronald é demitido da PM pelo governador do Rio",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/condenado-ha-9-meses-no-caso-marielle-major-ronald-e-demitido-da-pm-pelo-governador-do-rio.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
