@@ -1,6 +1,10 @@
 {
- "coletado_em": "2026-11-25T11:27:48Z",
+ "coletado_em": "2026-11-25T18:41:15Z",
  "itens": [
+  {
+   "titulo": "Departamento de Estradas de Rodagem do Estado será homenageado em Plenário",
+   "url": "https://www.almg.gov.br/comunicacao/noticias/arquivos/Departamento-de-Estradas-de-Rodagem-do-Estado-sera-homenageado-em-Plenario/"
+  },
   {
    "titulo": "ALMG reconhece atuação de Maristela Rangel pela cultura em Minas",
    "url": "https://www.almg.gov.br/comunicacao/noticias/arquivos/ALMG-reconhece-atuacao-de-Maristela-Rangel-pela-cultura-em-Minas/"
@@ -76,10 +80,6 @@
   {
    "titulo": "Matérias voltadas para a saúde pública são votadas",
    "url": "https://www.almg.gov.br/comunicacao/noticias/arquivos/Materias-voltadas-para-a-saude-publica-sao-votadas/"
-  },
-  {
-   "titulo": "Projeto que regulamenta eventos em escolas é aprovado em 2º turno",
-   "url": "https://www.almg.gov.br/comunicacao/noticias/arquivos/Projeto-que-regulamenta-eventos-em-escolas-e-aprovado-em-2-turno/"
   }
  ]
 }
