@@ -1,18 +1,24 @@
 {
- "coletado_em_utc": "2026-11-24T18:45:27Z",
- "hoje": "2026-11-24",
+ "coletado_em_utc": "2026-11-25T10:34:08Z",
+ "hoje": "2026-11-25",
  "janela_dias": 30,
  "reunioes_comissoes": 51,
  "reunioes_plenario": 7,
- "diario_legislativo": [],
+ "diario_legislativo": [
+  {
+   "data": "2026-11-25",
+   "bytes_pdf": 632667,
+   "rc": 0
+  }
+ ],
  "noticias": 20,
  "diagnostico_agenda_comissoes": {
-  "periodo": "2026-11-23 a 2026-12-24",
+  "periodo": "2026-11-24 a 2026-12-25",
   "paginas_lidas": 7,
   "reunioes_encontradas": 51
  },
  "diagnostico_agenda_plenario": {
-  "periodo": "2026-11-23 a 2026-12-24",
+  "periodo": "2026-11-24 a 2026-12-25",
   "paginas_lidas": 2,
   "reunioes_encontradas": 7
  },

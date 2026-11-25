@@ -1,0 +1,90 @@
+{
+ "data": "2026-11-25",
+ "id": 331360,
+ "extra": false,
+ "cadernos": [
+  {
+   "descricao": "Diário do Executivo",
+   "secoes": [
+    {
+     "descricao": "Governo do Estado",
+     "paginaInicial": 1
+    },
+    {
+     "descricao": "Controladoria-Geral do Estado",
+     "paginaInicial": 5
+    },
+    {
+     "descricao": "Polícia Militar de Minas Gerais",
+     "paginaInicial": 5
+    },
+    {
+     "descricao": "Polícia Civil do Estado de Minas Gerais",
+     "paginaInicial": 5
+    },
+    {
+     "descricao": "Corpo de Bombeiros Militar de Minas Gerais",
+     "paginaInicial": 6
+    },
+    {
+     "descricao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
+     "paginaInicial": 6
+    },
+    {
+     "descricao": "Secretaria de Estado de Desenvolvimento Econômico",
+     "paginaInicial": 7
+    },
+    {
+     "descricao": "Secretaria de Estado de Desenvolvimento Social",
+     "paginaInicial": 7
+    },
+    {
+     "descricao": "Secretaria de Estado de Fazenda",
+     "paginaInicial": 7
+    },
+    {
+     "descricao": "Secretaria de Estado de Justiça e Segurança Pública",
+     "paginaInicial": 8
+    },
+    {
+     "descricao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+     "paginaInicial": 11
+    },
+    {
+     "descricao": "Secretaria de Estado de Planejamento e Gestão",
+     "paginaInicial": 12
+    },
+    {
+     "descricao": "Secretaria de Estado de Saúde",
+     "paginaInicial": 25
+    },
+    {
+     "descricao": "Secretaria de Estado de Educação",
+     "paginaInicial": 41
+    },
+    {
+     "descricao": "Editais e Avisos",
+     "paginaInicial": 48
+    }
+   ]
+  },
+  {
+   "descricao": "Diário dos Municípios Mineiros",
+   "secoes": []
+  },
+  {
+   "descricao": "Diário de Terceiros",
+   "secoes": [
+    {
+     "descricao": "Particulares e Pessoas Físicas",
+     "paginaInicial": 1
+    }
+   ]
+  }
+ ],
+ "chaves_resposta": [
+  "dataPublicacao",
+  "cadernos",
+  "arquivoCadernoPrincipal"
+ ]
+}
