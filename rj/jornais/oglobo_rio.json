@@ -1,5 +1,5 @@
 {
- "coletado_em": "2026-11-25T11:33:09.033120Z",
+ "coletado_em": "2026-11-25T18:52:24.920426Z",
  "fonte": "https://oglobo.globo.com/rio/",
  "itens": [
   {
@@ -7,180 +7,172 @@
    "url": "https://whatsapp.com/channel/0029Va7K3Lz0AgWIL2gVor02"
   },
   {
-   "titulo": "Prefeitura do Rio emite alerta severo para temporal com raios e vento forte; veja como se proteger",
+   "titulo": "Previsão de fortes chuvas põe municípios em alerta e adia programações no estado",
+   "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/temporal-no-rj-previsao-de-fortes-chuvas-poe-municipios-em-alerta-e-adia-programacoes-no-estado.ghtml"
+  },
+  {
+   "titulo": "Cidade do Rio tem alerta severo para temporal com raios e vento forte",
    "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/rio-tem-previsao-de-chuva-forte-raios-e-rajadas-de-vento-no-fim-da-tarde-veja-como-se-proteger.ghtml"
+  },
+  {
+   "titulo": "Chuva muito forte é prevista para a Costa Verde; Angra dos Reis e Paraty suspendem aulas",
+   "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/chuva-muito-forte-e-prevista-para-a-costa-verde-nesta-quarta-paraty-suspende-aulas-e-angra-adia-evento-natalino.ghtml"
   },
   {
    "titulo": "Projetos preveem concessão à iniciativa privada de modernização do Forte de Copacabana e do Inca",
    "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/projetos-do-bndes-preveem-concessao-a-iniciativa-privada-de-modernizacao-do-forte-de-copacabana-conclusao-de-fabrica-de-vacinas-e-ampliacao-do-inca.ghtml"
   },
   {
-   "titulo": "Investigação do MPRJ revela influência da milícia na Prefeitura de Seropédica",
+   "titulo": "Recurso da prefeitura contra liminar que impede bloqueio de subsídio será julgado nesta quarta",
+   "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/recurso-da-prefeitura-contra-liminar-que-impede-bloqueio-de-repasses-do-subsidio-para-empresas-de-onibus-sera-julgado-nesta-quarta-feira.ghtml"
+  },
+  {
+   "titulo": "Inmet emite alerta de queda de granizo e ventania para todo o estado do Rio; veja as cidades mais afetadas",
+   "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/inmet-emite-alerta-de-queda-de-granizo-e-ventania-para-todo-o-estado-do-rio-veja-as-cidades-mais-atingidas.ghtml"
+  },
+  {
+   "titulo": "'O que eu falo, o prefeito acata’ e 'prefeitura está na nossa mão’: investigação revela influência da milícia na Prefeitura de Seropédica",
    "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/o-que-eu-falo-o-prefeito-acata-e-prefeitura-esta-na-nossa-mao-investigacao-do-mprj-revela-influencia-da-milicia-na-prefeitura-de-seropedica.ghtml"
   },
   {
-   "titulo": "A cegueira seletiva não é nova, mas a tecnologia ajudou a embaçar o semancol",
-   "url": "https://oglobo.globo.com/rio/leo-aversa/coluna/2026/11/voce-tem-espelho-em-casa.ghtml"
-  },
-  {
-   "titulo": "Neozelandês e chinesa são presos por suspeita de integrar esquema internacional de tráfico de bebês",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/24/neozelandes-e-chinesa-sao-presos-no-rj-suspeitos-de-integrar-esquema-internacional-de-trafico-de-bebes.ghtml"
-  },
-  {
-   "titulo": "The Maze é ameaçado de demolição; evento defende permanência",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/24/the-maze-pode-ser-demolido-evento-defende-permanencia-do-espaco.ghtml"
-  },
-  {
-   "titulo": "Ex-padrasto de jovem carbonizado em São Gonçalo é preso por suspeita de participação no crime",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/24/padrastro-de-jovem-morto-em-sao-goncalo-e-preso-por-suspeita-de-participacao-no-crime.ghtml"
-  },
-  {
-   "titulo": "Metrô tem novo incidente com fumaça pelo segundo dia seguido no Rio",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/24/metro-tem-problemas-pelo-2o-dia-seguido-e-composicao-precisa-ser-evacuada-em-estacao-no-centro.ghtml"
-  },
-  {
-   "titulo": "Van é apreendida em Campo Grande após fraude com Jaé ser constatada",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/24/van-e-apreendida-em-campo-grande-apos-fraude-com-jae-ser-constatada-validador-foi-trocado-para-nao-fazer-integracao.ghtml"
-  },
-  {
-   "titulo": "Cortes: diferença entre receitas e despesas empenhadas passa de R$ 1 bilhão",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/24/cortes-na-prefeitura-do-rio-diferenca-entre-receitas-e-despesas-empenhadas-passa-de-r-1-bilhao.ghtml"
-  },
-  {
-   "titulo": "Bolsonaro completa um ano cumprindo pena por trama golpista",
-   "url": "http://api.cxense.com/public/widget/click/EDsF9SG62xQvQleRPNFJwNmKINyHre7RxE3rBYXzoezZdEbz1yb15fRyKDeHe18E0X4neE-SEwvI8sys1-YXATKRnZs9QEFPC4vJAeQgM7gnN1xaSFCubdmi5VzsoxmFI0n1x7sW2CRQY3HUTt2CLUrExVgVt0knap_aAvebS0YlNKxSnKT0Wr2HEMoEvTzEdpw0yiY2_PGAgh7KADbIMc1mUKJ_jox853ENh74q5KB3OXtLXm7xhTogOAxaKV8KVBfseOxiEDFc4xOQDitClhU6HioqZ249kymKCjkYznesBZWKUkmFqiGrgXQOjIEpcdTGNUDavXiLXDorS89LE32KAwr9cWjiF7n7P8-CE0Y1EjKJ0VD3j9gg_ukTol2qWKLFQ-jq4IK2Abefwb7BGE1gfpyz8A8gt-PaxGrxGO2eMdDMytXntQCopXoC873qvEwW38vpdJJXox80LXGMY-d7Djp2SUM6sIQLgtwNRR7EZTkN503RDIBaJPRuFtQH43tnTD21FLLqeIsfZyyvg-FbL-LwgtstdXccMZdxalPM5Kq99ht6EnVtriblsP9r7bRc4CHyVpgO1fJ33G7jS4PGT6U5TF6LVOK2lFSN57guOo-fpXFitTsFaiuFYKhvCVa9Pg_k-JJWRbUITMmvEV_CsJQUaRFbthhliJJLyFo5ELvwXwn3ectvVFUZeGmVTrfBETiY_12qj7Hn2dhKaJAWgRzoKpFjOvXUEmYjIrgb8YFNg6wJYU8CFQokHydt4cQ6gg4ggA0"
-  },
-  {
-   "titulo": "Quem é Darren Beattie, aliado da família Bolsonaro que deixou o governo Trump",
-   "url": "http://api.cxense.com/public/widget/click/bqQ5w2NytBbjN9IB3wyOZKM88KmX0KwmJgjjf0GE50DEJxUZYPcaL8g--HZCcUU1acF3zaJNpXvCVVHjsefR1n5wSpA8Gs4MPNYvZ8gdS_cVL_DdFrxbVxJ46Pg7boPAe064nGhESppnz96wJLrQ93QB9uRZlIi0BBkhA--LucdRMO6Kr8Tkec6Pad8FMma5Du91US7LZvPdKJTRDodNYwXWTT-CtfW_IjS_3vZkbL7lvFZyB8iX27rFtXNHgumFHYLHwFpYo2I0SCeAEuK3LKtfcapbP650d7_wwTEvkpHLbCqSaaNbTbNcdRNq5kr8V_N3fAcXuAmIP8jndJGMhU71WCf4kDkwbKt9jDby2RJfbBcUp8uYNgGLcBopPrWkaG1KxiyfOthWlvsMmiTFPS49wf8bcsAXkVz_mAje6b2EIlXc3octmCHHP1tj58xMFBDR61JOWF_e1QG4cPTZupGVy5XB8K0WFLGqAa0UkevMSfcH3lscw_WZ-WOMZZklCI2HY8TexvLA2Xz3bmAAbPAbmqiapeur9cY2KTufgkh-Tw31Aw3HuruB2BSq_rYotnQnEo4Tw1ltKDTiGFxKcr_HHirhzmRPqanBNGKbPoEGmqkK8yZfnnOi8DujEgrs6XB1A2Wlv4wbKlhB9U16sUfYAo6l4yXrMXCQnVeDyD5vG29QKFG9nCYZsvA66P40wSt51Qvv5AzwKoFwRvWUyB86v_imc0LvEN_SjChlwxxHQ_x7HWZub2ViNiIMHddqywyJa7tJQdOy0qNVTZZLrp0QnjU0"
-  },
-  {
-   "titulo": "Choro na Gávea: Bap acaba com equipes masculinas de vôlei no Flamengo",
-   "url": "http://api.cxense.com/public/widget/click/YLXuYcreUJ8uubmdO91RlDZYpH4eo1TeUy2BjMwz9jeu92chl1ECDImQ36DAGtjqgBPrbkQ9Fu-xgLnltsHs0cof6UEfsbp9PucLl2cth0Gwk30U_wwG7sA8nHqZibRW_6AqOFzGm46Rdx1HhEhY73I0Jyh3SPVakZYuRcCFRDT2E8zU7DtIKMAuvy3mcK26ovFrgdCfrN9TcNed5sHJ9SQyCmUR4v8YaBzm8OFcqzpZGX_Idmly_V6sljQ4Jpdi0LexHi-8Qu7fpeeemNbx6IazWOZNktPjB5rgmB0qce_j8JjGBm1pNXGUYqb3fxaCB_VuyRsXY3YR8G80UD4bzmCTbsz-NtRXRCBlsM-ptH30tYY6PVrP7vcU0M3lro0ixE-zat0V5lwlUJWo6t3U_T0Z-D6dBZfr-5F6M-Lwwr3YNhcpWCSx_QPrxTBVmA14Z7XH8FtxLl75ltHM3XPqG9_3WRPFv7Q--YXfaUvNlfjES4u1VwnEnuzYRf0dwGSxn15AY5VQiyUgX-sSYr5tELaSpl9a5EipIpLCEmm6Trpi2Yq1Kq5RiV0bEqHiYah_KBhWwpJ-amomM7SOPjnwBW6ClU2pGeHda0CW5veF_Id9AHccFOkohOqCFvC_304cHi9w-SkUIUo7sMjdQjl-KfesYpMOXCglNPVKCYykXnrBswkDombUSfrkjVi5Q1Xg3FxZQwTz_O_DMsVnJR8YB2PNRY9TUskLF4Vjp8o25il_A1h8oEiGSx_mKfdZ_Yaym9D1Do0Miz5j-Ct5-RU0"
-  },
-  {
-   "titulo": "PF mira esquema de R$ 2 bilhões que usava obras de fachada para esconder mineração ilegal em MG",
-   "url": "http://api.cxense.com/public/widget/click/IiYV7ogQgzIG9VM_1zn52u-piiwkF9X6jet6AgjWYcHYTBHCKy6DiCnLzDXwMJe8XQDmxrp4TKTx43jRK0O1D45ino0FDncFdt3U9EfYmA_TICynNa-WlgMW4yCLSIoU24X9RM54IgtBGlbVdaTkTyntApxKg_6SWzPAKKIx4f19Ovsk6y1IAltVd1KEGY_uFAqICWmEOf8-fvpItafhGaBYReVzH6zdyHp5qfmjDflfsM6PX-a_nmp0u8lhBkg1DTG5ZkdWLpcW3OflRLhHctZSXovsU_rOu73VwPwlZJVNpIOGwD4xwS73dWZkAbTNSH514-QUomLXPjj9GIGYhi10fYLAPGiuyqyIEDFuTnC4_euSAaRKibOSiO7--BCtNjpkqYy6c18YWfP1zdhHWxKM-mSCzu7dhYMMSOjOO_IDUjuImPaLgGNpFARfuhlG5jQ-bWDiYfGsCIwJMquoCInWSN8OatraAbLN61ow5nigF6HFbAKnhmp2ii2wZ3azpsWna_ci-J5XLs0heTzQ7CFyNdUy02F8N1K-DSbwticVgymZ4V66OzBd-b2b-pAiOOjf7_DKhKrP_Qwx0jwa4DaLa1Z0AS-6lnpQ4-CKFjIR2nwE-b0yyOoeJ-ta5LvQCMf4TxNINlrnaXFIOXvnKZzMNv1hpsvre-T9-F0AkcZpaoY4TUY5xUs4V01HTVaTYy2Lg8BddKSfzuw1VwvzxKE6TFbH1Kjig8HQ15SiLSJ7MvKXMpIaIvjdLXiC1f0SXHXRQMYTDdtxC-mu8oSKXIDTCUUMSppsqwnl5lYaskzbenY10"
-  },
-  {
-   "titulo": "Tem gigante no Jardim Botânico: exposição revela os segredos do mundo dos insetos",
-   "url": "http://api.cxense.com/public/widget/click/SeUiXYweXEZZUJcF1l-R2-M2o361lRVKa4lP2aQlm12PK9wBYguv-GAZj_vExZodNByeYqwDyonYTeiGfDAIoa7DjSPw21p3LdwW9XwyZzzfU8MKOtG7zMwZ3CDagq2N6mqtNfD8tUTFd_ZvnNXC9wSzMFB3M4kYNrbazQAG8u_WSa0HQmfolt2hk7iVEuIEPD40K6nacw4JHQgYOjJyXJWUXnaxH8n_muCvKGuoyPVfAIoYGpufulf5I3QkXFGChjxcrVACDMN64r4NZXBAUJjo9gOhU6hx1vgXTH_2c9YZII27BCo-GDMZu_rBVFnf7LCgJgZSvjBQgfXsfcixOxi4dl8iEas9UXBCnJcfEBlnbE-ud9RLPOZ-XfmFFYGNmg8ZRvqt-9rORIhQlUFEWjXpRh5EORJWVZ8v4aEZd5XtO1sQT2fqFNF091BuqEqsWiu5AIR1CvkTh3Trc2XhdNAR3fdh2_FqchhcLGw2aW5vfYTLtddyX_oP8EW-RTWNCdWcDRY3ggXSZcbpZkqxTqTYEVB8eCGSKdJhouEZOqapDrOdWGiUtlJxb4-IwVSbsAhzfEBPL5WyPOGwH2BdunubmJOpmFWedu-5fUX3eYDqHyIvzRtCBwHtlGP-Vn0KXPhOVNAh49RT9_7hvU89-i56ozlE_HZhH1lJ1PWjMG59b75WsR2eFWAO7jjMMUeZgOIbEa4oBkAp98GfTg8phcjEQh819syHDG1fvG6XYTXRVUkWSeTJy1pOfbg47-QkmKG2_KOX8ylfPC52kf-kCiGKFNV8x3_8x4VZhw0"
-  },
-  {
-   "titulo": "MC Ryan SP diz que é alvo de investigação por ser 'favelado': 'Se eu cantasse sertanejo, seria a mesma história?'",
-   "url": "http://api.cxense.com/public/widget/click/9oiAYYwj0Aj4INIOHA9ZY-N_727v_FPhF_DXHPCkFXXJPbev0A-r3HVaPb44WiFt8xC5zBUBvXRU4007Zbbyf60WoKvLniXZ0uys9H5JR3F45Et-eHrh-XbeeSspn6KFtNQGcFaTX952sPuyazHZegsqi1hAq0WyR7d7XAvuVap1oNUms5IsxKbwD46uoR1NSENbYYhEexwiW_JrJI-mN1URhzL1wCIjxpqrSXQHb0kEieKnOlWEeJl45f2O9k_nXL5GTDnheAvrnlCr-QQi_kRnJCj61EduFE-anatLYPK5Ktp93ovhPbWLur2JLV3oxtSZnX8Th_wp6sqNKMHO_WaC6vyANF8CPdbf7lfX5dcX1gpommWm0cFWbvBVmV0ewjGOCxAV5IPfxz436f9CQ9nI6syjUniHn13sXPsJBhyilqmQjinmA4cGTlGV4OTwMLeS3SEvIiSMlgn-wrK2Y7eo_kMVWVazuWRUtNpJYF7C443fRgWFIwOn3Bm3Nx_X8cwuI6Y_IFRFNVwJjTjWSY8mAHnACOK_WtAgfCed84heeD3NuQa4WPvJhSVziNXh4K3-UKyFWyHnQ0UPVA9D0uYvR6ZwKCOryvoStD1uH4vw9DDMePnIoJNm1zoRJ0NSgHsJMBu6kMu_n_8T_nvaIsPKsJLP_TtpfWcQ1A49_j-OnuspqvL4gokEdRdbkWIpmooHLjAxoZeXxP7_dvw3hRcnwR97fGKH_50TmWYdKUkXj4Xyhbaw43maSM7kWNHhgnL4HIjhkKT_SsUkDiBHv5OjGCGO9myhjGls0Ty-2Bz9zFqY9ChpDxwAs001UqA80"
-  },
-  {
-   "titulo": "PM prende suspeito de chefiar tráfico de drogas na comunidade da Jaqueira, em Duque de Caxias",
-   "url": "http://api.cxense.com/public/widget/click/RyvhB0O3pEsD5p8YtpjeGLeyRr8TxpFBKbf8u-OMSeNBWfsCUxbt5HnpG4FeHTjP38FNmdjAQjpm9w00JDDMaCSWnHSjvz2bpTjIg-8j3ZaKig770N2gjW0aLEQOxdbROCvKCu_Yn1R3r3KBZ9xPgSdDsCxLbDNNbQb7WpQfhFCtBdchm3fQi7qpw2HGi94h3BA3FNld5bbetj5VUkzQGiYZFokzysjSM8tr0RKYU-6Z13niXXEYGo_ouGvzBX01x54vLd85Z9n6Sare3hUXX2kgDkAlASr4AYxFiIz8xy-w9BKcMcvMHnsxCU-BoqalOb7OHILrAOuej5_Je2jGrrFkUL5wyPXf9AGzvN9T-qD2qp1CRH7tY1P_acuiNdrYfNlz9A32CxokYXnPTVlgZZc53WRzjNKTUrpi62uamf56NDgepjLThRhLQ8vQ6YqTAxQ64n0DSizDC8Fi3EUtuyLLJRXZfKte7ebV1VmVuxJXWeFw_XJq9pieuSGmQff9qiNrBRI-ccjiBa7IGVgHzZSgV-w3jclLVHXWeioup1GzFA4ncRg7FUoHYQ9iTGJbvKbczyvZFLC37XjpnHDDBsBQbNVyEjDxokpsAxHBxkL_ENL9lm-yPBUinqeeph-lEGY8CkqLM47IBgJQ34_eEdu-Nl_pz_rOpk6SisVNf10xDvqpmOo04y3SqkMrjZuNWOnvAKs3-9lFJzyWhhR2SK460lDWnMLk94wEej_Y77YAZszLouh2nZfxxkCzy5t-C0hSiTSt1_xDEshaEK9GdqCqCS3AFHm-uTMEjVmyhg0"
-  },
-  {
-   "titulo": "Sete pessoas são detidas pela Força Municipal após ocorrências em ônibus no Rio; cinco são adolescentes",
-   "url": "http://api.cxense.com/public/widget/click/ShQWF0Nf7qR7BR66rp-W-eloMUUUjc9RgI8oM_uuJ6bzHgqx_R-3MpOhljktjgYV2wZNacQHH8Rr-r8pekpLO7tDRUYhxYsfuvZAx7BUb0BUD0LPM3Wm9zNApcwGMOdk6PVweWFnGNulQdcQqcWzxhQre7o750hYfw6AfeekFLo74fohNZzdKaZsaB4Pid_yAjfJr70cPsmvUJxxVb8OPO4joabB1D942OZaajBWpAJtBtQzofBIpYwAYjrpqk3eMHW1VUuE99pnfPNuUpU9qvJYGrptaDU_1eeWPzuck-1298tcWE1DzBJNP2KekDZOdRb6fQjqZ0UbPtRHoK9SNvo4-ihrAmnPNB2NUWShAF_YOmZbzQhlDjP8viURePn-DaflduL_dp2fZfWv9yqdjxVCGhneqltrwsuw-yzZHrmiD8PMYtcxpf-q02URLuI32iO_nPZCTTMTy2wzTWQMlv38mO0QePg7zMrWJObkIk9NSZ8GZ7iV8QQdFbD_20qDpZf7izRrG-VgbF7fNGzQZD6iZCYgUVcYN1ToG32fc0k5yQFTtbApsIaK1Rg26FDoSFjDLnqxBpc8IDL8WrL1Mm_tNXNPzz1-jmG_XCjMWnIYBAwVCpNdGX5a8TQbup4gin_FaZIU64nZcQV9azfaGJV19nW7CmNTKqxyWaCKHiJVxu4voa9oy3XmRNGYuqjqGBLq-p-oRCaWBX67OgbM1xBz2Lm7a_s7TMDyGNZTEhUfF4qQnMdSNQl2ooDR_kU6YbzjZMO2ZP1-0hGZVPc5WipSOVweLgzzQ13_rY651R0aOn63tNtMKmw0"
-  },
-  {
-   "titulo": "Polícia Civil investiga origem e autoria de disparo que atingiu mulher dentro de casa no Parque Guinle",
-   "url": "http://api.cxense.com/public/widget/click/wDgMk2qHR2ynzDfumGmZS-GxROrpM49P1RYk1TL8M_ZwlJT1h6t9Ku4HepLgnMGaD2VvbvO7zGMqksFe0OmOEH1yRZPU0lby6QXlGq0-DDDYsMRtey1PgwI7du8rjkS02gqzR6_8RAJuTYqKR2T2eDuPmxdSH6YSU255iliSXdleaV3vUU9WHFY_l0JkQG13lLjw5D4pZ9gxaD7179ZWMUYW884fqJ23mi5TRbpQl2B4VmChv_8VQ5KNNBlJ-OkXRRHkJR2zlucAlH0SzqC6p7ruGqs7zmKf6D_JZQ5ifJ2I7PtiOIzKzC_5ohPZdF699W7clXidJbWL12ce7nq0ZuLUo5PzRtWerskj-urVI0PSHsK95Jr1rLXjUmNO8zz4q8Mmq_MJBTACfyDNmqnMpxdaPFiOWhc99YfTKwfK5DPz3rXlXcFhAI6G4mlSjxpY8NR6feqgfFfjXjVvDnWvlbdu67iBSpvjlewbS7zxP6DIUpUvu5zD6XrsshOiwd8YmcYtw1wHZOyZCf8psIUsXWAJIDrWGvcjys8PKNOR79GpCVd7ftV0j2tt9rp95nj4mb7teav8Mc8fgIJ-vymgqX8LyYjbUDU6YJbQVICIz_wKftgJlJ8e5uKMyQtGFxIVmheliIDvS6LdDs6s7xqKliG0c75Djd9uZ9_Tr1wCDnKTGGMvBSt2boU1H8MZJA8i7foVzoVLL8URMWuJmbK2cM5_eAv_MkGjQ5unKS8Y3zWob1RMRlWkIWXNLWwxC6UxzsXIRTXOA34zrzkdPRO8XGeWyh61cy-_ani8qG5b3P72-BbfUihC0"
-  },
-  {
-   "titulo": "Do Feijão ao Pentágono: americanos se unem para tentar mover monumentos gigantes; entenda a brincadeira que tomou o país",
-   "url": "http://api.cxense.com/public/widget/click/hvpf4LECSyFDMVKunwrr32oIYtkr4V5cENPDkHQRGW_6rNpOzBbE_Q83htRUnr0hhWAqR79_X3_i7gs48Mk1K-xa4gqcmJUO0WQRm5RRPjR5g4MJkyTmdAnCSVD_Lgs4-Btqj1-jWPOmVEXrQ2XUHSirgxd56EIl3vMaOAe3vOlsttDkhCJ2U3LmNEok3ze7Ov0q6lV1QBbFF1YNW2P8zAG2bcbzy6SaBS44xWskgzL5BzysjHJhX9SKi_O7cX357fU2lz_xdPhTgX6clcGT9pmH4OxRV911b2N1-yx1NPQRnk2JOKplRqrkKLqNFqCigtWcqBdrv3WKxu0XSRq0e3kfJCrfkPsYW4d8UD4RUavzkIzsrYH5lrTUNbyQGyXEnK0pUl4lk4u1URk3Z_nsEUCd61g2WWZOpTAw44McX0OpKsAO71G42KX5c6HG0idZdiib2go8FR13lE7I8cKa2IBTGgteWiRApptLKJCAnA6OA4rdzMRPa0ikTK5xP--J1h_FWLcvl7W4usb_SAb50nXe8TQVOZ6rsjw41iB7kRz7TOJf1j9EzAXEajW6Y3yS5qL_cbSdo2wjC1i9CDoI1cFOlYgxCVuSqVkj8UIb4POBOqG-YT1zLD1ntOTdZWiYyetJr-D_6HnzNLcN46whqcmiX_uUdz_Uex2FVslouQjuTqWb5YCrHv-VlCJaIUGLgcTSQAvTTd2rJ_DeSZfWf6x4b6J6DiGAwJcOp-SoJj25NzpXth_OCtVYU-pS30fmJz8JGEMlhBpB8Z1FrXLulD8-bteh2e8Mt6_fnu5k4qs4xkLuhebi37x1oEg2mZI6t9sc6mg4g90W-TBCGzI0"
-  },
-  {
-   "titulo": "'Vacilo' nas redes expôs plano de MC Ryan SP de trocar carros por imóveis para esconder patrimônio, diz PF",
-   "url": "http://api.cxense.com/public/widget/click/KJ0Hv9NtvvMTciZDaSjoadv3Uz9bZ2_qHIWBcbZCB0E2iHT9hZJngz8fT9TDbwULDrF14W-1g2vaeJc-D1pw33bkPwCe3OnPljsb9_Ks5nsTTZ_XBDhn--UWSlgXq7ZNtAG8t3r4dbZ6VLiwSXgce2Ci2en5HNVnGBv4_6kMXHzIBtDKv_IbZ0NUdTM3tBOqU0rjPsXgXTvADpbNlqlb6b-TFbmn2Fo-HxuSeu_9pKYc75knIncIhHTwDeRnNc8W3Ak8OIqU6-zc_6o1doc_xtqT6bVHBU9h8LLeFOHQ6PMhGRDtYYhY7dWuB6KtAchs4oJFACSIPnkvzbwSTbHKuIFUrlN_pj4RGHrY1ooApbfxtlU7CpCLKc72cTWs0kGCG1u6kEAKp-MtaVVJuwxBqSSrBfv_NLJuy99PrpJWi9xLyeUsw2XH_tdB-Hi1hhx58vjQ8jlX_OO9WSySUmRc5tKT8A5J_oVR8MDpAVDggNCKs3Atgz8GvriEHhwK_wfx3c9FEI3tssbLYJsOkcw4Bt6-KPB0a68PSWB_88GKPKRarLj8KMfShd74hmo72egxYD3TpwkuVq-5ZgiBYYGHheNLaJGhWD526izNMsl9RLPQo5Fk72uFV7XrlCbA9TC-TON9a_T8MesVZfdJlP6mVlutM3ADSWfrxzrWpGg5-mXht1pXjJw5-IWsZLHtCe4ci0lnnnXJXOUw_xDzP_FhA09UpPvLg96Jbp_CLy_-MCZnmUdrtdKBauPQnf-ac5rT-6Dyi4CFGcdP1WVaS6BblMeBtrK71EVAyFSNBhltpAX2TS1V8lM3ZAQAVlU1DA0"
-  },
-  {
-   "titulo": "Temporal em SP: vídeo de resgate de idoso com martelo e prancha de surfe viraliza; assista",
-   "url": "http://api.cxense.com/public/widget/click/HFoGj0aDrHnxnihodqN8XDNoCYgXKUbRStcc3QGG5tbuwQPfZNw1sZmGTVq2TRO1pRspV9tMHV8dt9V7jnV97-1uuswQmzurRTGtYczMaBxcox06a8L34tRXlvpJSiwsXAmZj7gtURxTBLPdTIX2mVaZTGKb-yG870h_C6-ORL61HqDDvhTvtG4wxZ_8rWn1Y8GWuertOobnnkzXAqtwFjqfRgKd-8-T5cg-CLP2NZRUPMBnKlYjHwPLVkVu9JnwEV2-c50nxsH2umfZeobF5AIcgchx8y3juA8lbSmQY5Mjk4f0Ptdz1VQP6ZC1tU-WLS5kS3UjDaTQN3rFnlef_pTTXy91zniIpMJJcDNOr9Hfko_mlFJeyQdPPgNECn3qik3jubhthkocSiOjtmbndlmn8srfZteylyE-FEkXkTTvnwSo3mrLB35Ms6rjuoQP7MTnllUQX8I_KMOnlmhlAMtTRNvuiH2l0Btj2qR0DyxFjQrzUc2a6OWiwbBxB3ciJPdDgFcuwn6cASjsfjVVIvx3gMXrSAvLlqKlZ0pWb9z5wV9GAB822jDeO5sWPH0cZjChiWmIWp93n0E_XCO45nfqiZ25AG6JbItfUf7GNPCtTKXPTtFKU9dYje4QmmaAAaCI-WUJ4ekgrqoyNsM5caPFroVu8Hmb2apZV7QzyvU3Pk_P-QWjdvMaT6G3-zs5PojBdM0fN-9gxXwxXhFvH3JXY1WAhoBUZO04zbhxvPeMh2PeFcScuRWK_apnW7-l9N6lEyIaGHjMoYV8dTCx9_1hk2A_5va7nMq396U0"
-  },
-  {
-   "titulo": "Rihanna mostra os filhos em registro raro ao fazer ensaio de Natal e fãs comparam: 'Três cópias de si mesma'",
-   "url": "http://api.cxense.com/public/widget/click/GJwDmUt7btUj5P8vjvdS7STvRKuJeWwm4vD9xEUdMaEwjhu__AWlmTzQYJeMKN_Sc2iJPg1dAX_wqubj7_8Kr2HEGlrWPx7z6bytLK1gSl-IHy-_-SAeBimfMYycne93Bl04BDHVhu28Y1smYe_eHTVQzkTChHlRna9mZB5rhoyTrjmBFoDF3SmqDbg_Fe6MAHtiyD8w1Uqu6u548y5J2HHvO8desi1VvZOZRkZDBwTeZOVOvuXz1L1Mg2bjtEgxdHegiRx0towX6wECQRaZSu0jEJ8MAA64HQtBbxGnxyj1vVYXsnDLNmQf3lf4qgybirVXWVK7rW3qBc-KPZLCSbzFXS2MoxVqb0pY63r4bm_WE3J3A5UP5zFh5exA2dRnoErtJ61j_R4-7alLSfoHBTJ4E4cgl5ZWSoBVD7GP2XqlHwBIJ-4f3wzxJye8_boHxMTDcu0qdwSN4sGo00Pl3R-Dq_ASKj2BmNQn8SuxXwXqNSCQN1i2Qqs12Wt6JwOWBXMSmv-cRctzuQcucr1Z7J_9rAh-X8us9ijVNn6KK5aAJf6LJWAF7gF3sEP-WQ6EFFIdKwCGIj_ReOUrv4AS6MGdSWLukd6SnEWEz6xq8Z5Z1dgUqn612aLQCYBrJ9aBIPgXyOn2rDetkYecNtjs7qfktajQRHo-A4PslmAa7l-P4tOWVaVNt0L785yt2K-w8GxZjoIOowgS08QX898GGgpF_tc8jGchuHIBIlD5gbFRp08BvMR9lgTBzYg9NSL1IE3u_qwpfI-ptaqoUtChErgNsEaFKHbETNexjaTnkI6lh7ctioDTOAeM820N_Xs0"
-  },
-  {
-   "titulo": "Polícia prende 76 pessoas em megaoperação contra foragidos da Justiça no Rio",
-   "url": "http://api.cxense.com/public/widget/click/esWYAHKIeJJUDJlXfcGWfBWLYhTojpRBl1CYHmjCi3W1rK2vqPNjxhtVlb2dJeb7bLqnZW1AET3gCZqPJliW8ivlZEQJlN-7sCNK1cShX5PCkpKJpLEo8otw8Ywl5vramelLkDib1Z6tbW4RCYNhqfDPV6Xdob1u_3RLvFA-G92OsPQYchHPjIqFgJe5xj_jcG5NDs9ArsWe3w-VzC_TxPHL3r5POPfWJfB73K3D_9q_dhQ9jMyC9yeXunAYZ05VN6MFaZRzSMb2Ia6TGge4bwGLBWpPGiZxt9dzdndPMEX2b4zQw5jZtq5vA5r9dnNc65BO0Lj7oMjPiQwSUYRongtlqVTqD8Q1zkDJs7vQU9KtU5QrCjlZlr7es8JjeTTKL3rkXQDZdTmFLENYImSKyHFVBJ6cO0WUCz_uJSC2ibe4M7hwplDMKjJkq43wPD3Gs95re2GABUSzfGd6oJcgwNjl_CLt92s1d-vsMKSqn00iwa0UmbiYzymwIoBc8B9unq-Vum6_YR-MclYChXpYOTzc2Tb7jonY4jHHvhdTmR49EKQS4V10mfJ7dtR257bJGDYTpcgzp1xKeuHkAfvWScyzf2kOuljnr2FxbpsTjsGFAaqyXIZ-VmgppuHqESfTa72P2D8YJVig42wE2mzFZNFj-HGm4zZKtcRXUKEetMt0NbRRoQO0QFXa5aELrbvNNx7Ful9mqwcAfwUkJEseVikcqu8ZwkV0TtO38BEZzBmqMhojp_mZd3p7NE_Fw9SupspS4IxRAfpIfPr8ZXdAIA0"
-  },
-  {
-   "titulo": "'Cheguei perto de desistir da música. Seria garçom até hoje', diz Baco Exu do Blues",
-   "url": "http://api.cxense.com/public/widget/click/ZFUZJwhQe-MdhOjU8ZHMHcBrKLVdJpn1Zibp36mbR3BnGtu3Rxn-TjoTXwqQHhfM2oim6lOsxVjnJyJTwLMQcYNdr829F4C57pFGdwFldH5pgcgqYoTLRxFnwqgN6vZ0jY1W5177dVY05Iuk3vchYhQLwFZ4QrlvBEeneZUwLkyL2FXNL3ZeV8C4Z6AVvp_B8ndpBWyK3x38o9h6I4P851xmt3J_jzrUpymwfhp_l9WuS_I4u8T5mN1I8euMEbCx2F6bY3elFGs13kHxsNDQwifdq0dsLgV_a3QYoe7AxFJXHFYaQLkZZMNNTYZDPHLuUVi4ORz1F_9Lyn7HUJcx3Wu-WbRaQnOXwF9f9zcOk1Dbzzs3wOGZbvligfNa2XAMyGxHL4M3R_y0nGKnFKkTe9ka_a1Ll_cMu8Uin-QaiRh7iKsyvGHJJFMbTFEpzN-jS2zssfaRRPL8jgFQqdvXMvPcmWjgLqU23JbCGTAFryJaBLX0wYpNBkCCobPGk6CH6n6QlB-22bAzCFDQqonrOxz36XOVLQcvo_mHFQCIMDWNXIMBy9QpnnM0dFV_RmWA4FYmFYM1Z3Q_WqnxQeYwcISM5hfxqdvyCdXJ5nUhpi3L25FFpuhKf5sLEFq0KFPjq1eyQFZ3l7Utqemd8jHIkIcjp1_yclu9iosqJeFN15tHviDrzNJ973zSFFHASphAc2-reg1V7N-_Laol7eRog9acRu6wTDZNF34V9G_WUU5jw65f-QJJSI4azIukQjWYShGv2geLRwKiv88UM7msZ4OXjmw5miI0"
-  },
-  {
-   "titulo": "Anunciados o tema e a data do Baile do Copacabana Palace para o carnaval de 2027",
-   "url": "http://api.cxense.com/public/widget/click/v4jIMq4IUTHDWZwaXUEgePUz6vs7t3imj6AwzlfRKgp4SDZZPuIhxXLsnTGW6KpNzu258JMFRoNSTvdd2hFKoi1CH2YANFJ_m4HcfyGQFvmCgh1lry0yxUaoxPJd6p0ZFVCXhQoD4LTrvNkQGuchdmDuFdAHFT18WzsZahVVThH1QPJbfEqeqYfAXaS5B0Vmp24WpDYw24tN1IB7TTThFCbsPERlPVVVdNwwHWhfxjFE73tSo8LcqQiyOZqeBa8N0-DWeyPmIv7angsQdoMX1Jng1RRfREibdigznSAZrRFqv415wVYzTxVT17LTzgnlHTa-qYLs4F0GKPqX8C3mim2ueUOlyrPsqwi-qk6LaQW3qrr-LtF5S4rPD6nfUmOUvKyA9a5kFfkYj5m7oEGAGfU05agkdKXGwHolPaUkY02Yu2xI34nnuCoSYaKOfsBWCfjbXIMk2kgxgqJxiMuHUQZHTB_A3GrCKHDFds4dpMTllg2tlDZiLdxhBOWgvNUw71MbHI9FgC_ZQrt2fF9exFVexTy0JYyd7bCAAC0hJ1VW72fBy990UUwqxMpmGXEzBnkvYdTcy6UG14CqvmzTAcTXBxTpnbVxIvS-NYK-4hG4EdeHoYr4wpnr-uEV0cYmEtWBrhAIDVoZqhUFUoWS0CxWdtZCHlUq6zxxEGSW_IdGcSTH6p7SagAI3tWpGtN07eE8kyDALcoV8_n5N_FEBQJZX6matoq3Gd6GS8mawVQJZ8fKzf5rektWn6bKhn-Q388YrMT9t-13kCn-6wQK6s57OX9-7_PfZm_rCKQ0"
-  },
-  {
-   "titulo": "Em meio à escalada da violência na Amazônia, porte de armas para servidores da Funai divide Congresso",
-   "url": "http://api.cxense.com/public/widget/click/QpJPjSWPfC2eo-rxNhslNiRaQS7isnGlRxcbK9t3_0IAug-clvdn38UdD4vNurKi3x0iQoET1w3JZMKonFsLAwlbMnpKgjxX4491aTfrjcgXjWUSalfwjUm5m8QgOeXlrVahZ1A8msjBy_zmW74hxPxSGwEtPkOwTLMw9SkJe5_tK_nHIgLP66iMi02N0lpJBMadd6b4lSmoZZ-zOHLC59ccxNp4tl5YPCd9HIXIM64yGuDnJW4lCUY8hZgm2sIlZruncoU2O2oAEuj7fx06yvdmjUdQRyBMZC5AvZRtRcjfqrwwwGV9fpV-aNHk2LKRdGNDbJd4HKefWitiF8WItnFLf8YmE-ETSdB8LcPOuJwfzO5lQNbxVyvkgWoxn9qZ1pVoI3FAYEgE2inAp8PFY_aDHWwHJy1a68oGYnaAf2WkM09rfR0y2kusvghjFhU-tUSPuJ3fRi6TE5lxJGN32scf20m_El9RUptiYHu75r26yJKgOcIju5MqE-D3ggSgXpiW1GI_SiuU9CZ-bDiTdo_E2e5d-0JCNFQdP2nIqZ9Gq_vbwVTa-svlac5rwYMbnYrHn4SF0WRPsdOnCgvi4Ut21AIe37EIsgi88ddSOZJxRIVH_UJtrIFkVFCgweIvKfV1Lg9cH5zWS5YSXZ8iqt82KmUj8NgeEompb2d_FcQo4rHaRO1LJ5GqzuNUSNU6nXMEby9SYTMOWcKlipUyrQQ7LcxB65B4kPDm3YoIbR0kvdcG3MbU10_SlsZyipcfkO64sAdZq3pw3nM-iZaIItDab_o2E9SAuvGLcQuTL2Vm5-eeAvEKCUM0"
-  },
-  {
-   "titulo": "Destaque Ademi premia 40 projetos e empresas do mercado imobiliário do Rio em 2026; veja os vencedores",
-   "url": "http://api.cxense.com/public/widget/click/qrI3p16XFNdTfCFSssG0ixr191KXckib8MvBsiHL5oelpD7cfpmfE2kzCD1DrKWxUbgGJVPPZwmeV4WTXvzIk1PCeWKsAk8_8tFrzVdXpMhRXCRJnzGP3daTJpZAVSLBpFhWZqEpc_zFVcu4qt0mwx1KAf5g4UtmEGS71Waghhx7R0_JMEOybllk9G2iQ6MyMIzYz2DMKb9Jf4Pcq40PIHbXUauzO3WuAM_IC8gN48CO-gX-hUQEoX509BkAMkVeB4IzFzee8P4DgUVG8dpV7ueqAIwQKw8pyAorB17xLLZPSyqbo0rFXJ81a63A6AG6-8vuxEWZ8wOZi_xVR_zdSj-IUxFQU6zRYFxUGr-aDNa0-pHICyyIvIAu-pSzFJvuO5vYc6DgAbPRlwc6vfCsjmda-D9SlO3-nsVCkAxsW_btwbacdKEJYDH7lPZFpwGR4jXpCOGN_NDUlRtUWEu_mnhvWOIPPk8tK_a_8i01E2Ry3qGZ270TPEGY9jrDZm18DiRF6URBt5JOyqK-Mjh3TPk9oD5i0H5nhmCoXzL1FL_xFhIlq9lj9exgB7dxEQvHY-RVetupoqW4N50mByl_EhuHfIkwkx659QayDLkbLhQoDb5tXPRqFLPuoBOOvw7yLbQNDOi2J9DiBDtODvR9C4kzCF1drY7wWx5VKNRSDqQpeF5RwSlNIBOKSX5R0bQcMJql5PPCMAhCSaQQHh_wBt4_Ac2gP9sE2XmGZU8sZoT1LavTyWoOPv9dHUYWFfn1rrWCOtZj-hFNUUVVnVP0yMk14XvM5ifJ2RZz5P1TM3FVZTSQLpvyeTE0"
-  },
-  {
-   "titulo": "Prefeitura do Rio emite alerta severo para temporal com raios e rajadas de vento no fim da tarde; veja como se proteger",
-   "url": "http://api.cxense.com/public/widget/click/ejomWhtQqNq7ybST0IJB67lOF0QY40lrs0Unu7Udw0z9LdTyi_0uqC7W01llqKGR2Xv49ucvI9jyBI0dv81EAFOSxodkKvpiiJbBhEgJnAK9g_Q-d31mEmlyfuQunuJO3viXSZjxcrRFcaBGDmF-plq82guB8APa6ZYoQwULAYo_E_v8v2lf0Lrw0Wt07FrdRXc9T1-odFUNfrcsBjd_nJM343d33hDfZv1y5Pjuzmp4T9k7ndf4lPpsD8R2CXJmXP5sDXb_PQVLUdhw2-Zv-TMzSWdN_Oh_q51y7BANR3uBSDq_aEbV6F_QUomhOuFNYpTR9SdJmD7CyfG-8ODrUTI5RB7JPFWgj1wCeSui83ymWn5zv-8yw-9_cFqzYw_AtMxcOBIT8lcRG-EKnq8BS69sF2KsCWg3czal1Wp032tS540_nRDptxgln4h6ZSEpl2myjTkdtnsGS3ZZnIaoj1-jDffGDCZuEt5rYBxI8hl-NPC3LUffKA2fkvYS0dL2Jm8yVCPfMAd4vhSJsU8ccSagzZnE2OaFO6GaVUVzsXBpK-h4aPhcJguLHaDXDdp0WUBWkY_eJBxmorl9kud1g8IDQoo756y5E54lyTf9oKli5Af8kHc2IBXnn8I6qXDOS2wAAwpmLHrMsTjsSoJ0TzpvFmHr4nvPCOWeK1fP2RMGjQ09Cgv1HqMZKU97_KzANMyXK3H2xbWjjXuFO3zl4Wwtj7Z60izmF-bV-heJuy1n2sg5WB-arEq1UAPFftuyR-9vbSgXEq9GDbAmdHPouq8UDS88Kkhtyi-rLA7QdZzA4g0"
-  },
-  {
-   "titulo": "Viúva de Hugo Carvana é a nova moradora do Retiro dos Artistas",
-   "url": "http://api.cxense.com/public/widget/click/jA4Yvb5fPXon5Px3u338URR-fmhTweQI3PGvUODMZy0Tul9L6z7jK2Ic47r32-69gZT3KYzwB-jzE-Afj1rfewnB1oWj_PGIlPPJy62B407dR-JcssXuTIiAmy8sTCHKj439aT93R84xEFbfeizHEYHUlmtTQ_Zv3AIbDPSFdzmqRH4Rz8HNSqNF71NRqsmu8VeXD5JCNU_Q5vA32Ksg8Uhirk6Bgsde9pKeStbUAQRnVlTWfLLH04s7dMGEcZ9bzlp2xl6cD8DYPo_c5VfDczBKrqlvRTHaYB0DtpwcPc6tnyVVT9xhRSS1VGC7TlIl5Nm3-Sgsg4XxaapEqdiaOavDSwpiZVaQcSaJFtrWo4Zyto9WR0UxyH9mxAAwr1e33FRqCRQ9agiwbErSCc_RgZFu73uTiyURABSdo4mMCSefQ4bsKBySOsZfLqJ2gwCJDukXIMjlb0-Z4PaT07lA8e2bJP0VJucL1OwXN57E7IRDbmDjQOIcZ8PigkjxHZLR11naNDdcpgowpPA0hkXo7g0TF9hrSRugnVGwdiQEZ-O_JNNwI0u2HK3qQMyIoBHxSRpIWX19BjeqRMeg81bxKvJoj7Z-A68gwcWaGX2Bb2js5rX5M4U-5XCniiOmFdyQOVmH6tPIPEiVjD-jbiSxq_0OLeRGDg1I3fYofgL18mdBkA-H70G1xs2sJ9RW_syADmcAoLepdn9qGdZe2dma1-dqRpukhJV2cmYPxYJuLsPV390yTLxbEfO9dIKuslTc8KKPlOE8Byec0"
-  },
-  {
-   "titulo": "'Você já escutou a Terra?': mostra com curadoria do imortal Ailton Krenak chega ao Rio",
-   "url": "http://api.cxense.com/public/widget/click/aRzJx3Eh2qFjJuZyRqQwxnsvfVZe2iRObxhDei9pAMz4k7qMOvT6656hb54GwuG60xYdLCZz-oUuw3PhCxkHApXqxpz-4E2hAzRvG6kjYmmP3Vqd7IM8Fd-HIZuyI3I8YaoY-Ets7u_ft-wjBk5572bm5niHhZzA5TWtKSoVT_usve1wWySFpxVBLgSx3-Mj5vpcnfYt3tjpIRmoxtjY8mqgVvPnfxyWV3Dtc6Up7hr301txK33OF9DfJMoS9nS3YugMhISYjFNnmpp7zftpu5txEVtb763ANS6n2JYnXT0sXWqSglVCRTqo6gbgRUfKbLlPn6STmFtREI9DXlrjsas6x0QkwgT9wu-UwDCiPlKCBqIfHkzSM2tJfFZFuEl0LONXZnksx_nrcx2Cus3W-0LBrzpQqkVPXcvlh7wz-terLqazFffZZkywtxVJQ12u_dcdic-lYQQMf-IMRpmXnaxuPTOAhfV6HL9RvblgLBkfQAvudRW_3Dl0rCef6Y8l4StFZIKiWzg3Z7R5HU6ff1kjUQTrZvUTc8ADRqhgOwc7vLFVk4OCiUlrX1WyENShY2N3E5WgKsNbzVSYkK1wfCac6I1pvSKpYVltRpG1BPQ7UtLoo6q7s_QwneMsBAjVvx90B_SwMm6IM5WManmwxDFa56cMtUO8xgDv3dtW4H_3PoQmOqr9S72TbDfJHfrVqaTP7LQt4YxcGudLPCt0zKkbIoydkEoKWtcJZtlg01WE4TlNm31jgFaq8yvINUVfsupqAj9McI0n42yO6qqqSIkCFg2xbUgRQF_SnhH6lA0"
-  },
-  {
-   "titulo": "A pasta para a qual Alexandre Silveira deve ir no Lula 4",
-   "url": "http://api.cxense.com/public/widget/click/682ss_181KgCU5Arba331Rs3dO4dhB7FqbgZh6cTOQXwyO8Aerusz7diL24wFr3oEwZjEHVf5rwvoM2EIqP5NtNOKrAb4gvUthKWJbjF6PQH7Wy29g0xHZJS-nJus0XxgYup3yOnHAkjgiAAwJcnouFde6kuVB9BMpOOfFGVh8qU6UXOKUEgW5VD8PwJsToF_BkQ1PqunDrIL8naRhP7r33LztJsXx09TYsYYsPViFQv-hHNhQXcLiKcIuqMGGcLeiy50mlPp9wrmLYCwuYjy7bcdRb_isb8Rg3_u2R9rAzohLeYdcAUzVOzUmx4BaRPIFdqmfbS2AVQRQI6F10dl7UhRcyOPNxjdZ-jp7mQTXvrgmxbJlCSgwn9ioivLgW61Xto458QquV-WyKhxwwX9wEaPoIC8AZSUw2UYsLxPvetYrye_iTeZXeYwgX_tg-6wE5dFZGgIRTuoUAgNEdDSzw9Ka2TQORhatOYOPDMSrTIhL6HNAY6G-zdxo4G5rMgXNi3Mik46am0-Px8U6U1RS29z8Eu2eW2ARywv1amFTByl_DyZgl6p4KrrJHlsQMJXQ7SCYE_tz66iSuHdKb9XjJCiAOGnCbCc4u0lyM89I-f016cviGm6onQI7Kr_Sk8GulremdzviLBeE68C-p_KiqfnGX7VWA0FBE8Tr-vAu0gEHWTFfH6yG1GvxsbW45E13DF9-9APKvg31aWdXiCwGfeaXQ9SzkMmHTmSZfr37IY6FSVtG-HVDc_JL9dZytHRrrWdIc0"
-  },
-  {
-   "titulo": "Polícia prende condenado por roubo que mudou precedente do STF sobre apreensão de celulares",
-   "url": "http://api.cxense.com/public/widget/click/q9hEIpy_0BJ_PT1IN31btnZ74RT-eU5DR_OK0JFpqPxvBIQ40veirVNemkzNgPtbSsXGX_h3_eY6w2tLrU-iZ3Xf04sQDFRH1-ySrHguY7nQXMF2ph0zwPQIQdOaTcvdLIlZBDQNuJ0zKk6oIg0GqJc0_9F6QdHi-UeMf7fcCoM1PGWj0hN4P_ynXmCbEhFMa4w6C1gNrh7nxZUpOtptGmJ4md2BQvKfaN53vU9C06drgQUDsvnW3fcjjoY2yMDX7Ci0F3uxfbjeQ2yzAQukfshikYZaq5ICvsAfh1H04lGjl9KLF6uRGNs3zGz1IN_peC_gdtpNGz0kZNNhgSF53mzgw9WqM7Q_1EFNzjClJL6fEv3CqmUWSqbk84cp8gmqXrfRKLAT16mltLOUS6AJMUky0qfhreUjalQS-6cjZsp0ZY_T4D5PCEhDUYOtaERl4wKDlQXhEWr3YzQaVqRXVdnO7lkDiIDrOEig1_bg-zJeUI_oi1wWTH99gj3qqw9OQkesxhuIt8LyJ67A7XLZyUqQwHIGbM72MtbgrDHmI-t5uLPlo6NZoEZpBryWgZbex6NZKrqIEYpjWaeZRwiF4cqwlVbykbWj1rJxJtiKJqHkAlztq-rVqftNbQVtV1f6Z0ZBc71sUJMrtoyV8lUt8K2L5YlzZg3nVt-DPYwD75zFi4QtXWGaqWOEp4YGJdhk6UPRS69p9VatCRFsxfw1llnZPqKG-QIdJpuGCc8fvnT9FZBlBJp3lIbAtAsDrD8y9QLRHpkKLdf-9kvcXCSzRXZRfVewbEpDvYUzp0ID6Q0"
-  },
-  {
-   "titulo": "Moraes mantém Daniel Silveira com tornozeleira eletrônica e sem poder sair de Petrópolis",
-   "url": "http://api.cxense.com/public/widget/click/-NBcKAH7vJxQWgnvC_K5W33Vwh6OpjG4X2_YqA-2Eb0F88ZXUOErlilVGnkM_OLV7dx5ktz6bdEV_PhXkAPDnP1a_wCQGKydTdwn6yRrfwVsuq2ygA8-p1dIot38pJqoSoe3Eh5xalrfxTyeonE25EUjNPK4M2ClAh9t75Rklax_WrCNrA2hfMEclbIKMQ8kr9CWvUS6e-xxtFvDNrNm-WJfFNeG-PtcD1oBRpTdARTrXR79OilzuI500pa5gMCr9aQnYJL8i4l6UMbRlXLV6zttYXDl2Bde6Q7wE39SKwHlVgg9dDuf9CD5a0hrYKzpJDK8bkzXi8MBSgHcEIPupEdF589W_Lpwv_WuteLn4QZEZPlLmW-EYX1bAWOBo38HB1ySUS1EHmi5yxfrWkrYYRO3e4VDelyjuRbVL1FugZmGc_bm6tRxDP1ZfQEt_UWRWSP0nLLBcIKNx6sH2lkOFfsCPqZVQLVsQDE4heY2E5hW8gPxMJfqXKk5GhyNTVnLgjbCNmUnE__FcCIOqunqwBk_DB4wQ_NZYO_9ePP9Dls_VO1ln5UdDIBDAY8QsPU6IMyvBml8ZFLcREr3kjFcDFN8VEOKC78eM-PpkNS3Tl4ihhtubXL38kasSgnpkmz91-iBZ4PPXpzPqOElvDdSlj2H8XTBqdF5lnbsqajICqO1YFWrtstCR78WIzqROAhleJVez7NnyY9t_4lyEHrSxoNGGcOELqga1r-UxAm2g2lSfVGfzSYWYBa6uQojwjwSEFXdwTnMYw6R3cNxBryB2kgyRKB_oWEV971xrVIVJGRC71M0"
-  },
-  {
-   "titulo": "Ministros do STF pressionam por nova distribuição de pedido de Vorcaro sobre relatoria do Master entregue a Nunes Marques",
-   "url": "http://api.cxense.com/public/widget/click/GNGvMdyQJ7VtnG6CE2zZf2UWway24SZWOSLp7iNGSIpaVgWtxXpvFBT3jLuLB1YYQuX90gLhlP4EgGrUgxF8lOvGrnKyg3DuNGAyDdyEZ29Ui4V8LC0IWnvij5NwqN5Hu2nFoYjex0A4l9hHdolQhbCqSm4D853jRkzj8M5xr5rq7lqb6Lvkwcg0CLZ5OdV5B8M1PGyM9nRzkKbtIgJzkq_WyB76LnBMVu0W41Bjc0yWfsaBc-7j6rvQENcLeGYN_23U89Kv8rCyJrWHFWRExSsp4fa3MUDFf_rt7AEUz6oduzH2jC51dPiAkoX0sougB_clzttPgAMuQ6Aowob-jlk1jBz4e398WsiOzQPXyBiDdBlCqaTMSwXkq5YIyCenrguukHBUyr7Ufw43WbLVnJkqYfx9NvyEERZPK3WKk0YmLVPrWiFAHn0eoxKWz_DFt4SjxYAsC-oqZmbd_k0tTQmGHyN1J0B9ALkBMgVjOwlMTyakGBSS2On0EIC6dtZejJOhykhMYDq5DTDbjRdQ28AjSKM7HNlx6yaDkDIHahk3UgxEPdTWqYG8JgH3mYproJlzcfkCUaTGY1jxZgNzi9AD1mDWH-GW9ht6sPD7k1bZod2_M_xk77KWwV9oN9hCu3Q8aqPt8k9SgRCV_1j8qWEQADGvWA5ZuahQeS3ERToo6o4ok8eJvcQYhX4na3Xct7aVHAxTvi-kTruZvkrJN2gmQbqy3mVk8uinN_9_EFDm3kKraFrBkpr6Gj4GLCzUD7hQiB2D0-PenijCTljVNVByUnMOP63_sADpgF1ITEyLqp3DjwaDg2DRDyyyHKw2D23FFFNkUYIgKLhLDJFVQLJL0"
-  },
-  {
-   "titulo": "Tem gigante no Jardim Botânico: exposição revela os segredos do mundo dos insetos",
-   "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/11/tem-gigante-no-jardim-botanico-exposicao-revela-os-segredos-do-mundo-dos-insetos.ghtml"
-  },
-  {
-   "titulo": "PM prende suspeito de chefiar tráfico de drogas na comunidade da Jaqueira, em Duque de Caxias",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/pm-prende-suspeito-de-chefiar-trafico-de-drogas-na-comunidade-da-jaqueira-em-duque-de-caxias.ghtml"
-  },
-  {
-   "titulo": "Sete pessoas são detidas pela Força Municipal após ocorrências em ônibus no Rio; cinco são adolescentes",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/sete-pessoas-sao-detidas-pela-forca-municipal-apos-ocorrencias-em-onibus-no-rio-cinco-sao-adolescentes.ghtml"
-  },
-  {
-   "titulo": "Polícia prende 112 pessoas em megaoperação contra foragidos da Justiça no Rio",
+   "titulo": "Polícia prende mais de 200 pessoas em megaoperação contra foragidos da Justiça",
    "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/policia-prende-76-pessoas-em-megaoperacao-contra-foragidos-da-justica-no-rio.ghtml"
   },
   {
-   "titulo": "Já é Natal: confira dicas de panetones para se deliciar ou presentear",
-   "url": "https://oglobo.globo.com/blogs/saideira/post/2026/11/ja-e-natal-confira-dicas-de-panetones-para-se-deliciar-ou-presentear.ghtml"
+   "titulo": "Lula fará visita à UFF para agradecer estudantes e ato público em Niterói, na sexta-feira; saiba como será",
+   "url": "https://oglobo.globo.com/rio/bairros/niteroi/noticia/2026/11/25/lula-vai-a-uff-na-sexta-feira-agradecer-mobilizacao-de-estudantes-em-niteroi.ghtml"
   },
   {
-   "titulo": "Anunciados o tema e a data do Baile do Copacabana Palace para o carnaval de 2027",
-   "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/11/anunciados-o-tema-e-a-data-do-baile-do-copacabana-palace-para-o-carnaval-de-2027.ghtml"
+   "titulo": "A maior mostra da Pinacoteca do Ceará",
+   "url": "http://api.cxense.com/public/widget/click/gPfcUBzMnehM_GmGhgIn46PSGmZukCQRDlIFZRNmoyrh0mHdkKaAAZBUg7Jd1nrmQdhCk9VzQXwoKLxDiNXOrSNOSr-ppuInS80ovVSO2CbVG1kHzHdHJ0MTLJFscpYPR1cDqHoChEWvVXnJlqOELrzQibyX8oOLDRInGhJ_TBN7FxbFswnKT_BrV1ZzOwqYjKZ7AWy9Hbur86FxvZgromwsvkAC6sNt7_DpEZNHXfsl4D2Q2t3ZHMqM7x_Lfy_Rlk_l7dRyWVvyfJ7XXwkvkkuhDvXD4k37fmhUk-4W3_E2k2xCZLBQiU9YDz8QXofDwLs1l4Bmaywpihc0F2Nwy-GGS1_nav6w4y1GmpGnYN0FNokjYASc5UrO-lcUgDRcRHWk9V74xJrNjpkwMtP3YQ1H-ijYiMKpQHTubV4C1vYbBCcgzcbMbhYtEepwt9tjyQ0jH5oIIQump85grOs07isRrBUqrgYlYCeA4t4HLkMZR8kRWPhEoNjGb94pFKzI-5FwpOR54te33dTMz6oM4g1g2QKSe5L1yV2Q9LcaO79pcLvqRGbLE4dei4GrNTsHuKw_2yOSHMPl8P4gwv2zqu53I1CYhN_DiJmpDB2GI2IrJBaQRGGM_DsSc6O5HYqPYhUd20S5ZLSQju1_1QSYDfjSX8XQEahlDwpXNCkB_59lvmXj8KHXBnSgP_ZkLsLySMriHy9-iSom23rRLQH5c-swIHn944hxrHeI1R8lZiJm0"
   },
   {
-   "titulo": "Destaque Ademi premia 40 projetos e empresas do mercado imobiliário do Rio em 2026; veja os vencedores",
-   "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/destaque-ademi-premia-40-projetos-e-empresas-do-mercado-imobiliario-do-rio-em-2026-veja-os-vencedores.ghtml"
+   "titulo": "Gravações e disputas por propina: quem é o chinês por trás do esquema que envolve MC Ryan SP",
+   "url": "http://api.cxense.com/public/widget/click/tmyczlcopJGQFcNnENRGgez5HjGjX-S1KEC4rnBeIAdJYnphS2BtPdhCGSsiNd1UvxXi6zQnJH5ns15TtmtI6GrBarFKzdSwhTRaXfUaOoGifz9BnrWbx6ryxLNdJHQWhrzTrkHMDJ9i7qcGYlXU7I1vi3zMHlsb77qb_ejbG6CFqlWs9U7OxkS6uYEWiUj_p4ZEAupvlZzaEk9ypM013pGn8fEziSTqZsPgsQS_dg4jFITdEtEPHetYjt9piadtWyzTe9GUYqTSbYYRCsxePTRtyxaePclwxxsfO5tF7rDO5uPAxvhWyI-T9BJLt_cTv4Odc10XruuGb_HydHgllGpvq3gecL4JVvIUcm1yXJwINW0zDa1Ii9dVelmOnSBcADNOS2_X0XvCb5zz47KIsbvNKzr94OtLdk6SKW7yFUwpmWFlck9uC9Js1PVrNUB0oEUQGrLNHGmTc4s6Cg5wGcpr2i5oX9i933UlbDH9EQpI_MSVceqLW4dygY75-UVXxEanlfJQkxkhevoqc41F9bmSKr4OFTKqF6-E0O05tTMcfTl48GNmJ8W3i6CWjaqdkRDbbBG8Yo1e490pppt4bKBEWQgpX-HFya88jXwkzhLoPJdNL7LZKPjRw8pLpbRZQ0GdaMHAHnDyo12MDby16ohHz7oPVr6ZyPMupHQGhTK2sMQSMBGZW3_LYpXrOsebd4B0xXe-hkfUXwZqDEVUoukoxui7okXohMwQVDN8ezy8GaVD4JjUeOnMx0d7rQ0oZeJvMf4LVVItjAxqhYHGpQ4Lrh46QUwLD_80mhDThtDE0"
   },
   {
-   "titulo": "Noites de Verão inicia temporada no Morro da Urca",
-   "url": "https://oglobo.globo.com/rio/bairros/zona-sul/noticia/2026/11/25/noites-de-verao-inicia-temporada-no-morro-da-urca.ghtml"
+   "titulo": "Alcolumbre faz afagos a Tereza Cristina e promete atender a demandas da bancada feminina em meio à disputa pelo Senado",
+   "url": "http://api.cxense.com/public/widget/click/6uY2PV8AxVatkE9RUt_3NqiS0QI3zWuiZn0TcNNH3e02OWPdyeH2CFMSwRnt-mSnGUiwx3RW0adO9n1qUllS7p6zNNbJ0pgxDB-iyr7TlCetRjZxiZKj9yIkNJvGXtNfU901IPnhzoQKUumEAXaO2iyegojZ-b_JUyO307L35TRBRm4u0R2q_NlilWlPSI_qp2MBSchnKz-OomFHLgxMtm71j1DTohuNfrAoSKCSss7_qvvhWEQUTp_1ly7x4771icXAyQ8gI2DOaayhNpB2YLU7pA2y7OqdaWA0IAyHoNOqciWNCaXmAexDo0lRosJNTwwzAc6oHkslGUPK_it76heyXzTWwAX3YnifWzviPBPvC0dHeI028uCO1njtkRethduVOw5HGjwsa7eLqBdkmdNXktHKVZfu3B7sTkcdF2CVF1FqpICyCxFCdMhP_ZzoemcwW_5Mk4-Wr29hJXqEIh0diVK8edSb0MKdn2ZOrS1hN5IVk7CchzQWj7sK9siiEHEn9PQA_aeziOc2GhQU2h8neaAXmoXhzs7UuVKLqnvX9TsC57M37WiPext1kOotnJXW_6Eknok9TF2-o3Qgpx7D8sP-MBH_zC78DU2K14LL1-zIJTN5Jkzj1PdJFy5a28Y3Eo-S1nyNQjJlsE49i0PAhJC1Pb0D2PK9ClfWJ8lNceI-3aeoce66dSwA86VOtBujtKXhUgm2wlInfSVs-2ebqGjKHgCK721qOXoOKG7eU0CZfZ9jVhRwKIQMwrQITg5Tn3lY-G_qAKHU42duxYuoKWR0sWf8_aIiDPj4Q9CF5Wcy_dDfaBV-Hm6FqCr-yddz0jL-tzsfHlpiGlc0"
   },
   {
-   "titulo": "'Você já escutou a Terra?': mostra com curadoria do imortal Ailton Krenak chega ao Rio",
-   "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/11/voce-ja-escutou-a-terra-mostra-com-curadoria-do-imortal-ailton-krenak-chega-ao-rio.ghtml"
+   "titulo": "Túmulo de Matthew Perry ganha nova lápide e perde referência à série 'Friends'",
+   "url": "http://api.cxense.com/public/widget/click/olIdtvlAxmmOdtKCUzFnydffglWN2LL--qqkTzQzyEo6ke5xtWOI4za2W54C5zszsQ7O6CCQdJfvIZrP53AJbOnr9gxvxCzaZ4JK-0qzRqcLn8JKOBCZ1eVHSHXajsCJ4xitfhVo96CvJyjtrM_EVcMmKBKEVTRhG-gkPdiYljfD_iP55ekifs0VKjel61RYWX0jf8MBQZRLJItX2ILDvUWgUEnH3FocDrJG8oPLiP29eZwyD5QXfpqLaef9UvPgUHvI4XiaIc-OGqeglciSra_a70WGAEXUkmLufI-ucsrfwtAQRMQzrqX68sz4Tc7Jl7eQ-QQS1AeEVA4W09vlMjqWwf6K6vJ0nDWEEhbQiT8aY86J3FWFYonMwvdjzlgV6ZPRJO373Ty1kRi1O67flfKtjZlcnDVcC5C8iiUnpij4R9wqat9zUpuuy7-gxfpTYM8lMdmqW0BVycqphMwfusmo50HI3rhdcYAx0RP2xzYBnBv39fxc6QI47qfe_GIlQLwHv1rYeT3jk7lKy1BsAUfXXTC8yaa58G9t325Gq-zXnpW_OjlSpeQ81XYIKAY59Kgpo8VhNx-bW8dowIEY41NnBow9Fl8wkdKkjv-_NzO3mskLqvR6NBpi1wp-YooMj4xftrvSV-Vv8lHwbdcqzevXdkGPqnrabga7wrUjafsY0SLpBKN8P7YiLaz8l0yl8I-OPYzTre-MNxfo6PQ0xCA1DyvVxJyYzAoh-bsfw3tXv69BZrgHnqgAOp62fS934HUAyY8XWM8h_Shs_k3atG5O8Q0"
+  },
+  {
+   "titulo": "Mistura de Santa leva a influência africana para as ladeiras de Santa Teresa",
+   "url": "http://api.cxense.com/public/widget/click/hBf8NpCQ0rEKKljwXlRGpWSzN1BiUTB2EFuqJoe2T2WjxN15LshPIohHwWUcRp7nJVEpkO9SrMKuy8eymhbl3RNdwmFSrN3mzzQZy-OukGOmrfCPlAGhwGrqqL77HsGAyXT8h2OiWazInr5wZsCgoYhVLooMugCBSY5FxfgEJrD2bFKc2lrjDvg3w2hmnMD-9HLD7AAFeYI2-cKn7QMFyM_GqV5EJjVCfIgJ_bjvKuuB8QS9JCuA4RDkn6HH5y6-tLcmOPXNc9FODPF7KmnbjdhpXyiNcHW_6LtXmm1UktYl1oMCckxJoi8e60_5di5BrVacL2R6tXc6quIemGmjCSjqmsRkb5WrHTEhmh-GbALiwGJpt4A3lPkRu2mQNvZzrobCdDNTy37bszRYCPTTS-YaW_2JUUJr0IpCIlYrjc5rjRBCgokHaBpE-m2vvdmm4RfSEvSo_K9IRSl1aPNykp3WXnbwg0kyPNdRtf4HAFuWgUT6FkmPcYBc4zYkqzB7hTldK1WAogHfZFCdlYW8VL55P01--YqEP9eYpnRwRNNBTcvq6RJm6w_PUXCnV6g31Jatq0NcCND13bfjP_wrWFL-jRYAHZUydLK1adptvwZTfX3O1UguvEmFfgj7BrMJkz4D-fW2c97Voc-YnskVhO_vcawboetd79lE9QXNz6BimINle8PTf3tMFDe1Qt0FIpLLLciVWzZUW1T69UF7l6zWqvfIwp3TQPWbY-j9npjsc88jq9KvvpAkx-6ZpFUMPX05NdpZvk1BS1ONLd-C2XY6RDfSpH4T0"
+  },
+  {
+   "titulo": "Superlua hoje: nuvens podem encobrir fenômeno no Rio; veja a previsão do tempo",
+   "url": "http://api.cxense.com/public/widget/click/KKDtIE3c4iPVSKm3jPwhh7Y9EiqOt_Nnn_rK8H-Uq80V6H7i36y0VSohKwNRHCYGvhcYFrLsjipkb_g99fgqanyGCrOIQsQ2TcjAFV1FWLBiHtFq66KFUH5S84y0s5lOt5cqRY3TopVcaILYdp9g9qfxytWCf4kU_FnhqnXCRD2tTa3hiIyuwZhl0wiqE2OAbwKAAElst95u1FtxknCbPsZGNwxdJHbCfkz43Gp7dD76I53b_zilfGRqil41BMrwNmk_eaBmAKta9WdUPAPAsVhVFsp6MfeCL7fAX69dZ0hVi7A1556EPbk5b9J-9Dn0j12ef6Bu7I0WeNrzRGfvWCM0Dwa1VOmVe30VDyMcwAfw8FORdKfWwZ-WhrIZdI5vT9DFeGN0dCiSBtV4WtHwt9krL621nDG_qSIDJxwYzvTrtl3AL487SvI1FJ5eNKI_-s1RWs_LobY4gwLfQjuJrWfZFWsb33BtVKz1J557ab8TacPtdQmTf5qBzUzrH17BQXsCKF13RK7lyPMwbW7oO2s0cgM4kH60_EWl5zoWii6ZclQjYbpZNmAxH-zGIEodekBouKuSYvkWc9mU7K1xyu9RHYjWMpy6NpKxEHWuqSlDQvcMfXj_k77_QPISctTw6cFkGIpb9Vammr84oTl-fXo30y32phiCNIulJ4IQVBrh1tBYxhvNuc8vwJ7tRt4fsPFqCKhTvBGNWovwZpnibySjdus8tGavD-HLPNYtTz4gRHo2f4CV3-8RjEJGuMq4HBSZ64hUxZp4xDllyg0"
+  },
+  {
+   "titulo": "Em dia recorde de demanda por energia, minigeração distribuída perde só para hidrelétricas",
+   "url": "http://api.cxense.com/public/widget/click/wC7Xqczp0JT3X9Ht5on-twpvy2o3PZhyyUym7qjcORh4aQtYbNFkQqVtLyIO4NNfjEp6NDxfYjh0cR0GFme1QsK3s5wwwMjFyH9avu5CBBF2Cl55T3ZVxX5AO_p_Xd6-cyhKQZf7zWt4b_26ZE_W3cAauTSKE4z1z5Q5OXBIQy5qi4InUPVF-gznGtc86UqEZXvua-LK8Ni95y7wgI61Hg-LJiXYko2z-CZbmi84e-tE6CLIJoAEuH2djbhIoyIqXM-OQt7j5Dq93uHySjKUhxm9cKvlHE52Mabft7gXbh0dD3XvMHid3bhIV0_UeN4-4tjjBu25Qw4a1d4VBgMT7V08W-4mUqDeQblnlqP-NNFeFIK6V89KNqQ1ny2xhaO9judpPsgm71oE1k4TX0MVMQ4Q-WpdOKVaoZmkeAGpDad8b8T6HpSgzGmHM-o7aiNZ2gggbE_vXxKaR54vdB-6ICC-U7ElRRkPvCf6V4MfaLkCSB6hIul_NiApdYIv1dETHu4H5aqJlxqvXn-VCK0eD5I_dFssi3QXQqJdiWFCX6aU6iS8Z5GdOibtF3xshTDDm8brkQJGwDb7bj3SRgbZlWATYJ0Ne3tDhptWsCqoy4pkNORHqqgBIm8Rwsc9EKScmYtItwslPvOtmLboI7SnroBj8dtUDUzeTe_e3ufZ2ekKLjfNJiyqWrEfMRnjmrOE7YKIgm-6NuaLsDuyk1pFODdIyxkEBIX0e6gnM5OoKWjO1UEhOvJlBz5x26hPTU1LxqJidIyDqvkHJT4H51lTyAwkN37Dhl8ObM-xAHMNL18f0oOfiQ0"
+  },
+  {
+   "titulo": "Bolsonaro segue estável na UTI e sem previsão de alta, diz boletim médico",
+   "url": "http://api.cxense.com/public/widget/click/UJD8NM5fzIl6Ag8T0r7DdmmSjnahEyk3o-WEdjDC--6VcxQf3jgBei7Px8X20RU4Ou5EtpCJ7CRZVjzTLdNNOfyzCskEZ99KYv82MDq9xPCVGcV_BbAZdRDBaDEu5x0w33m02mlWSqc9ey6-7NXsVcbPNlIB2f9sgDGHRVKjlP8ZgaN0WyAvDFBFCwi0k5VxVA-nfGDmO-dDrqNzyIXGoSQZx_37kbK9HVfUMVjbZJl8sOOTqfx0AL7J-c29PfUJlBoUOVlAsX2hD98mWJHUTJM-DFUJqAktu3S61hmLChiNM5EFqO4LX7Hm74bVHfYl3yjhP-vpJWVEdh1DoZkQmKnUUlQTBz9xMkNichFz2q5G03ABc2uxj6Wc8KKkM8ILZwO707SOWceInWNVK3IoYYhz_VsMLbQ4ab6SRJhm6kMRtHBcSbGZ4_sgIrfIfC1QDNfQcH9syU6wMiMYXK4y0CewaVGNh1L3XoWw15A3sKy7AAquDWdTmuLonuNmELmKpqiD0qCMSY53mGk7-HSUp19ns4pliy6g4rX2cy4RkmX2e6qMQ4XV8lqf-ewIri3MnI_IavXjZr6H7W6Ts8cAL6D-KVSehzwNadek_1N3n7ex8VMJKAQ_6DUau-GQu3uFezfarcorTSQEKqVDtUo7VTkKLOMbKIaiqlpdVMINx-kXfS_erG_r97hqM7lhEbFoXLZCsGNiSd6GU_qpl-75j1QW367_UjrX2VZo9ElkQBxDpcTELjcb-S99YEw2jvxllebdFemQOuDRaC_KORDg9g0"
+  },
+  {
+   "titulo": "Menino autista de 8 anos é agredido por policial em sala de aula em Mato Grosso",
+   "url": "http://api.cxense.com/public/widget/click/izdJSqGa6dTAc_rkOqk1p1wZg-siIimNxO-lbi2OrkSLCsI_NnKCEeVY-mwG4NEbNaliPG-AJpWBKziS4XN0Ti1yTiU9y4Kc8KwgFt6uNPu1XvJSQ5NqeeWf2NZLdpjEZgkVjpwKMgOqcn14tcQTYlHNTqeOQq584Bbbq-DtBCcBILWQ4odjBGZi4VwXXonUkI02evYOO6c2E0OUmpjwBXnMqRGkgRSI0QZ4JV2TPj3ci6WkE60I_e89cWKpUE1XdmXaZ0Ya8jTcx-9vlOa9qr6sM9WYNVpeJ0PAfuWsr46_pDdavxk-kwF8pOPl49g34nn5J_Bgp9qLZWWbvhkfw3vGy8MqBgd-7Q3IbMRMg4jIKKVxVL5XM9FDDUwgTYM18n9pBTq8DU0g22f7-ZiaBFnOKbBqL9zNDAvXhc4zMxFkNwmSQl97Ck63WZ1vXEGYUh7sn4LKd8CCkliWth9qfCjmdekLuiXeQAcFeOwbDiFeheLb702Fs0MLusGvYe1vkUcbcSg-hTmi2gcPHhFpl0mSezk3mXaFcqLnqPNJAf9U_VjQVnfBgLufK2EwkQ-srBteIkXg-KBaamHtRTXRd-Aw-rmQVQMxdr_N_8vIapfrsGtQyHd0FmJjEGL6wSbpZz4pi4FVK96RVtnjmaOp41G2r2eZa5N67E1NKL6Z-adxlSYYhYFKx4c4YZxJ7hbUsel2_4Q4n2bPbZQTE2XcFPOyMvzHxfD8syuskT2v4GMr34Z3MdKVhriD517F7L7_btFFe2lrCEWcInjQ15rOwsmCtp_n0"
+  },
+  {
+   "titulo": "Jessica Alba é condenada a pagar R$ 3,4 milhões ao ex-marido Cash Warren",
+   "url": "http://api.cxense.com/public/widget/click/V19KlCcOWj2xeLjramYWcHytGWIsgjzpYF4xJJnRHYWOLvZ0eE-7n14CAHYf9zntmCvGe3L7ZmZLYHdUK2wvfblLG9aauJtsH-E3aZFTTHmYxS-o9n1Sdu0sOnNzlKC5wGffezl6BmgdtT8sSp3VyGXPwd693lfvYt_joYLe2CJP6CKLnRomvn3bq7jVFX7XTk8gvFwcLVv2_BfPTWfyR25fmBFT7-wpfQ7FPJrF7KckS2jldQFRIpIiEKJmhF9lJe-hAeYQ7CcsNLFbef1tWGiNJS8axhneNT6j9WkX1mt3wW7sTcXokKz1hPT4jtHUC32sfKqnebODmbqquo2aWLGOSVw1-_6_dNk-m5eIiWoZ0GUvBCH4xO2G9OfJK6RbltlnAXnDy0JO5q8fkhETzMtZLwlTEoaw84taZcaLWSxsoBC3ohEogwh5V-uz_mJ4_V0XC9w8wFbF--wlnZJnt0lLU-Og-u54PjEFew6hhj7vAcN0n5Nj_vqRFLVEZaKcq1ekVtDsC9fXJgyEd9RELKzrvo_MQl8lZkKzjpZtwKadmDEHrqgkUcFu4A1iftulbqHkr-KW70KLIgeNH8n-hKTsUsTP6srXjrQZi9o2WewURRGhahixsdZk2zLlWDugDpNquDi-KPZPFOf7rHkOoMe8nVsZaqrw4EVurndoks7M1h0wbpjy-_hCbEvY72bMujgsLSei5p0X_OehNqP4YvKx0sHNOaeoWSey051b1_wFMm0Ru4ER_4pxi_ZLjwp3wQoSmsHJiwmihZM0"
+  },
+  {
+   "titulo": "Novo livro infantojuvenil de Cornelia Funke será lançado no Brasil em janeiro",
+   "url": "http://api.cxense.com/public/widget/click/xL1Nl0Z8V4ibPOVxxZSVJ5X8gd8rjre3yxkxzWUcbbX9lZJU7SGbyISPovWY3aodVsytiSxTRSWsUE4C61pkaG6IJkS0rRlMpzNXZW0KA11odH5UCc_vlyQh_cydevf_S6xzcEp1riHy2p3FtHYCypHkIXNJHVVjnT8iGJTasGXF2ZGrgLWu7IAcwYV044VNQsNfrs2nu-3dJB4pHjCzVdMknMmmyPuglpHkAY-l9PfMtZLFBHWIRtLs4Ak87s_qGOkf3k2r3c3r7Hxh0v4fc0a-G2f6OwaFoxvfhr1d82_v5Q0VkVBgteSzJrbVPYz_TgDN_Ztu4IUeqjMbO0EBFjiKonxPCerkAwjeP4WDlgJccmKZLVUtA8nSLm0FU3PoIeZQcPYDgrcec2OCBueqQEWneU1Dtxo-Ni6PRNEJWNNbLyqYTM90OrF1aCcfExYnWzDkD5GO7XLFYLuRvJjJYE6J3zL-MPHou5VTVzqDubwos-gYTIobV6li-E9pfHoN6O2imW3sbeZczg_TEqoGh-evq9zdknkD3IRpxHRHwADex_UOZpmqjzGnHTmifCmTLkBYL_oLEE41RzfKcqhQjs8Bcm6yq9mUmh0G8C0touV3sVQwy8UDcDQybaSo_XLKygfU02ucEkv7SxbZiTFPSyB9DJ_uWB5_A44ITAUhrFZLY_0vTHbhPXVpUSPGPeYjkM2ZDdaMJMXyRoggHKsReSszgVHUAyXUYHxCTzV4t9aIU56eBLeE9AqCsM9z2_qwH1QipONmRSqLfoRGe1kdFKK_FUQkMhxt0"
+  },
+  {
+   "titulo": "Falta de regulamentação de lei que proíbe plásticos descartáveis em SP para na Justiça após seis anos",
+   "url": "http://api.cxense.com/public/widget/click/bJATOPLAn89Qb85YafHuISM1feSlpsqA3ImxMlCOWyVLkm8CxJji3kCqGyX144WeDvWJoXgxj2yWnYUycgjeOHJX2qfzHrorI5F_vgz4shpUpV1-6OX8stDnFO3LN3GNp8LaARazXNufR-Wo_6mQkYefkwgbH3FIhjHA1AvPhPuAVRO8sss5KXlxw-RybH8WpkFwNoD5nZR5DB5vXktSOgO8siJapb8Vu03hiTVwZSFSaWVGP09A7Tori8CqoJ98yj2bUJUZvZydV-3Zmu7AhizSe6xpJ7QN0IivlIc9iQy1gwF1RNFF5lfdA8fgBUCGQbSlcGyCE_4OJevOd6TUFoYe1K9pmNo-D3ZuVUH_ypcdylTdH7ZBQRDDP6Gozspn88xFnErKz7Rg6DGl8cs_zerP-n8DfvTHVUX7e3ndpD0Vg23LdUiN-YJW_vFbJ1Ug9DMLyKcQwZJ9wT9noXEoSg0XdumHhUct7Q-G7nP1mDwq4USZcoihBSSF6jrHLVMdj4ZK3jwvD6M1Ei3I52CD29NrkegrUGg6ceY8Lm2NbdR_DBg8Wz4-gmIowH9bFa5-DRrMvht7nbQVEQCTIyAykp4EiDQkHegsXv8F1DBszMOL4XL_3fUx1mBbYE3LNZLQov7eB8h4UEZ2ZaMjtaJNsUj9sqXVEqBqLrPy5oTmS4EIF6w9KiXTqhrehuug6j0kr-pJomL3yYiX7uqi3DajVfVVS7VVQSitbe3bjHsDrNwcw4vBjtUfkQVWvgVANS_ySKO-c27AlzorGteSMQlPTCg2SPmzefSVjOkLXj7AWXN19zg-ALq5C9XH0nZkgh4QRFY0"
+  },
+  {
+   "titulo": "Professor espancado no Centro do Rio: MP denuncia agressor",
+   "url": "http://api.cxense.com/public/widget/click/Nt5NMmHo82A2FEPdoIN6XXNp-04JtSZC3ejdE03RjlRMc1EuSDv3BBwGvjKUnkEXrCD8tj5q8xVB2zV8bvzHrAaz-H-JxNGGnA1nLjJ780outS-NIXUXLZMpmVNS2fk3b_untBUpdctkscXr6kypy5vup4c5NfNcRjEFif4dNFTnK_YSW7B8CPk2WbA0Kb2Gh7duf437zCRz9q2K-ChmozcgPi4M-ZZqnzhXXfMHchw1VNkQJe8HTxs0U7v17UFZ163LKXW2UTy277c2JhuII-DmzUGv-ArVWkmURlpUxb7ZKvGY2wvsI-UnrcpkjQ_UELRw12-zePFPCUOwA8qVTjDlubaWUFJtdDi3pbpjGA0d0VtZt2mI2nI6VPIbHoQksHtmn--dZEDuoIXwdcAUQNNsUYckTL8E4CU-VAQwpD_JHQPAmJnIRyZfr-4SBuRdNEmkNRnXePWeD7B5Qyr_y0skkipZw0Q2w2hK127LAaxZ7ipv_lLCUP2johTbAy8rZ4ACGl8VpZRsrK17xuOhL67BPIBesF-wUaE2KNX7lIcsNfWTsj1Un-btT7Xm0I6BYBfEmJbEyFszAJsak7y3P8tcDV90Ysl-1B4zZ23GHKHNNCivSu6n_w1eSRWTB1GcZEHE_Ff8Tjhtr93D6oyVK-xvtoKMfdDkWnv6srUukVEikS71YI1leNeiW5SyU1ivRd7ePC6MzpBQufsExIEE2OdnEBZLdESkicv7sd4otXWgQyjeRWk4tIxIAUn2D-JbQqCkLsoK0"
+  },
+  {
+   "titulo": "Lula indica a aliados que deve começar a definir Esplanada por ministros da Fazenda e da Segurança",
+   "url": "http://api.cxense.com/public/widget/click/xOBSfc4E7eNkCZsK2WMLG8mqEJ9CNVZGjQkg6J9BQLPJazZY6pgFz--__ioiy5JxeZ0-oQLGweIp_LKxjtkaRA3HBQnx-CC6VOZjuJX1nllylduj_T5HtXgbGgJERsLs71qGXWgysWoroOS4CrbiVL7bwflKljYzfkFLAhs5BlpS4O549JL7KgUgF0FSUza8G5PsgZKIQAetGgTyZ29XHi8pYE6QCypZdUyO7SExyuFGfGoT15csZb7RkBNdcf6-eyvf8e4Yerv5GfSTtS-OZZyPsM4x2n84p7AI-ferd9byD0UfKtOjrUtR6b20oVRBW23KaADbCy8qxg33obGjUEpTHmskz2tpB3Kl_UX7le3_sRXSRUfoXa_Xw6NihneCxIxxiYFQHEkqf9nwkvI9saUW-BLksg4V3Y53jvtoJIKfbK7iucbRf-fn7fjuAAaLoXKMg3f-7MsRB1kvitP59BGpdAH_d2Amg708ZP-a4waFMK36ufPfNAhy67ziJrKZS3r7czXF9USMNcRe4GE4gFKxBbZcTrH8OHXYgMUIAKM220ljQvrv593oCdHXvvJ82Lh8r1ZfbTElVnblfKd91s_Gp_LTercoRAzanaTylVwgz482nF7rf2GdSIVmjkt4uA_jMr7bf1mbfe1m0_KsGlzVizItS1K4MNW7bEE8VaYpRBzew0Fy-cgQ9K7YwYFkxSHrQbUE_ugZ5mh4BcVZvR-EDV0oEQumBATfrUmFDvOxsqBKV9NOipcrzy3i_lxXUwEiKA9keWHhAy4t72kxRyWAVSeGDzzqA2DXjbwUEyFXQh5vqsPWz_I0"
+  },
+  {
+   "titulo": "Steven Spielberg vai dirigir faroeste com roteiro de Paul Thomas Anderson",
+   "url": "http://api.cxense.com/public/widget/click/6EVvGHPhYGid76McQk0sP4KAuVvS1R2cxw20wheUVq7tK4R8WJ64hjCUl7mIxVi0BgPsXCHd7GAywE0V7qOfhhhtW2Sxp8UcmnGkBRcQjSyqqUMn8SbPGg3bMBo9eJgg6ZvF5SxJKQTrBf4GEXfSOT0laNaOq0opn6Rh1K7HMSfSwUKx0lhJTMeqxY98tY6_cFg2hNblpd3SmgtbdG5JrpwNVH8bmQes5bCaQcWuuxmTwV48ZWyNWLxeCEAnrX9Joh2qBhfqv4ZCa8rimnKwx2xMneUe3NhHcgUz5wifXlllrPaA5vqbS6_-e2yhDkOma3OFTetV5L2OHl5ftPHE3joOwx9VFUcBYMNsoUKnyFeb3x_-VexVp_gzWKQ9mSKxH3GrXDNg98SURi3fll1rmR0MaMq9pYEHk_ffkqBhwm9MHJDc2di9F4oKRPKU4btMmxfuO-7iymKEtvsjqnyvxbZ3b8_Oas6PlWfrYO-w3ci2abyjQCUH0TDAfHGe-6prIWXkUCjwOhQfjxU2rbleTBaQdYYMVFaMapxp46307fq6dBRVaxt9jDURARRLt5kNXH6IhxC1EAuOYMpqEgzOfjcRfZoFxwF34_GP92KwK8xiUT3i313PHHZoSXOtD5oaFZ5Sa5kV4xhfSCfyvkDOPuNiMTcQxKTYeEjRdntSAuZXm-63njiromKOg7jMHdfaUq5dQRfWQHFM9oshWYVhalgOM-_E0N1dbL6JErrUZx8GHusZb1IIQlTMpwJspatYWNmjqJvqET8nFG5JwnxP0"
+  },
+  {
+   "titulo": "Narcisa Tamborindeguy revela que ganhou na loteria, mas teve prêmio roubado por motorista",
+   "url": "http://api.cxense.com/public/widget/click/wOAB8yyH0VThkPypoxLkH9gp-9C9dn1k9Mjx6DJQjOCHVPkS6vCAE-Z5z6KdMLhUqfgHKpaJwC5f2fqtIC4dSaJE0IL5K-UhLi_AWsTDVxVUnHlBguuVdstWGQcgJ4n7vkzTxQ6SvzsSnunVMjxK1AMpRaUYzdRR4In6Opu_yZmO2QUGgi-gQvHHYmm0P5Yez-mBNwSt4Wnkm7wqJzmJ6r3q397ims8uvaU0SPrBoMW13U_XBc7W0Zk_FK9zra9CxbsRQ0mbCQLT5xQ9rvjtAjUZuunw9-BSNmxV8lhx9AXdB-zw8hFkN3yYjF8eQWRlKCJ0Cx7TZ_LuZc4iXQrvtZmghiJi_WorS0NRly5rKuLJc3RrJ8oFihLhNQCr2eVCpTWXUe_SiJuuszUphr0I64L40V2X_dC3NfjNFC6iJ6Kypjq-1WFonZC4FgJ9MfVtRY2bwvVccwmGnEPdZdmMDREbQpNMiosp6Vaxgd1BAaKE0mQ4OFMmvw1Rqj4r-gbq21HFKfTavwfVtTD7Rwt9977BGT02wXq3cq6NkS4p3Vj4m9gE8vlgaQzQzT0nxKLO_6As1bhjxc_1PGZFSjwcVWYfEb1KFiDNYRkDgBrhqadCLXuuYjQwfllM_VfWO9ylR9rvinI36s-PdG0QX7FSl4kY3Yhar43A64Kt9DprF_pXYPUcqOsqAVtbCciV1CYd1DKWbCrS2s3DyIADIrTVZBpJwwrQeZc22iq18Dgb5fgs-1VE2VGw6eCVRd-R0eCwDJnwGKQaLgxihWaws4I1xk5_v4d72faaEiGjhKuDQvw0"
+  },
+  {
+   "titulo": "Um livro que traça o 'vocabulário das emoções'",
+   "url": "http://api.cxense.com/public/widget/click/OtUOd9zFtZ7L7ynnqAiS7mAnABxZX2SGhzqojHbKVrWzX3yRzgCFCHMx5BfazIPPuIOQpA54Hf254SwCL329ELtwX1UlOMd1w8Db9eM9BALAU4dKMhu72nLK2TaffLZJ9B8cXO65vi4ANo_Vmt_aw2UYyt2XqUdz1xLdHi9gu5ABbAAqZX3BcsSvLvVBhLzUEo3FF0DtYbV8Mk7e0aKh8KWb2_kebLv0oNKm9pl7CYFnU5A4QBR0U5RX0xuEu6z0j4546fkYWDICrKJoxk3SNUedXcvecF0hCEZ1hvBmP2LgKSsJUC9pkF6PXvq7YMRoAJbPCjIudGF9luqERIQ9w5p-1SLP4rAvZ0_kkI2kEH4ClIx8g3UI48FzEkfhtHDhGHH-UJNTDdtGxc5xrZEHg8l5Ygm3WvOzB09ECp83fYf4lrolV6FFUox_Uf8lBd2g9Id2RwYG1Zsu4QJl9envV0IfmxIxMOOc6JneD1ygGhmBJNVkng0t1DGyxTbu-yyzPAxfhc3bemH2FkkpH5woJ2vhV2f2Moxwm95Fcm-7wKJDoFJOu6545I3VnTCS07IFd6jfZ3PQvg034MYlodpi3ezZZ_ezVGvoIbJIne-g29TwVZQYVn176C-B6bHIYOY3WdgY8EKN0ZbrfRtdFVkQCeqczbcIrAdCtcFi5denpaqCQvCa62Jv3Wf768mIF8oXjMAMqPLvkq8v_yMBKSQmo0kL3DF8JZl6YZsZDurWCOTaE3oWCIhWKBU0"
+  },
+  {
+   "titulo": "Carreta tomba na BR-101, derruba pórtico e nove pessoas ficam feridas; via passou 3 horas interditada",
+   "url": "http://api.cxense.com/public/widget/click/Y-maEpMxqoit_MgWBOHPOOAsLVukn2qO1Wb0rZLdzCJcf_IAXVigl2SpklkCq-BpGljmr7T3HNww3o-7rb0j5sVor94nWVudAIJDDrUOtaGXzVpSvWUbCNNVnCHdgVu5CszxgGZJ4f0QQJGEc7j8f-e_m0gSDLonRJXklYohTwygkwUNTPCEg5_7vTxG7I9q-n50KJo9DhPajeMLFaY0KLAYRn2b8P7utjxgCC205Svxv-fjdeALvrxn9cRQKNwBkvvAneaG2qxKb-ZT0Smi7CEmqEltEEir8uj11XwXlOkYMhwOdrJYSvu3f3yQET8PeJgWBZAi1zZcUtQ42EPooNDG1LCS_8bj-IK5gdoJpdCyzEYV5ieERdSJ4hynkzwPQ3M4lryiHGlx_jtGKaAKrXvY5dIl8YIndefJ4CFM7WNpEbDD1rA_lQ0SFNZjL2LIytXVgA1D_G2hR5i9zvH61pLcdvABM-HXf1higFL6NMxw79iGD1IseJpwEMarvmwT7t5G8Kn4PR3bKFOEmb4o6KQG2znMQaT8Q-ZSZNzjluOJSLlTm3MNPNDG9L4DzV6-BtKLEM8qtP-chBIW__eUt4kxV7NzF2hJgWProV_P0BAYdZLkUCYQzvuUuaRVOvb6Bbffg-bHL4xIhoZ7LvWk-U27xsF1Ulc9Br9Ql3J1tnAVuwsvRVvQz0zAdOqbkUuVFOK-Q7pKTma3aYrmessZNAbmgRb6_xumTTIDQIiPGjLj19BKgnqrPhDJZbcBh4GuFFyDk7CbTzoAUdZyLbwFfQ-scP39m3Zt5zp40"
+  },
+  {
+   "titulo": "Moraes manda destruir passaportes de Filipe Martins, ex-assessor de Bolsonaro condenado na ação do golpe",
+   "url": "http://api.cxense.com/public/widget/click/hqHQTVMHBZj5wErSdyy-zOxHbEG8dHp9C8WQqVX9toUYfS9R1YtsxacSngmeHd3RR5bZAdOik-_vmexudBpzotHhZYm1Vo_vfqYpSbtGC81-XpAUfPXvAKnI94JUlBRdKuAfBflUvJ6EzxmZ-4S7x5BSsYUbTpKYPzx4SLpsJgHyDoVJGMh2PLdfe9_-GNy0wbri5rGQUEY4CK0rCSiRsKCeE_DZ8UJDxm0gwPNAfsvabcDS7jEKCt4aAwH5MfaVgWoB9NNTsGCFbXsZcqDHm1TwtAqApCT51HYPXzp-Ovf629qVgNiCIh1bfsu49sX8mHLBj7uDm3W8Hh-0zkO-s3RlUy7GS-8eq3yBBjcjf5aBD6eVCZKh0QP2_Ke0CmYAlmRBAducLEp1s-J9nfRxRd1-ntbOd9hF9DLhpUTZF8pW1SOABp9EL7sY73_TVpNezRG1KBAfb21KYa7J3zcWotoUn6qrlA53dcZcRNDldL6fBeHZNe09r7RX7XClQPEQ1-bPTeTIDb0vwLwAZQtIpSNjs7OsBdCu2fbUuDcIbx9DlNkXuAr2czQvJbCW2HBZONvK6Q2CiLVJlG0pA1HcPog9USmP2pLmoZmtnR9FloJPXIKEvVO5X4sZFempfmuGQFxtbkWl-QfiMoHLlmKhHTLrRe0UF2CpwJ8-mD0vuo4mi0z9ncaj9N3nC2DMPFvBV-w3qwTWJREZ-IPdkZyhyXl6buvK_MCcY0rzRHu0efdomZb7InCLv0LN9kbiheLpE_dxIoECo0a3tRaAJi5wGnHGgbAsMKJjW_yoRtzaiE0nEJzwKREVRm1h-Rxka-610"
+  },
+  {
+   "titulo": "Recurso da prefeitura contra liminar que impede bloqueio de repasses do subsídio para empresas de ônibus será julgado nesta quarta-feira",
+   "url": "http://api.cxense.com/public/widget/click/x0pAWUwCi8P1scHlRserKvvb9e1LdkQ7lE0GIdDPJx1Syi5lLN2dom5wfTDWPQpJ9h4l3ldIF0df4RdonRIBL90ipaOQJzPYQObUAw1mtDnwO7Oh8Gaz6acH13DuGEu1gfqsa9DJHvr4_tDbBTbKhXmLXA3tM6hyTfPINucyZD461mb803dyc6JdkNKnp38itFREiLNa7k0Il_rlvJpGcl_ds6r_UEryJRHN1H7Uz5KrpEZpduRIdLS24rMFvIOSk_xCAj8RbBquCtMq15pAmvJI7bjNQYgEqU65dVJhtKISjzICS422nCrm4l_TZFlcl30Od0p__2UTmNgZF_XBVdyp7L_kxepyAn2eo1CH6cnlGSMxRG3GWAbiYpmMV8Oy686ILztzTLPG3WkfOjpZoAhcG7GlREuMGahGH4X5vaWM-RSBcctkhrrFwYlOCsiVOLgZ8GOgrSaLkCbJPI09KG7uaaxiIyFf6OXRiGNKtYX6WyGaK7ZJgwYOuDShZ_yJcXR4fPZPc_vHe0IGl-w67AJUbqRuUYXLRUmnk4lgZvlouCbn99EoqHMXulcEiN7ZRwAZrrItn1Lv6chEJAA1gMTEOF_j7Y12jIhge1ED82jFF35__bPWbvoEo6tRJFqiAY8KeJZrvj6jtGbr3UpiXZ47AAch9Un0Oq4Nfr7LBpgb8Pt8pkf8HKh3fGUgWVOKEvTjASQr3u-panfdnjQ_wcJRqrxlVTQaVUG1KDfcXcA-_3ntJMx3nGirTZiEb9ELpU8_Q8PN-L6NeboLxmLpvr1tlxuhmC3Bzm2LNWXqgtFpDd7MYUerzo_ET7p-uAajSDrw-1brs68EGrlFINMLarwsrxGsx3l6dsPiZA0"
+  },
+  {
+   "titulo": "'Que tiro foi esse': Jojo Todynho ignora a comunidade LGBTI+ em ação na Justiça",
+   "url": "http://api.cxense.com/public/widget/click/C9y3greNfCpMXKPDGGQBh1muKRT3PKlQZwhpHtDG08EfdWpAenIST4eu8bpvZ-eLYncpShOb9u2G-i83XjnA8YHmfH7e6ncjgKYOCuf5aPeOlq8Zh5znx6-tZemYBHbIqki2oGui35bQabrXXEsSCHsjXaItL384zsGycm4V-NVTC8Hhm4PzoKD4vMRGgBef4TzgLtbhx1tWAZio4Lf08Iv-NMLFZ5CuyCdszo3Il_TUdq1pQH_bVfd2wpIgaIeV8KPQ0p8nUpwGqJP1BrrUV5l7PVjEeMayFTZ9zp8nSRefCvE61-OH7CrpKnJfts9OzYDI3VnaWP-JCBOeLL9XHJPbJnSC4ISseSWkGERE-jwWvmdJ7yR1qpQBGFkuGzD4vWdK-BflLktlVSHom2ipGRtBI6uWUlguFW1UQ8g-SPsJCYIB30TRzbmylruwhygvmuZpwRXXIYhLkKbe_MzGRBiebIMfsZb4RYQwJOSYdmXP5tVUeJZbO6JFWhuvgX-iC2wq9Qr1C-Es30Q_M-kliDv5sQGERiXZ5kizhtPqH1_W65tcpnrAZWR_aYz3tRKRNfRoEVZBC7ReeiG9FF3NgTI1vSiA7ajtPZwcwfOy5Npwa0d0VC1M39itmfgtU8QogWZjmbWMqybVwXMiXpXTccYiNTm44Sz8OO7mjrxNuYb6pPrxfS4wMPTk6-6LzxU3XrdJnOaZ9yHEbL_ytD7EWkiPtSGshZ87yygxgKPfMU-OgKug5weUtloZtRZDsrPBbmONRI-Sxa1Sno9-RmFu8vqxQ-6qUw0"
+  },
+  {
+   "titulo": "PL busca candidato no Centrão para enfrentar Motta, que corteja deputados recém-eleitos",
+   "url": "http://api.cxense.com/public/widget/click/LoKkFiuvBLQmEZykhoWdomtgJGjwvsaWRbdb3seAqJwJZJRxRZew4b6NwTEknmils1YbVJA1PQpVxDRh5qPNqmNndjSEES5tRqc1VbJ6Zq86Tb7a6pV5x3HvUWoL6rTWGkk0BKVZyvl3uwFYQ-bnJ8ojv-L1cwbmYJknuwHSAsT7mPj3BwiKYE0Xt5QoGrU7wPMGbr0QqaRXAWrIN8yRTHdEs5Q9zY3NRJeXI2A6P8zPlnQaPfW99K7huNXU-XVO5O-EDZDcPkus-hkMx2u7sC-8yDZ_OtGN_ABhK_q-2jo1Kghfba_0rDLv62ndGx8i8oO8TFveAYvMLdt3BHxfjxof8LA9Vjcuk8S1JYa3PSTM4xRgzczp0iLnwnvAJKRU47aqK_2Q6dJJh3yvc0888XSc6gHU92-SAS_shtame6XJTFPkZUOeZtokXQ0MBIP04lgy_USVEZRbeMhILkmC7NfmN_lnTYnJ92iKmQPlFdhvR7lFqQuBUFIWt54MQS_opBT-BvOnUpeqdTrG9GK4TVBmBrFTO7xSzovVtq_twzoFVFTm1f-t9aVmF6fTy-RfsDyAh-b6Yw9N-mkQc5Vmhw42KGnNkTj44KCM47SQSVjFNfA3Zp68eYS-ID3fd7DZkZMr18wDqB-AXUvns7LSHvQPaXBOeJEImMt4xCfGeTqVe1mIqeoPUsucVzZKQ6IDG9CyRFpfF3I0CrmMekb7_dUciNmkNNBVbGJke5MclRNsP57dLm05xQS5_zTgre03ZwVwT2ikc42cEyVVCrOyWDEjYArGJWFwGv4YIQlb7w0"
+  },
+  {
+   "titulo": "O que se sabe sobre perda de posto e patente de ex-capitão condenado por desvio de pneus do Exército",
+   "url": "http://api.cxense.com/public/widget/click/TMbPZXVpYkN2oTpsyYitXYzZ-Fp3y-nlMCb4Rn4YDgsghLYLp9letAsQVkvnub-jVFTJ2ZJlCBpU2pYcA_PyTV8Chk2V7xq7bGCvWgDhhUoRtRv4AtoVjk2RYTHcK7DRoxISgRuEFIyIrs3bznYyDPNPADaxRpwJUo2_b_wGoAV6P713TGBHGPplb4nRZ5JyzDO3Rb6NVCNlMpDkZLpjA810Rn7-6icFFD0WBUAwPw2F21J8f5Nkc90A5_3AtLQGulI3V6NktsVXD4TgkiCPmWPAFOVbqcyVrGZTWXzDZaIY1VkqMLwW_9MWaZTi25-WBcaO4Aaq3wIL5tEv5qjpPh24hDjpG5v8iJ9Vmea8699WyPjCR7dVEp3DzuT21EC3L2ziPZwSruwXk_Bol6_rV8xQrw5hTDjRqZpjn-iZYFvixym_Ahz0g4OuU5UVTH_Ueziay_1fw1I8F7-9K0CEvqLdHkIcww86P9WHzfjFIT5tY5Xi3z5zGO7168swsW9A1hksLrfDgktdUzEKoICuW--amtLl-P47FAfqbHi_siEL5D57gmD9VBOxfr7K6dGu0mnpvxPUfVUegBln1EiaqL8plHDQD98GfNVXVC8rKn64DlpCMKLOjVTbs8vUmYUGyW7ysOE86Cpv2JMCE6UOVsVZoAtAORmmihQ4g1VHWSxR434nhF4eP2FLdF14--RnEhLoS90Dgrwv7ZT66D8dgJj1SVi04pPFSvPsoBrTYQukvGtymAdwzCiL1JXA9TuuHjJ2TWtvJkgYMfztV6wZhpOATSmiN4F3VUlOUF3YIhYfEIJpThtRD1Va6w0"
+  },
+  {
+   "titulo": "Pais de atletas do Flamengo se revoltam com fim do vôlei masculino e cobram explicações",
+   "url": "http://api.cxense.com/public/widget/click/Rmczqp_BI6Ry1PkI_-14jig1aKf4dSAMsAw9IOrt4oHEANCrmHz6eI1zdU6wuod5snb3UZ6WjIuSPnd37zcZmvcpf_MurUUQh4BI_iB0A1lJeqZF8W-Hdb_D9Dr8eTDNyxvNQ7GIq1_QIcyXwqS_yKnC80-rrvRwuHxMS1vvNz5hKY_prNAuA1SvHwqnN0zNvx5yQNNfFv3RnoQ7SA_QQHFGYo2iiNUMtbFgH992NiaLjwLS-zYD7qHaE_BdZoUb160GdAjlqbC3ysAZUAvho_HQgVC6p2a2jACVDkZEVjFSt-SYQLWkAd_DS_LUvi2dX9-BwNGlmLzNY-F7krrUWJQG3Rp_zmQEjpMcnCRvQTy2B-MSDbF_DbE1T56NIaTkW__jUVBzhEYs7EG3hi8d8jUvVSRM5yngwjy8fr2qsMoEOsAQPFxkgry9zkVPzF1lkbhWeNDABCO2D4pxCdl2P5Ma-yhzT8jnb44wxqXb1GXlejH_p7qinNyDPkue0Yeei7UA_ffwCA-ztzRnOI5qwIoKNei_qstPsbz5oo7CwaZCJ9fAzmmVyy-Pu5gbbMkyJdey5sx2hObi2PMC8A6qOBZ5GCqPeAJv2hh3Wapxf8PYmvn1L16ESbmSckMgL4xT2qJQ74KGMF_j9vn87l0KHJPXcyQDPDAZxBivy5D6mWOkkMhp6GHHrlknEGyhs6Lf7basKX8AO9gkBcpqq8Ksy20v3YcCqQhgq__xivuEIt3JE-rnd9CmGpWaWdEVBzksGRe1zFo8HaQjFqC6qZG7l8ayE4HbWxVGEvVMOlKvXt3b5Kcn0"
+  },
+  {
+   "titulo": "Lula se reúne com Alckmin, ministro da Justiça e ex-titulares da pasta, como Dino, em meio às definições sobre vaga no STF e Segurança",
+   "url": "http://api.cxense.com/public/widget/click/nkZCrRvj0JDES4X38L0wuAgmMcV0AmGjxhi7t8QMqeW2rZJxabiTna0V0jXupTA09i3Sjj-LrberpxIrIVOC3dGxDlFw4Y2F3bEKLw_L4CG8rkMtUDfDptI04l-BldKKclp35anQJJbFricKeSl56immkcmGeo66vO50PzGUbfPzc5M96g9UJld0-jmqeDdBQeuccfDvpvkTjtJiQ1NT_hnklqpVwsudCwRnesrzD56G4Q-iFTijyG5nZDRpEFd9cUefi6nTjAcp1kEVRzXMW0rh5ko82PUfrW-o6s199l2T1pXjT1tbcncjUDCzVirBpVljYZkI0GHHNDddWI6Dr0vf0AoULywZ234HgSgc8CIcYv0pGBstFX5ycEzmOCtOAF169ulafNzOetD4fnFfFXO9RMdd4zKxeoyinKENndBleVF8yEBKzH5ugITZtRF2T6WY_dP8AtmiXFJDiEON_zbWyvhfAB6BTD4ffjG40IwCXwdEK717ibVuKs1qGDc1rCeeMe2u_M6RmE9HqHp7NeB9FtonIgszkjMjSbFYb9Mtb5QfRnnjryG51_q9BQ_8PzRNW1fbLh29m-zzsDtNrI2IBdKS_Pr2P1nFJ1gMvtuyDuUhHufH17RawoK-vuIGL-ro5t788R6m0hl2m5HGLZ0eaGwNViKWAX8jHrQwRU5rBDU5tKyGBm0Y-laDGo6_4BfI7WevdZGLlGm-gI8rF1irsVnXO60v_5ql85yC5zTnNTDk3UPUpcd4Gaf6d7UUz2nQh5O0sBpfGSiOG3T-3mBuBjL0UV3HMghGZqGJ3OYIReyUwqqaNAfR-9I1kVypaBo7qIAJQTBZ3JsGG-9sRvCJWGsosFmmYN5Fxw0"
+  },
+  {
+   "titulo": "Rihanna mostra os filhos em registro raro ao fazer ensaio de Natal e fãs comparam: 'Três cópias de si mesma'",
+   "url": "http://api.cxense.com/public/widget/click/Kt9Qw3DOB_ueKllV5suvWpFuQYcp3wrmTNov7OzXmNawWVeUwl1vuqPRZLS71XsRlsHevvAWsklhc84GodD_W3rzSHBS-u3CBr3a82PTMPoluXncV0lPBuRQVW5LBeNIAxQ7qqQbMEw3ZxejO2Pv0EIKv1HRhEpExeuEcjl_pT-ofjGw1yfsGrYOheRDIPp3bP2DrOnVFML7xc20r8qjJ2P8U2WcImDhwfeGNygvdGXeDw_qA9R5Z3djMVvfiHLHVhOIMIZM637Sbc8INU5MGYl9oPFJFM7KSO5JSCy8SG6Nn-yswQPRKuldmdtYwEKgjdk2dDOio4DndNXvLe4IMz0ArfC1NwtgsQ97-CY9AKUMSJNKYePqEdJTaUQe45i5QqnI1sogW1__2guZgqjVyp0MqJm1BYUIFZ0gftRtdlCi0ReHZrZ7AWXwrdfsLW9SFfEfCS8J1SRuw_s7wNTs23tBKSZUadYU-kD6kqNXFNZdAJFyHAsWFtZAEiSidgQGhecrt5yQDseEbvJihOK3X6QGvc7qSTO_uGMgCWNz7jfyrSWVy51SoOWgWJui4pCX_Wra_N-kX0bvQr4dc4b_inqGNL1Tymal5G6Qq9yAB1z5Bx_e2LmCaJyW-wd6EqYWnxPLooGYzy-lFt04y5k5-NVQLOLLBpua7trfQNPonA3puk6IbZpshoDCSqOHEw9K-AwDvmeVa-Vt640wzRv5I0mL0qVkKwxObFYYK_Z8xAKgx5dCbB1K4oBlzca74mvh7JGpY0hc1uqMB2uvAFqFXtrjZgJ6J2F588fPo-Exb3yzTY6O2PlQh0VJwUJfkRQ0"
+  },
+  {
+   "titulo": "Um a cada cinco motoristas de app tem mais de 50 anos, aponta pesquisa",
+   "url": "http://api.cxense.com/public/widget/click/GI-1dPox5dwDa_niOQ4F8-Tb1u2GNiynrd5Z-JuRDfXMXvZloeGYLiuKwivzn_W2pEHbTd24JQvemp2tDJFzkVK_qBVKGDgQauENg2BKc9JBd8qdwtyajjQIWzLQwHdz3tM8-CCTnnZmpjVHoPKnXR1dVbxiNlrsxYlBHh7EwO6_yUPoSPSQFze3otC8LoOiq4MDhZqalXkkVBUBKD3Qk_2Nw_yDxzE4fIt_bYMsCS3SypxwOSOfOqo7iTmemJUK6I-7llm0R7nRXGb4YhLnWilIzErp-Yqx6aZHypvCZzpd6hdHOzlE1J9pya9PrQ5Jc1Qw5d0rN-plndz9LO9Em4Le6aObMOlhmfqnO-tKo7ftgDrcDbfVixF9JdYIFzdb7QOR11Piho3YbTTX5YM17uqD-6C-_hkV82Wl2o0qq26sE30E4SRe7tsRTg2igu1r_3PsFZPYGcVKfClElWNzOi1cykwMQNGV10yJxVrEF-blDNr5ixoXxRekq5UbB997JO6Jxss2ahUdJBvehyphm1DADVSidFfuTSKc-_6tN2lkyNXKAWC6EFL9ihrQRmUsfLTE1bXHvSElt7TZG7gzlrnO8QpibgResUMq_AsDqk-PsJxZL_5Q08f_-ReC9AaFFzjNiLVA3DxGoqoUbQnWXaKKXAAxB3ugn5owN7evwPFPaCkIQQNi2V2yoM5iY7-tdwvAXCWxtU8VvMIFZEVnX-g3FEP1TeEHIwvrf5o_MZTkdG1YBraEyKmmRL3r4zt_G3CKmhyncxWPQ7pvUTOHvA0"
+  },
+  {
+   "titulo": "Mistura de Santa leva a influência africana para as ladeiras de Santa Teresa",
+   "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/11/mistura-de-santa-leva-a-influencia-africana-para-as-ladeiras-de-santa-teresa.ghtml"
+  },
+  {
+   "titulo": "Homem é preso por armazenar material de abuso sexual infantil em Niterói",
+   "url": "https://oglobo.globo.com/rio/bairros/niteroi/noticia/2026/11/25/homem-e-preso-por-armazenar-material-de-abuso-sexual-infantil-em-niteroi.ghtml"
+  },
+  {
+   "titulo": "Ruas esburacadas no Rio são problema desde 1925: O GLOBO responde a leitores que usam cadeiras de rodas e denunciam os mesmos obstáculos em 2026",
+   "url": "https://oglobo.globo.com/o-globo-por-dentro/noticia/2026/11/25/ruas-esburacadas-no-rio-sao-problema-desde-1925-o-globo-responde-a-leitores-que-usam-cadeiras-de-rodas-e-denunciam-os-mesmos-obstaculos-em-2026.ghtml"
+  },
+  {
+   "titulo": "Professor espancado no Centro do Rio: MP denuncia agressor",
+   "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/11/professor-espancado-no-centro-do-rio-mp-denuncia-agressor.ghtml"
+  },
+  {
+   "titulo": "Vídeo: fotógrafo capta imagem rara de superlua surgindo atrás da Rocinha",
+   "url": "https://oglobo.globo.com/rio/bairros/zona-sul/noticia/2026/11/25/fotografo-capta-imagem-rara-de-superlua-surgindo-atras-da-rocinha.ghtml"
+  },
+  {
+   "titulo": "Antiga boate Barbarella renasce como espaço de eventos e hospedagem em Copacabana; veja as fotos",
+   "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/11/antiga-boate-barbarella-renasce-como-espaco-de-eventos-e-hospedagem-em-copacabana-veja-as-fotos.ghtml"
   },
   {
    "titulo": "Uma imersão nas mais curiosas passagens históricas com o Rio como cenário",

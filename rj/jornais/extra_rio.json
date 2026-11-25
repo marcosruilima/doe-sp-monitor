@@ -1,7 +1,15 @@
 {
- "coletado_em": "2026-11-25T11:33:11.091130Z",
+ "coletado_em": "2026-11-25T18:52:26.954679Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "Previsão de temporal no RJ põe municípios em alerta e adia programações no estado",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/previsao-de-temporal-no-rj-poe-municipios-em-alerta-e-adia-programacoes-no-estado.ghtml"
+  },
+  {
+   "titulo": "Chuva muito forte é prevista para a Costa Verde nesta quarta; Paraty suspende aulas e Angra adia evento natalino",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/chuva-muito-forte-e-prevista-para-a-costa-verde-nesta-quarta-paraty-suspende-aulas-e-angra-adia-evento-natalino.ghtml"
+  },
   {
    "titulo": "Rio tem alerta severo para temporal com raios e rajadas de vento no fim da tarde; veja como se proteger",
    "url": "https://extra.globo.com/rio/noticia/2026/11/rio-tem-alerta-severo-para-temporal-com-raios-e-rajadas-de-vento-no-fim-da-tarde-veja-como-se-proteger.ghtml"
@@ -33,14 +41,6 @@
   {
    "titulo": "Polícia Federal prende no Méier homem suspeito de compartilhar mais de 160 vídeos de abuso sexual de crianças e adolescentes",
    "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/policia-federal-prende-no-meier-homem-suspeito-de-compartilhar-mais-de-160-videos-de-abuso-sexual-de-criancas-e-adolescentes.ghtml"
-  },
-  {
-   "titulo": "Viatura da PM invade calçada e atinge pedestres em Nilópolis; vídeo",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/viatura-da-pm-invade-calcada-e-atinge-pedestres-em-nilopolis-video.ghtml"
-  },
-  {
-   "titulo": "Vídeo: mulher é atropelada e agredida com pauladas por quatro homens após discussão em bar",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/video-mulher-e-atropelada-e-agredida-com-pauladas-por-quatro-homens-apos-discussao-em-bar.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
