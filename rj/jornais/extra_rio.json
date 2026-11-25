@@ -1,7 +1,31 @@
 {
- "coletado_em": "2026-11-24T19:00:37.346530Z",
+ "coletado_em": "2026-11-25T10:32:55.940344Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "De Alceu Valença a Zeca Pagodinho, canções viram pratos no Festival de Frutos do Mar de Rio das Ostras",
+   "url": "https://extra.globo.com/rio/cidades/rio-das-ostras/noticia/2026/11/de-alceu-valenca-a-zeca-pagodinho-cancoes-viram-pratos-no-festival-de-frutos-do-mar-de-rio-das-ostras.ghtml"
+  },
+  {
+   "titulo": "Juliana Paes confirma presença em desfile no carnaval de 2027",
+   "url": "https://extra.globo.com/famosos/noticia/2026/11/juliana-paes-confirma-presenca-em-desfile-no-carnaval-de-2027.ghtml"
+  },
+  {
+   "titulo": "Condenado por roubo que mudou precedente do STF sobre apreensão de celulares é preso por policiais da Ilha do Governador",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/condenado-por-roubo-que-mudou-precedente-do-stf-sobre-apreensao-de-celulares-e-preso-por-policiais-da-ilha-do-governador.ghtml"
+  },
+  {
+   "titulo": "Neozelandês e chinesa são presos suspeitos de tráfico internacional de bebês na Região dos Lagos do RJ",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/neozelandes-e-chinesa-sao-presos-no-rj-suspeitos-de-integrar-esquema-internacional-de-trafico-de-bebes.ghtml"
+  },
+  {
+   "titulo": "PGR denuncia ao STF ex-secretário do governo do Rio, delegado da PF e PMs em investigação sobre crime organizado",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/pgr-denuncia-ao-stf-ex-secretario-do-governo-do-rio-delegado-da-pf-e-pms-em-investigacao-sobre-crime-organizado.ghtml"
+  },
+  {
+   "titulo": "Fez sucesso e vai ter mais: EXTRA e Valda estendem promoção",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/fez-sucesso-e-vai-ter-mais-extra-e-valda-estendem-promocao.ghtml"
+  },
   {
    "titulo": "Polícia Federal prende no Méier homem suspeito de compartilhar mais de 160 vídeos de abuso sexual de crianças e adolescentes",
    "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/policia-federal-prende-no-meier-homem-suspeito-de-compartilhar-mais-de-160-videos-de-abuso-sexual-de-criancas-e-adolescentes.ghtml"
@@ -15,32 +39,8 @@
    "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/video-mulher-e-atropelada-e-agredida-com-pauladas-por-quatro-homens-apos-discussao-em-bar.ghtml"
   },
   {
-   "titulo": "Condenado há 9 meses no caso Marielle, Major Ronald é demitido da PM pelo governador do Rio",
+   "titulo": "Condenado há 9 meses no caso Marielle, major Ronald é demitido da PM pelo governador do Rio",
    "url": "https://extra.globo.com/rio/noticia/2026/11/condenado-ha-9-meses-no-caso-marielle-major-ronald-e-demitido-da-pm-pelo-governador-do-rio.ghtml"
-  },
-  {
-   "titulo": "Alerj prepara votação de reajuste para governador, vice e secretários; salário de Ruas deve chegar a R$ 36 mil",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/alerj-prepara-votacao-de-reajuste-para-governador-vice-e-secretarios-salario-de-ruas-deve-chegar-a-r-36-mil.ghtml"
-  },
-  {
-   "titulo": "Superlua hoje: nuvens podem encobrir fenômeno no Rio; veja a previsão do tempo",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/superlua-hoje-nuvens-podem-encobrir-fenomeno-no-rio-veja-a-previsao-do-tempo.ghtml"
-  },
-  {
-   "titulo": "'Mulher, você não está sozinha': conheça o projeto de escuta e apoio feminino no Morro do Barbante",
-   "url": "https://extra.globo.com/blogs/corre-de-cria/post/2026/11/mulher-voce-nao-esta-sozinha-conheca-o-projeto-de-escuta-e-apoio-feminino-no-morro-do-barbante.ghtml"
-  },
-  {
-   "titulo": "Duas crianças são esfaqueadas por adolescente em escola pública do Rio",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/duas-criancas-sao-esfaqueadas-por-adolescente-em-escola-publica-do-rio.ghtml"
-  },
-  {
-   "titulo": "Metrô tem problemas pelo 2º dia seguido, e composição precisa ser evacuada em estação no Centro",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/metro-tem-problemas-pelo-2o-dia-seguido-e-composicao-precisa-ser-evacuada-em-estacao-no-centro.ghtml"
-  },
-  {
-   "titulo": "Caminhão tomba na BR-101, derruba pórtico e nove pessoas ficam feridas; via passou 3 horas interditada",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/caminhao-tomba-na-br-101-derruba-portico-e-nove-pessoas-ficam-feridas-via-esta-interditada.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
