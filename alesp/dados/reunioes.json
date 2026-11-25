@@ -2,409 +2,6 @@
  {
   "colegiadosRelacionados": [
    {
-    "id": 12445,
-    "nome": "Comissão de Finanças, Orçamento e Planejamento",
-    "sigla": "CFOP",
-    "tipo": null
-   }
-  ],
-  "descricao": "REUNIÃO DE PAUTA",
-  "documentosReuniao": [
-   {
-    "ano": null,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "O",
-    "colegiados": null,
-    "descricao": "Áudio de Reunião de Comissão",
-    "dtDocumento": "2026-11-17",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000025303,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000062,
-    "idSessao": null,
-    "idTipoDocumento": 20014,
-    "interessados": null,
-    "linkArquivo": "https://www3.al.sp.gov.br/legis/docs/audio/2026/11/17/310000025303.mp3",
-    "linkArquivoPDF": null,
-    "nomeTipoSessaoReuniao": "Ordinária",
-    "numero": null,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "Comissão de Finanças, Orçamento e Planejamento (13:11)",
-    "tipo": "Áudio de Reunião de Comissão",
-    "txNomeArq": "310000025303.mp3",
-    "txNomePDF": null,
-    "txPath": "/docs/audio/2026/11/17/",
-    "urlDocumento": null
-   },
-   {
-    "ano": 2026,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "O",
-    "colegiados": null,
-    "descricao": "Comunicado de colegiado nº 6/2026",
-    "dtDocumento": "2026-11-13",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000025067,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000062,
-    "idSessao": null,
-    "idTipoDocumento": 20012,
-    "interessados": null,
-    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025067.html",
-    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025067_cv.pdf",
-    "nomeTipoSessaoReuniao": "Ordinária",
-    "numero": 6,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "5ª Reunião Ordinária de 17/11/2026 às 14:00, da CFOP.",
-    "tipo": "Comunicado de colegiado",
-    "txNomeArq": "310000025067.html",
-    "txNomePDF": "310000025067_cv.pdf",
-    "txPath": "/docs/2026/11/13/",
-    "urlDocumento": null
-   },
-   {
-    "ano": 2026,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "O",
-    "colegiados": null,
-    "descricao": "Pauta de colegiado nº 6/2026",
-    "dtDocumento": "2026-11-13",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000025068,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000062,
-    "idSessao": null,
-    "idTipoDocumento": 20011,
-    "interessados": null,
-    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025068.html",
-    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025068_cv.pdf",
-    "nomeTipoSessaoReuniao": "Ordinária",
-    "numero": 6,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "5ª Reunião Ordinária de 17/11/2026 às 14:00, da CFOP.",
-    "tipo": "Pauta de colegiado",
-    "txNomeArq": "310000025068.html",
-    "txNomePDF": "310000025068_cv.pdf",
-    "txPath": "/docs/2026/11/13/",
-    "urlDocumento": null
-   }
-  ],
-  "dtReuniao": "2026-11-17T14:00",
-  "idReuniao": 1100000062,
-  "local": {
-   "flAtivo": "S",
-   "idLocal": 2015,
-   "txNome": "Plenário D. Pedro I"
-  },
-  "nuReuniao": 5,
-  "parlamentaresPresentes": null,
-  "presidente": null,
-  "solicitante": "Comissão de Finanças, Orçamento e Planejamento",
-  "status": {
-   "idStatus": 3,
-   "txNome": "Realizada"
-  },
-  "tipoConvocacao": "Ordinária",
-  "tituloReuniao": "Reunião de Pauta",
-  "txAssunto": "deliberar sobre o RGL 15656/26, que trata do Balanço Geral do Estado acompanhado do Relatório sobre as contas do exercício financeiro de 2025."
- },
- {
-  "colegiadosRelacionados": [
-   {
-    "id": 1000001015,
-    "nome": "Comissão de Defesa dos Direitos das Pessoas com Deficiência",
-    "sigla": "CDDPD",
-    "tipo": null
-   }
-  ],
-  "descricao": "REUNIÃO DE PAUTA SEM QUORUM",
-  "documentosReuniao": [
-   {
-    "ano": 2026,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "O",
-    "colegiados": null,
-    "descricao": "Comunicado de colegiado nº 2/2026",
-    "dtDocumento": "2026-11-13",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000025140,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000059,
-    "idSessao": null,
-    "idTipoDocumento": 20012,
-    "interessados": null,
-    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025140.html",
-    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025140_cv.pdf",
-    "nomeTipoSessaoReuniao": "Ordinária",
-    "numero": 2,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "1ª Reunião Ordinária de 17/11/2026 às 15:00, da CDDPD.",
-    "tipo": "Comunicado de colegiado",
-    "txNomeArq": "310000025140.html",
-    "txNomePDF": "310000025140_cv.pdf",
-    "txPath": "/docs/2026/11/13/",
-    "urlDocumento": null
-   },
-   {
-    "ano": 2026,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "O",
-    "colegiados": null,
-    "descricao": "Pauta de colegiado nº 2/2026",
-    "dtDocumento": "2026-11-11",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000024871,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000059,
-    "idSessao": null,
-    "idTipoDocumento": 20011,
-    "interessados": null,
-    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/11/310000024871.html",
-    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/11/310000024871_cv.pdf",
-    "nomeTipoSessaoReuniao": "Ordinária",
-    "numero": 2,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "1ª Reunião Ordinária de 17/11/2026 às 15:00, da CDDPD.",
-    "tipo": "Pauta de colegiado",
-    "txNomeArq": "310000024871.html",
-    "txNomePDF": "310000024871_cv.pdf",
-    "txPath": "/docs/2026/11/11/",
-    "urlDocumento": null
-   }
-  ],
-  "dtReuniao": "2026-11-17T15:00",
-  "idReuniao": 1100000059,
-  "local": {
-   "flAtivo": "S",
-   "idLocal": 2015,
-   "txNome": "Plenário D. Pedro I"
-  },
-  "nuReuniao": 1,
-  "parlamentaresPresentes": null,
-  "presidente": null,
-  "solicitante": "Comissão de Defesa dos Direitos das Pessoas com Deficiência",
-  "status": {
-   "idStatus": 6,
-   "txNome": "Sem Quórum"
-  },
-  "tipoConvocacao": "Ordinária",
-  "tituloReuniao": "Reunião de Pauta sem Quorum",
-  "txAssunto": "apreciar a pauta anexa e tratar de outros assuntos de interesse da Comissão."
- },
- {
-  "colegiadosRelacionados": [
-   {
-    "id": 1000000128,
-    "nome": "Comissão de Defesa dos Direitos do Consumidor",
-    "sigla": "CDDC",
-    "tipo": null
-   }
-  ],
-  "descricao": "REUNIÃO DE PAUTA SEM QUORUM",
-  "documentosReuniao": [
-   {
-    "ano": 2026,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "O",
-    "colegiados": null,
-    "descricao": "Pauta de colegiado nº 3/2026",
-    "dtDocumento": "2026-11-13",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000025039,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000060,
-    "idSessao": null,
-    "idTipoDocumento": 20011,
-    "interessados": null,
-    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025039.html",
-    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025039_cv.pdf",
-    "nomeTipoSessaoReuniao": "Ordinária",
-    "numero": 3,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "2ª Reunião Ordinária de 17/11/2026 às 15:00, da CDDC.",
-    "tipo": "Pauta de colegiado",
-    "txNomeArq": "310000025039.html",
-    "txNomePDF": "310000025039_cv.pdf",
-    "txPath": "/docs/2026/11/13/",
-    "urlDocumento": null
-   },
-   {
-    "ano": 2026,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "O",
-    "colegiados": null,
-    "descricao": "Comunicado de colegiado nº 3/2026",
-    "dtDocumento": "2026-11-13",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000025038,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000060,
-    "idSessao": null,
-    "idTipoDocumento": 20012,
-    "interessados": null,
-    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025038.html",
-    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025038_cv.pdf",
-    "nomeTipoSessaoReuniao": "Ordinária",
-    "numero": 3,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "2ª Reunião Ordinária de 17/11/2026 às 15:00, da CDDC.",
-    "tipo": "Comunicado de colegiado",
-    "txNomeArq": "310000025038.html",
-    "txNomePDF": "310000025038_cv.pdf",
-    "txPath": "/docs/2026/11/13/",
-    "urlDocumento": null
-   }
-  ],
-  "dtReuniao": "2026-11-17T15:00",
-  "idReuniao": 1100000060,
-  "local": {
-   "flAtivo": "S",
-   "idLocal": 2017,
-   "txNome": "Plenário José Bonifácio"
-  },
-  "nuReuniao": 2,
-  "parlamentaresPresentes": null,
-  "presidente": null,
-  "solicitante": "Comissão de Defesa dos Direitos do Consumidor",
-  "status": {
-   "idStatus": 6,
-   "txNome": "Sem Quórum"
-  },
-  "tipoConvocacao": "Ordinária",
-  "tituloReuniao": "Reunião de Pauta sem Quorum",
-  "txAssunto": "apreciar a pauta anexa e tratar de outros assuntos de interesse da Comissão."
- },
- {
-  "colegiadosRelacionados": [
-   {
-    "id": 12449,
-    "nome": "Comissão de Assuntos Metropolitanos e Municipais",
-    "sigla": "CAMM",
-    "tipo": null
-   }
-  ],
-  "descricao": "REUNIÃO DE PAUTA SEM QUORUM",
-  "documentosReuniao": [
-   {
-    "ano": 2026,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "E",
-    "colegiados": null,
-    "descricao": "Comunicado de colegiado nº 3/2026",
-    "dtDocumento": "2026-11-13",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000025047,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000061,
-    "idSessao": null,
-    "idTipoDocumento": 20012,
-    "interessados": null,
-    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025047.html",
-    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025047_cv.pdf",
-    "nomeTipoSessaoReuniao": "Extraordinária",
-    "numero": 3,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "2ª Reunião Extraordinária de 17/11/2026 às 15:30, da CAMM.",
-    "tipo": "Comunicado de colegiado",
-    "txNomeArq": "310000025047.html",
-    "txNomePDF": "310000025047_cv.pdf",
-    "txPath": "/docs/2026/11/13/",
-    "urlDocumento": null
-   },
-   {
-    "ano": 2026,
-    "apoiadores": null,
-    "arquivos": null,
-    "autores": null,
-    "cdTipoSessaoOuReuniao": "E",
-    "colegiados": null,
-    "descricao": "Pauta de colegiado nº 3/2026",
-    "dtDocumento": "2026-11-13",
-    "dtPublicacao": null,
-    "dtSessao": null,
-    "idDocumento": 310000025048,
-    "idDocumentoSpl": null,
-    "idReuniao": 1100000061,
-    "idSessao": null,
-    "idTipoDocumento": 20011,
-    "interessados": null,
-    "linkArquivo": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025048.html",
-    "linkArquivoPDF": "https://www.al.sp.gov.br/legis/docs/2026/11/13/310000025048_cv.pdf",
-    "nomeTipoSessaoReuniao": "Extraordinária",
-    "numero": 3,
-    "ordem": null,
-    "processos": null,
-    "relatores": null,
-    "resumo": "2ª Reunião Extraordinária de 17/11/2026 às 15:30, da CAMM.",
-    "tipo": "Pauta de colegiado",
-    "txNomeArq": "310000025048.html",
-    "txNomePDF": "310000025048_cv.pdf",
-    "txPath": "/docs/2026/11/13/",
-    "urlDocumento": null
-   }
-  ],
-  "dtReuniao": "2026-11-17T15:30",
-  "idReuniao": 1100000061,
-  "local": {
-   "flAtivo": "S",
-   "idLocal": 2016,
-   "txNome": "Plenário Tiradentes"
-  },
-  "nuReuniao": 2,
-  "parlamentaresPresentes": null,
-  "presidente": null,
-  "solicitante": "Comissão de Assuntos Metropolitanos e Municipais",
-  "status": {
-   "idStatus": 6,
-   "txNome": "Sem Quórum"
-  },
-  "tipoConvocacao": "Extraordinária",
-  "tituloReuniao": "Reunião de Pauta sem Quorum",
-  "txAssunto": "apreciar a pauta anexa e tratar de outros assuntos do interesse desta Comissão."
- },
- {
-  "colegiadosRelacionados": [
-   {
     "id": 1000000596,
     "nome": "Comissão de Relações Internacionais",
     "sigla": "CRI",
@@ -569,6 +166,37 @@
   "descricao": "REUNIÃO DE PAUTA",
   "documentosReuniao": [
    {
+    "ano": null,
+    "apoiadores": null,
+    "arquivos": null,
+    "autores": null,
+    "cdTipoSessaoOuReuniao": "O",
+    "colegiados": null,
+    "descricao": "Áudio de Reunião de Comissão",
+    "dtDocumento": "2026-11-24",
+    "dtPublicacao": null,
+    "dtSessao": null,
+    "idDocumento": 310000025728,
+    "idDocumentoSpl": null,
+    "idReuniao": 1100000067,
+    "idSessao": null,
+    "idTipoDocumento": 20014,
+    "interessados": null,
+    "linkArquivo": "https://www3.al.sp.gov.br/legis/docs/audio/2026/11/24/310000025728.mp3",
+    "linkArquivoPDF": null,
+    "nomeTipoSessaoReuniao": "Ordinária",
+    "numero": null,
+    "ordem": null,
+    "processos": null,
+    "relatores": null,
+    "resumo": "Comissão de Finanças, Orçamento e Planejamento (12:42)",
+    "tipo": "Áudio de Reunião de Comissão",
+    "txNomeArq": "310000025728.mp3",
+    "txNomePDF": null,
+    "txPath": "/docs/audio/2026/11/24/",
+    "urlDocumento": null
+   },
+   {
     "ano": 2026,
     "apoiadores": null,
     "arquivos": null,
@@ -643,8 +271,8 @@
   "presidente": null,
   "solicitante": "Comissão de Finanças, Orçamento e Planejamento",
   "status": {
-   "idStatus": 2,
-   "txNome": "Convocada"
+   "idStatus": 3,
+   "txNome": "Realizada"
   },
   "tipoConvocacao": "Ordinária",
   "tituloReuniao": "Reunião de Pauta",
@@ -659,7 +287,7 @@
     "tipo": null
    }
   ],
-  "descricao": "REUNIÃO DE PAUTA",
+  "descricao": "REUNIÃO DE PAUTA SEM QUORUM",
   "documentosReuniao": [
    {
     "ano": 2026,
@@ -736,11 +364,11 @@
   "presidente": null,
   "solicitante": "Comissão de Defesa dos Direitos das Pessoas com Deficiência",
   "status": {
-   "idStatus": 2,
-   "txNome": "Convocada"
+   "idStatus": 6,
+   "txNome": "Sem Quórum"
   },
   "tipoConvocacao": "Ordinária",
-  "tituloReuniao": "Reunião de Pauta",
+  "tituloReuniao": "Reunião de Pauta sem Quorum",
   "txAssunto": "apreciar a pauta anexa e tratar de outros assuntos de interesse da Comissão."
  },
  {
@@ -752,7 +380,7 @@
     "tipo": null
    }
   ],
-  "descricao": "REUNIÃO DE PAUTA",
+  "descricao": "REUNIÃO DE PAUTA SEM QUORUM",
   "documentosReuniao": [
    {
     "ano": 2026,
@@ -829,11 +457,11 @@
   "presidente": null,
   "solicitante": "Comissão de Defesa dos Direitos do Consumidor",
   "status": {
-   "idStatus": 2,
-   "txNome": "Convocada"
+   "idStatus": 6,
+   "txNome": "Sem Quórum"
   },
   "tipoConvocacao": "Ordinária",
-  "tituloReuniao": "Reunião de Pauta",
+  "tituloReuniao": "Reunião de Pauta sem Quorum",
   "txAssunto": "apreciar a pauta anexa e tratar de outros assuntos de interesse da Comissão."
  }
 ]

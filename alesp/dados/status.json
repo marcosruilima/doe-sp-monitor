@@ -1,12 +1,12 @@
 {
- "arquivos_de_sessao": 3,
- "coletado_em_utc": "2026-11-24T18:57:12Z",
+ "arquivos_de_sessao": 6,
+ "coletado_em_utc": "2026-11-25T10:29:41Z",
  "erros": [],
  "janela": [
-  "2026-11-17",
-  "2027-01-23"
+  "2026-11-18",
+  "2027-01-24"
  ],
  "pautas_baixadas": 6,
- "reunioes": 9,
- "sessoes": 14
+ "reunioes": 5,
+ "sessoes": 13
 }
