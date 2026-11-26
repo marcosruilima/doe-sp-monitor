@@ -1,22 +1,11 @@
 {
- "coletado_em_utc": "2026-11-25T18:48:18",
- "hoje": "2026-11-25",
+ "coletado_em_utc": "2026-11-26T10:21:08",
+ "hoje": "2026-11-26",
  "cadernos": [
   {
-   "dia": "2026-11-25",
-   "caderno": "Parte I (Poder Executivo)",
-   "arquivo": "rj/doerj/2026-11-25_parte-i-poder-executivo.txt",
-   "bytes_pdf": 4918858,
-   "chars": 936425,
-   "itens_sumario": 182
-  },
-  {
-   "dia": "2026-11-25",
-   "caderno": "Parte II (Poder Legislativo)",
-   "arquivo": "rj/doerj/2026-11-25_parte-ii-poder-legislativo.txt",
-   "bytes_pdf": 1252617,
-   "chars": 350595,
-   "itens_sumario": 6
+   "dia": "2026-11-26",
+   "caderno": null,
+   "nota": "sem cadernos listados"
   }
  ],
  "erros": []
