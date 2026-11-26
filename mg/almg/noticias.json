@@ -1,6 +1,10 @@
 {
- "coletado_em": "2026-11-26T11:24:39Z",
+ "coletado_em": "2026-11-26T18:45:00Z",
  "itens": [
+  {
+   "titulo": "Reunião Especial destaca os 70 anos da Cáritas Brasileira",
+   "url": "https://www.almg.gov.br/comunicacao/noticias/arquivos/Reuniao-Especial-destaca-os-70-anos-da-Caritas-Brasileira/"
+  },
   {
    "titulo": "Departamento de Estradas de Rodagem do Estado será homenageado em Plenário",
    "url": "https://www.almg.gov.br/comunicacao/noticias/arquivos/Departamento-de-Estradas-de-Rodagem-do-Estado-sera-homenageado-em-Plenario/"
@@ -76,10 +80,6 @@
   {
    "titulo": "Projeto sobre emendas impositivas é aprovado em 2º turno",
    "url": "https://www.almg.gov.br/comunicacao/noticias/arquivos/Projeto-sobre-emendas-impositivas-e-aprovado-em-2-turno/"
-  },
-  {
-   "titulo": "Matérias voltadas para a saúde pública são votadas",
-   "url": "https://www.almg.gov.br/comunicacao/noticias/arquivos/Materias-voltadas-para-a-saude-publica-sao-votadas/"
   }
  ]
 }

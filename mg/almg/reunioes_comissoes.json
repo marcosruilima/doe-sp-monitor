@@ -432,6 +432,26 @@
  },
  {
   "data": "2026-12-02",
+  "idTipo": "1",
+  "idCom": "508",
+  "dia": "02",
+  "mes": "12",
+  "ano": "2026",
+  "hr": "10:20",
+  "arquivo": "mg/almg/pautas/2026-12-02_1020_comissao_com508_tipo1.txt"
+ },
+ {
+  "data": "2026-12-02",
+  "idTipo": "2",
+  "idCom": "508",
+  "dia": "02",
+  "mes": "12",
+  "ano": "2026",
+  "hr": "14:15",
+  "arquivo": "mg/almg/pautas/2026-12-02_1415_comissao_com508_tipo2.txt"
+ },
+ {
+  "data": "2026-12-02",
   "idTipo": "2",
   "idCom": "675",
   "dia": "02",
