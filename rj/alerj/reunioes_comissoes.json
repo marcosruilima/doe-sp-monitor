@@ -1,12 +1,5 @@
 [
  {
-  "data": "2026-11-23",
-  "tipo": "12ª Reunião EXTRAORDINÁRIA",
-  "comissao": "Comissão de Orçamento Finanças Fiscalização Financeira e Controle",
-  "situacao": "",
-  "arquivo": "2026-11-23_comisso-de-oramento-finanas-fiscalizao-f_8596c9.txt"
- },
- {
   "data": "2026-11-24",
   "tipo": "1ª Reunião ORDINÁRIA",
   "comissao": "Comissão de Combate às Discriminações e Preconceitos de Raça Cor Etnia Religião e Procedência Nacional",
@@ -47,5 +40,12 @@
   "comissao": "Comissão de Normas Internas e Proposições Externas",
   "situacao": "",
   "arquivo": "2026-11-26_comisso-de-normas-internas-e-proposies-e_29c970.txt"
+ },
+ {
+  "data": "2026-12-09",
+  "tipo": "1ª Reunião ORDINÁRIA",
+  "comissao": "Comissão de Turismo",
+  "situacao": "",
+  "arquivo": "2026-12-09_comisso-de-turismo_04b6f3.txt"
  }
 ]
