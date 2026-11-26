@@ -1,7 +1,31 @@
 {
- "coletado_em": "2026-11-26T11:29:29.717730Z",
+ "coletado_em": "2026-11-26T18:53:33.027361Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "Aumento de Covid-19 no RJ: Secretaria de Saúde volta a divulgar boletim com panorama de casos no estado",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/aumento-de-covid-19-no-rj-secretaria-de-saude-volta-a-divulgar-boletim-com-panorama-de-casos-no-estado.ghtml"
+  },
+  {
+   "titulo": "Baleados em operação no Lins: criança e barbeiro têm estado grave e gravíssimo, grávida está estável e idosa é liberada",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/baleado-em-operacao-no-lins-crianca-e-barbeiro-tem-estado-grave-e-gravissimo-gravida-esta-estavel-e-idosa-e-liberada.ghtml"
+  },
+  {
+   "titulo": "Motorista de van é baleado em ataque a tiros na Zona Sudoeste do Rio",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/motorista-de-van-e-baleado-em-ataque-a-tiros-na-zona-sudoeste-do-rio.ghtml"
+  },
+  {
+   "titulo": "Acusado de espancar professor no Centro do Rio vira réu na Justiça, e polícia prende mais dois envolvidos no crime",
+   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/acusado-de-espancar-professor-no-centro-do-rio-vira-reu-por-homicidio-triplamente-qualificado.ghtml"
+  },
+  {
+   "titulo": "Temporal no RJ: Costa Verde é a região mais afetada, e Angra dos Reis suspende aulas",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/temporal-no-rj-costa-verde-e-a-regiao-mais-afetada-e-angra-dos-reis-suspende-aulas.ghtml"
+  },
+  {
+   "titulo": "Polícia Civil prende 423 criminosos durante megaoperação contra crimes patrimoniais no Rio",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/policia-civil-prende-423-criminosos-durante-megaoperacao-contra-crimes-patrimoniais-no-rio.ghtml"
+  },
   {
    "titulo": "Rio amanhece debaixo de chuva; previsão indica acumulados de até 200 milímetros",
    "url": "https://extra.globo.com/rio/noticia/2026/11/rio-amanhece-debaixo-de-chuva-previsao-indica-acumulados-de-ate-200-milimetros.ghtml"
@@ -17,30 +41,6 @@
   {
    "titulo": "Julgamento que definirá se morte de empresário na Barra irá a júri acontece nesta quinta-feira",
    "url": "https://extra.globo.com/rio/noticia/2026/11/julgamento-que-definira-se-morte-de-empresario-na-barra-ira-a-juri-acontece-nesta-quinta-feira.ghtml"
-  },
-  {
-   "titulo": "Menino de 6 anos, grávida e outros dois moradores são feridos durante operação da Polícia Civil no Complexo do Lins, na Zona Norte",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/menino-de-6-anos-gravida-e-outros-dois-moradores-sao-feridos-durante-operacao-da-policia-civil-no-complexo-do-lins-na-zona-norte.ghtml"
-  },
-  {
-   "titulo": "Justiça mantém decisão que impede município do Rio de descontar valores de empresas de ônibus por falhas no serviço",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/justica-mantem-decisao-que-impede-municipio-do-rio-de-descontar-valores-de-empresas-de-onibus-por-falhas-no-servico.ghtml"
-  },
-  {
-   "titulo": "Chuva forte atinge o Rio e a Região Metropolitana; Uerj e UFRJ suspendem aulas",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/chuva-forte-atinge-o-rio-e-a-regiao-metropolitana-uerj-e-ufrj-suspendem-aulas.ghtml"
-  },
-  {
-   "titulo": "Corpo de idoso desaparecido é encontrado no Parque de Gericinó, em Nilópolis; polícia investiga",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/corpo-de-idoso-desaparecido-e-encontrado-no-parque-de-gericino-em-nilopolis-policia-investiga.ghtml"
-  },
-  {
-   "titulo": "Homem é preso por armazenar material de abuso sexual infantil em Niterói",
-   "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/homem-e-preso-por-armazenar-material-de-abuso-sexual-infantil-em-niteroi.ghtml"
-  },
-  {
-   "titulo": "Previsão de temporal no RJ põe municípios em alerta e adia programações no estado",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/previsao-de-temporal-no-rj-poe-municipios-em-alerta-e-adia-programacoes-no-estado.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
