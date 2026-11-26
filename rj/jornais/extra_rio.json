@@ -1,7 +1,11 @@
 {
- "coletado_em": "2026-11-26T10:36:23.128878Z",
+ "coletado_em": "2026-11-26T11:29:29.717730Z",
  "fonte": "https://extra.globo.com/rio/",
  "itens": [
+  {
+   "titulo": "Rio amanhece debaixo de chuva; previsão indica acumulados de até 200 milímetros",
+   "url": "https://extra.globo.com/rio/noticia/2026/11/rio-amanhece-debaixo-de-chuva-previsao-indica-acumulados-de-ate-200-milimetros.ghtml"
+  },
   {
    "titulo": "Aeronáutica altera regras de voo no Rio e encerra rotas após acidentes; veja o que muda",
    "url": "https://extra.globo.com/rio/noticia/2026/11/aeronautica-altera-regras-de-voo-no-rio-e-encerra-rotas-apos-acidentes-veja-o-que-muda.ghtml"
@@ -37,10 +41,6 @@
   {
    "titulo": "Previsão de temporal no RJ põe municípios em alerta e adia programações no estado",
    "url": "https://extra.globo.com/rio/noticia/2026/11/previsao-de-temporal-no-rj-poe-municipios-em-alerta-e-adia-programacoes-no-estado.ghtml"
-  },
-  {
-   "titulo": "Chuva muito forte é prevista para a Costa Verde nesta quarta; Paraty suspende aulas e Angra adia evento natalino",
-   "url": "https://extra.globo.com/rio/noticia/2026/11/chuva-muito-forte-e-prevista-para-a-costa-verde-nesta-quarta-paraty-suspende-aulas-e-angra-adia-evento-natalino.ghtml"
   },
   {
    "titulo": "\\n \\n \\n \\n \\n \n\\n \\n ${s(e,n)} \\n ${((e=\"\")=>e?` Em ${e} `:\"\")(u)}\\n \n\\n",
