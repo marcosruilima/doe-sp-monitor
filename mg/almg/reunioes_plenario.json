@@ -1,11 +1,11 @@
 [
  {
-  "data": "2026-11-25",
-  "dia": "25",
+  "data": "2026-11-26",
+  "dia": "26",
   "mes": "11",
   "ano": "2026",
   "hr": "14:00",
-  "arquivo": "mg/almg/pautas/2026-11-25_1400_plenario.txt",
+  "arquivo": "mg/almg/pautas/2026-11-26_1400_plenario.txt",
   "ja_baixada": true
  },
  {
@@ -13,16 +13,9 @@
   "dia": "26",
   "mes": "11",
   "ano": "2026",
-  "hr": "14:00",
-  "arquivo": "mg/almg/pautas/2026-11-26_1400_plenario.txt"
- },
- {
-  "data": "2026-11-26",
-  "dia": "26",
-  "mes": "11",
-  "ano": "2026",
   "hr": "19:00",
-  "arquivo": "mg/almg/pautas/2026-11-26_1900_plenario.txt"
+  "arquivo": "mg/almg/pautas/2026-11-26_1900_plenario.txt",
+  "ja_baixada": true
  },
  {
   "data": "2026-11-27",
