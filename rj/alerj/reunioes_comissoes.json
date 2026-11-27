@@ -42,10 +42,24 @@
   "arquivo": "2026-11-30_comisso-de-emendas-constitucionais-e-vet_4dd368.txt"
  },
  {
+  "data": "2026-12-02",
+  "tipo": "Audiência Pública",
+  "comissao": "Comissão de Defesa do Meio Ambiente",
+  "situacao": "",
+  "arquivo": "2026-12-02_comisso-de-defesa-do-meio-ambiente_18ecd9.txt"
+ },
+ {
   "data": "2026-12-09",
   "tipo": "1ª Reunião ORDINÁRIA",
   "comissao": "Comissão de Turismo",
   "situacao": "",
   "arquivo": "2026-12-09_comisso-de-turismo_04b6f3.txt"
+ },
+ {
+  "data": "2026-12-14",
+  "tipo": "Audiência Pública",
+  "comissao": "Comissão de Trabalho Legislação Social e Seguridade Social",
+  "situacao": "",
+  "arquivo": "2026-12-14_comisso-de-trabalho-legislao-social-e-se_101362.txt"
  }
 ]
