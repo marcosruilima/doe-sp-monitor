@@ -233,6 +233,16 @@
  },
  {
   "data": "2026-12-02",
+  "idTipo": "1",
+  "idCom": "8",
+  "dia": "02",
+  "mes": "12",
+  "ano": "2026",
+  "hr": "15:30",
+  "arquivo": "mg/almg/pautas/2026-12-02_1530_comissao_com8_tipo1.txt"
+ },
+ {
+  "data": "2026-12-02",
   "idTipo": "2",
   "idCom": "675",
   "dia": "02",
@@ -250,6 +260,36 @@
   "ano": "2026",
   "hr": "10:00",
   "arquivo": "mg/almg/pautas/2026-12-03_1000_comissao_com849_tipo2.txt"
+ },
+ {
+  "data": "2026-12-03",
+  "idTipo": "2",
+  "idCom": "8",
+  "dia": "03",
+  "mes": "12",
+  "ano": "2026",
+  "hr": "10:00",
+  "arquivo": "mg/almg/pautas/2026-12-03_1000_comissao_com8_tipo2.txt"
+ },
+ {
+  "data": "2026-12-03",
+  "idTipo": "5",
+  "idCom": "675",
+  "dia": "03",
+  "mes": "12",
+  "ano": "2026",
+  "hr": "13:00",
+  "arquivo": "mg/almg/pautas/2026-12-03_1300_comissao_com675_tipo5.txt"
+ },
+ {
+  "data": "2026-12-03",
+  "idTipo": "2",
+  "idCom": "1076",
+  "dia": "03",
+  "mes": "12",
+  "ano": "2026",
+  "hr": "13:30",
+  "arquivo": "mg/almg/pautas/2026-12-03_1330_comissao_com1076_tipo2.txt"
  },
  {
   "data": "2026-12-03",

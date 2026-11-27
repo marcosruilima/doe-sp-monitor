@@ -1,15 +1,15 @@
 {
- "coletado_em_utc": "2026-11-27T11:18:45Z",
+ "coletado_em_utc": "2026-11-27T18:43:03Z",
  "hoje": "2026-11-27",
  "janela_dias": 30,
- "reunioes_comissoes": 26,
+ "reunioes_comissoes": 30,
  "reunioes_plenario": 6,
  "diario_legislativo": [],
  "noticias": 20,
  "diagnostico_agenda_comissoes": {
   "periodo": "2026-11-26 a 2026-12-27",
-  "paginas_lidas": 4,
-  "reunioes_encontradas": 26
+  "paginas_lidas": 5,
+  "reunioes_encontradas": 30
  },
  "diagnostico_agenda_plenario": {
   "periodo": "2026-11-26 a 2026-12-27",
